@@ -1,0 +1,29 @@
+# Checks the data and builds the site on every push. Nothing is published from
+# GitHub: the repository is private. The built site is saved as a downloadable
+# artifact on each run, and Cloudflare Pages (see HOSTING.md) can host it behind a login.
+name: Check data and build site
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Check data and build generated files
+        run: python scripts/build.py
+      - name: Build site
+        run: zensical build --clean
+      - uses: actions/upload-artifact@v7
+        with:
+          name: pilot-site
+          path: site
+          retention-days: 30

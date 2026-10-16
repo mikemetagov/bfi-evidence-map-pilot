@@ -1,0 +1,76 @@
+[project]
+site_name = "Blockchain for Impact Funding Evidence Map – Pilot"
+site_description = "Restricted pilot workspace: protocol, outputs O1–O19, evidence map and visuals."
+copyright = "Restricted: GSR Foundation and Metagov only · Not for circulation"
+extra_css = ["assets/css/site.css"]
+extra_javascript = ["assets/js/evidence-map.js"]
+nav = [
+  { "Home" = "index.md" },
+  { "Protocol" = "protocol/index.md" },
+  { "Outputs" = [
+      { "All outputs (O1–O19)" = "outputs/index.md" },
+      { "00 Admin and approvals" = "outputs/00_Admin_and_Approvals/index.md" },
+      { "01 Design" = "outputs/01_Design/index.md" },
+      { "02 Sampling" = "outputs/02_Sampling/index.md" },
+      { "03 Collection" = "outputs/03_Collection/index.md" },
+      { "04 Evidence packets" = "outputs/04_Evidence_Packets/index.md" },
+      { "05 Codebook" = "outputs/05_Codebook/index.md" },
+      { "06 Prompts and models" = "outputs/06_Prompts_and_Models/index.md" },
+      { "07 Coding (raw)" = "outputs/07_Coding_Raw/index.md" },
+      { "08 Agreement and adjudication" = "outputs/08_Agreement_and_Adjudication/index.md" },
+      { "09 Final dataset" = "outputs/09_Final_Dataset/index.md" },
+      { "10 Analysis and visuals" = "outputs/10_Analysis_and_Visuals/index.md" },
+      { "11 Reports" = "outputs/11_Reports/index.md" },
+      { "12 Full scope" = "outputs/12_Full_Scope/index.md" },
+  ] },
+  { "Evidence map" = [
+      { "Explore the map" = "map/index.md" },
+      { "EPPI-Mapper version" = "map/eppi.md" },
+  ] },
+  { "Visuals" = "visuals/index.md" },
+  { "Data" = "data/index.md" },
+  { "Methods" = "methods/index.md" },
+  { "Gates and deviations" = "gates/index.md" },
+  { "Changelog" = "changelog.md" },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.top",
+  "search.highlight",
+  "toc.follow",
+]
+
+[project.theme.icon]
+logo = "lucide/grid-3x3"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.superfences = {}

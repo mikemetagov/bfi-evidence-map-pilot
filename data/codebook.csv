@@ -1,0 +1,40 @@
+dimension,value,label,order,definition
+use_case_domain,1,Payments and cash transfers,1,"Humanitarian cash, anticipatory cash, remittances, merchant payments, wages."
+use_case_domain,2,"Credit, savings and insurance",2,"Micro-lending, savings tools, parametric insurance, guarantees."
+use_case_domain,3,"Identity, records and data integrity",3,"Digital ID, credentials, provenance, archiving and storage."
+use_case_domain,4,Supply chain and traceability,4,"Vaccines, food, commodities, tokenised goods."
+use_case_domain,5,Climate and natural assets,5,"Carbon and environmental credits, regenerative finance, climate data."
+use_case_domain,6,"Governance, funding and coordination",6,"DAOs, community treasuries, crowdfunding, grant and donor flows."
+use_case_domain,none,None fits,7,No domain fits; explained in a note. Counts toward taxonomy fit (metric 3).
+outcome_domain,A,Delivery efficiency,1,"Transaction cost, speed, administrative burden."
+outcome_domain,B,Reach and access,2,"Adoption, active use, inclusion of women, unbanked people and displaced people."
+outcome_domain,C,"Transparency, trust and accountability",3,"Traceability, leakage, fraud, user trust."
+outcome_domain,D,Financial resilience and wellbeing,4,"Income, savings, coping, financial stress."
+outcome_domain,E,Sector outcomes,5,"Health, education, climate adaptation, human rights and justice, culture."
+outcome_domain,F,"Risks, harms and unintended effects",6,"Privacy, volatility, cash-out failure, exclusion, security incidents."
+evidence_level,L1,Claim,1,Describes what the solution does and why it should work. No data on results.
+evidence_level,L2,Operational,2,"Data on outputs, usage or operational performance, with no measure of user outcomes."
+evidence_level,L3,"Outcome, no comparison",3,Outcome data from participants without a comparison group.
+evidence_level,L4,Outcome with comparison,4,"Outcomes compared with a comparison group or non-blockchain alternative, without strong identification."
+evidence_level,L5,Counterfactual impact,5,"Randomised or strong quasi-experimental impact estimate, ideally independent."
+deployment_status,Pilot,Pilot,1,
+deployment_status,Extended pilot,Extended pilot,2,
+deployment_status,Scaled,Scaled,3,
+deployment_status,Handed over,Handed over,4,
+deployment_status,Discontinued,Discontinued,5,
+deployment_status,Unknown,Unknown,6,
+blockchain_added_value,0,Not addressed,1,
+blockchain_added_value,1,Asserted,2,
+blockchain_added_value,2,Descriptive comparison,3,Descriptive comparison with a prior or alternative channel.
+blockchain_added_value,3,Tested comparison,4,Tested comparison against a non-blockchain alternative.
+primary_portfolio,MCV,Mercy Corps Ventures,1,
+primary_portfolio,UNICEF,UNICEF Venture Fund,2,
+primary_portfolio,FIL,Filecoin Foundation,3,
+primary_portfolio,GSR,GSR Blockchain for Good,4,
+evidence_producer,Implementer,Implementer,1,
+evidence_producer,Partner or funder,Partner or funder,2,
+evidence_producer,Independent,Independent,3,
+evidence_producer,Peer-reviewed,Peer-reviewed,4,
+confidence,High,High,1,
+confidence,Medium,Medium,2,
+confidence,Low,Low,3,

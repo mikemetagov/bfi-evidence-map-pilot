@@ -1,0 +1,276 @@
+{
+ "CodeSets": [
+  {
+   "SetName": "Pilot evidence map",
+   "SetType": {
+    "SetTypeName": "Standard"
+   },
+   "Attributes": {
+    "AttributesList": [
+     {
+      "AttributeId": 1,
+      "AttributeName": "Evidence level",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 1001,
+         "AttributeName": "L1 Claim",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1002,
+         "AttributeName": "L2 Operational",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1003,
+         "AttributeName": "L3 Outcome, no comparison",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1004,
+         "AttributeName": "L4 Outcome with comparison",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1005,
+         "AttributeName": "L5 Counterfactual impact",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 2,
+      "AttributeName": "Outcome domain",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 2001,
+         "AttributeName": "Delivery efficiency",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2002,
+         "AttributeName": "Reach and access",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2003,
+         "AttributeName": "Transparency, trust and accountability",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2004,
+         "AttributeName": "Financial resilience and wellbeing",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2005,
+         "AttributeName": "Sector outcomes",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2006,
+         "AttributeName": "Risks, harms and unintended effects",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 3,
+      "AttributeName": "Use-case domain",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 3001,
+         "AttributeName": "Payments and cash transfers",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3002,
+         "AttributeName": "Credit, savings and insurance",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3003,
+         "AttributeName": "Identity, records and data integrity",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3004,
+         "AttributeName": "Supply chain and traceability",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3005,
+         "AttributeName": "Climate and natural assets",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3006,
+         "AttributeName": "Governance, funding and coordination",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3007,
+         "AttributeName": "None fits",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 4,
+      "AttributeName": "Portfolio",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 4001,
+         "AttributeName": "Mercy Corps Ventures",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 4002,
+         "AttributeName": "UNICEF Venture Fund",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 4003,
+         "AttributeName": "Filecoin Foundation",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 4004,
+         "AttributeName": "GSR Blockchain for Good",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 5,
+      "AttributeName": "Traced status",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 5001,
+         "AttributeName": "Pilot",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5002,
+         "AttributeName": "Extended pilot",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5003,
+         "AttributeName": "Scaled",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5004,
+         "AttributeName": "Handed over",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5005,
+         "AttributeName": "Discontinued",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5006,
+         "AttributeName": "Unknown",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 6,
+      "AttributeName": "Blockchain added value",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 6001,
+         "AttributeName": "Not addressed",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6002,
+         "AttributeName": "Asserted",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6003,
+         "AttributeName": "Descriptive comparison",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6004,
+         "AttributeName": "Tested comparison",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 7,
+      "AttributeName": "Region",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": []
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "References": []
+}

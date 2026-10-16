@@ -1,0 +1,256 @@
+{
+ "config": {
+  "row": {
+   "field": "use_case_domain",
+   "dim": "use_case_domain",
+   "title": "Use-case domain"
+  },
+  "col": {
+   "field": "outcome_domain",
+   "dim": "outcome_domain",
+   "title": "Outcome domain"
+  },
+  "grade": {
+   "field": "evidence_level",
+   "dim": "evidence_level",
+   "title": "Evidence level"
+  },
+  "filters": [
+   {
+    "field": "primary_portfolio",
+    "dim": "primary_portfolio",
+    "title": "Portfolio"
+   },
+   {
+    "field": "region",
+    "dim": null,
+    "title": "Region"
+   },
+   {
+    "field": "deployment_status_traced",
+    "dim": "deployment_status",
+    "title": "Traced status"
+   },
+   {
+    "field": "blockchain_added_value",
+    "dim": "blockchain_added_value",
+    "title": "Blockchain added value"
+   }
+  ]
+ },
+ "cases": [],
+ "records": [],
+ "codebook": {
+  "blockchain_added_value": [
+   {
+    "value": "0",
+    "label": "Not addressed",
+    "definition": ""
+   },
+   {
+    "value": "1",
+    "label": "Asserted",
+    "definition": ""
+   },
+   {
+    "value": "2",
+    "label": "Descriptive comparison",
+    "definition": "Descriptive comparison with a prior or alternative channel."
+   },
+   {
+    "value": "3",
+    "label": "Tested comparison",
+    "definition": "Tested comparison against a non-blockchain alternative."
+   }
+  ],
+  "confidence": [
+   {
+    "value": "High",
+    "label": "High",
+    "definition": ""
+   },
+   {
+    "value": "Medium",
+    "label": "Medium",
+    "definition": ""
+   },
+   {
+    "value": "Low",
+    "label": "Low",
+    "definition": ""
+   }
+  ],
+  "deployment_status": [
+   {
+    "value": "Pilot",
+    "label": "Pilot",
+    "definition": ""
+   },
+   {
+    "value": "Extended pilot",
+    "label": "Extended pilot",
+    "definition": ""
+   },
+   {
+    "value": "Scaled",
+    "label": "Scaled",
+    "definition": ""
+   },
+   {
+    "value": "Handed over",
+    "label": "Handed over",
+    "definition": ""
+   },
+   {
+    "value": "Discontinued",
+    "label": "Discontinued",
+    "definition": ""
+   },
+   {
+    "value": "Unknown",
+    "label": "Unknown",
+    "definition": ""
+   }
+  ],
+  "evidence_level": [
+   {
+    "value": "L1",
+    "label": "Claim",
+    "definition": "Describes what the solution does and why it should work. No data on results."
+   },
+   {
+    "value": "L2",
+    "label": "Operational",
+    "definition": "Data on outputs, usage or operational performance, with no measure of user outcomes."
+   },
+   {
+    "value": "L3",
+    "label": "Outcome, no comparison",
+    "definition": "Outcome data from participants without a comparison group."
+   },
+   {
+    "value": "L4",
+    "label": "Outcome with comparison",
+    "definition": "Outcomes compared with a comparison group or non-blockchain alternative, without strong identification."
+   },
+   {
+    "value": "L5",
+    "label": "Counterfactual impact",
+    "definition": "Randomised or strong quasi-experimental impact estimate, ideally independent."
+   }
+  ],
+  "evidence_producer": [
+   {
+    "value": "Implementer",
+    "label": "Implementer",
+    "definition": ""
+   },
+   {
+    "value": "Partner or funder",
+    "label": "Partner or funder",
+    "definition": ""
+   },
+   {
+    "value": "Independent",
+    "label": "Independent",
+    "definition": ""
+   },
+   {
+    "value": "Peer-reviewed",
+    "label": "Peer-reviewed",
+    "definition": ""
+   }
+  ],
+  "outcome_domain": [
+   {
+    "value": "A",
+    "label": "Delivery efficiency",
+    "definition": "Transaction cost, speed, administrative burden."
+   },
+   {
+    "value": "B",
+    "label": "Reach and access",
+    "definition": "Adoption, active use, inclusion of women, unbanked people and displaced people."
+   },
+   {
+    "value": "C",
+    "label": "Transparency, trust and accountability",
+    "definition": "Traceability, leakage, fraud, user trust."
+   },
+   {
+    "value": "D",
+    "label": "Financial resilience and wellbeing",
+    "definition": "Income, savings, coping, financial stress."
+   },
+   {
+    "value": "E",
+    "label": "Sector outcomes",
+    "definition": "Health, education, climate adaptation, human rights and justice, culture."
+   },
+   {
+    "value": "F",
+    "label": "Risks, harms and unintended effects",
+    "definition": "Privacy, volatility, cash-out failure, exclusion, security incidents."
+   }
+  ],
+  "primary_portfolio": [
+   {
+    "value": "MCV",
+    "label": "Mercy Corps Ventures",
+    "definition": ""
+   },
+   {
+    "value": "UNICEF",
+    "label": "UNICEF Venture Fund",
+    "definition": ""
+   },
+   {
+    "value": "FIL",
+    "label": "Filecoin Foundation",
+    "definition": ""
+   },
+   {
+    "value": "GSR",
+    "label": "GSR Blockchain for Good",
+    "definition": ""
+   }
+  ],
+  "use_case_domain": [
+   {
+    "value": "1",
+    "label": "Payments and cash transfers",
+    "definition": "Humanitarian cash, anticipatory cash, remittances, merchant payments, wages."
+   },
+   {
+    "value": "2",
+    "label": "Credit, savings and insurance",
+    "definition": "Micro-lending, savings tools, parametric insurance, guarantees."
+   },
+   {
+    "value": "3",
+    "label": "Identity, records and data integrity",
+    "definition": "Digital ID, credentials, provenance, archiving and storage."
+   },
+   {
+    "value": "4",
+    "label": "Supply chain and traceability",
+    "definition": "Vaccines, food, commodities, tokenised goods."
+   },
+   {
+    "value": "5",
+    "label": "Climate and natural assets",
+    "definition": "Carbon and environmental credits, regenerative finance, climate data."
+   },
+   {
+    "value": "6",
+    "label": "Governance, funding and coordination",
+    "definition": "DAOs, community treasuries, crowdfunding, grant and donor flows."
+   },
+   {
+    "value": "none",
+    "label": "None fits",
+    "definition": "No domain fits; explained in a note. Counts toward taxonomy fit (metric 3)."
+   }
+  ]
+ }
+}
