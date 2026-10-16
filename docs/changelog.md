@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 – protocol v0.3 and open licence
+- Posted protocol v0.3: pilot unchanged; Annex A adds participatory milestones (A7), data management, security and privacy (A10) and an itemised data request (A11). v0.2 (an interim draft of A10) is superseded and not posted.
+- Added the open licence: CC BY 4.0 for content and data, MIT for code and prompts.
+
 ## 2026-10-16 – protocol approved and published
 - GSR approved the pilot design v0.1 at Gate 0. The repository was made public as the protocol site. Restricted working outputs moved to a separate private workspace.
 

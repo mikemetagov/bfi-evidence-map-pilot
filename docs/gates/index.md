@@ -17,4 +17,4 @@ Output O18. Record every gate decision and every departure from the design.
 
 | # | Date | Section | Deviation | Reason | Effect | Approved by |
 |---|---|---|---|---|---|---|
-| – | – | – | None yet | – | – | – |
+| 1 | 2026-10-16 | Annex A (A7, new A10, new A11) | Added participatory milestones, data management terms and an itemised data request for the full scope (v0.3) | Partners need defined protections and a clear data request before agreements | Full scope only; pilot unchanged | Michael Cooper |

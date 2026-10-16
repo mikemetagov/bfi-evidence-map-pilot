@@ -8,7 +8,7 @@ GSR approved the pilot design (v0.1) at Gate 0.
 
 | Location | What it holds |
 |---|---|
-| [`docs/protocol/files/`](docs/protocol/files/) | The approved pilot design report, v0.1 (PDF and Word). Section 13 covers data management for the pilot; Annex A sets out the full-scale research design. |
+| [`docs/protocol/files/`](docs/protocol/files/) | The pilot design report: v0.1 as approved by GSR, and v0.3 (current), which keeps the pilot unchanged and expands Annex A with participatory milestones (A7), data management, security and privacy (A10) and the itemised data request (A11). |
 | [`docs/outputs/`](docs/outputs/) | The 13-section file structure for outputs O1–O19, with status. Only O1 (the protocol) is public. |
 | [`data/codebook.csv`](data/codebook.csv) | Draft codebook v0.1, the same as protocol Annex B. |
 | [`docs/map/`](docs/map/) | The evidence map page. It stays empty until GSR approves the release of coded data. |
@@ -20,7 +20,12 @@ Pilot working outputs (sampling, evidence packets, prompts, raw coding, adjudica
 
 ## Licence
 
-The licence for the public materials is still to be confirmed.
+All research materials are published for public use so that others can assess, replicate and reuse the methods.
+
+- Documents, the protocol, codebook, evidence matrix, coded data and visuals: [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+- Code and AI prompts: [MIT licence](LICENSE-CODE).
+
+Raw partner data, personal data, interview material and confidential partner documents are not part of this repository and are not licensed. Protocol Annex A10 explains what is withheld and how access can be requested.
 
 ## Contact
 
