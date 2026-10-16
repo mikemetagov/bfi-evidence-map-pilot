@@ -2,7 +2,7 @@
 
 | ID | Output | Contents | Gate | Status | File |
 |---|---|---|---|---|---|
-| O18 | Deviations and gate log | Every departure from the design, and every gate decision | Ongoing | Not started | Not yet added |
+| O18 | Deviations and gate log | Every departure from the design, and every gate decision | Ongoing | Ongoing | [Open](../../gates/index.md) |
 
 ## Files in this section
 

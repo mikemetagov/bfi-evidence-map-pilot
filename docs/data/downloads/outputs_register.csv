@@ -1,7 +1,7 @@
 id,output,contents,gate,folder,status,file,updated
-O1,Pilot design report,"This document, with versions",G0,01_Design,Approved v0.1 (G0),protocol/files/20261009_O1_Pilot-Design-Report_v0.1.pdf,2026-10-09
-O2,Sampling frame,"Census of eligible public use cases per portfolio, with lineage IDs",G1,02_Sampling,Not started,,
-O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; planned versus actual",G1,02_Sampling,Not started,,
+O1,Pilot design report,"This document, with versions",G0,01_Design,Current v0.4 (G1 parameters); v0.1 approved at G0,protocol/files/20261016_O1_Pilot-Design-Report_v0.4.pdf,2026-10-16
+O2,Sampling frame,"Census of eligible public use cases per portfolio, with lineage IDs",G1,02_Sampling,Complete (restricted; G1),,2026-10-16
+O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; planned versus actual",G1,02_Sampling,Complete (restricted; G1),,2026-10-16
 O4,Collection plan,"Search steps, stopping rule, cap, status-signal list",G1,03_Collection,Not started,,
 O5,Collection log (actual),"Every search with date and results; document inventory with source IDs, archived copies and hashes",G4,03_Collection,Not started,,
 O6,Evidence packets,Frozen verbatim text for each case,G2–G4,04_Evidence_Packets,Not started,,
@@ -16,5 +16,5 @@ O14,Status tracing table,"Current status, signals and confidence for each case",
 O15,Visual pack,"Static images V1–V3 and V5 (V4 and V6 optional), with data tables",G4,10_Analysis_and_Visuals,Not started,,
 O16,Pilot findings memo,"What the cases show, method fixes, scale recommendation. GSR and Metagov only.",G5,11_Reports,Not started,,
 O17,Methods note,"ROSES-style checklist, flow diagram, AI-use disclosure",G5,11_Reports,Not started,,
-O18,Deviations and gate log,"Every departure from the design, and every gate decision",Ongoing,00_Admin_and_Approvals,Not started,,
+O18,Deviations and gate log,"Every departure from the design, and every gate decision",Ongoing,00_Admin_and_Approvals,Ongoing,gates/index.md,2026-10-16
 O19,Full-scope protocol (if approved),Annex A developed into a full protocol,After G5,12_Full_Scope,Not started,,
