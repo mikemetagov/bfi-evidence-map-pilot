@@ -2,7 +2,7 @@
 
 | ID | Output | Contents | Gate | Status | File |
 |---|---|---|---|---|---|
-| O8 | Prompt library and model register | Prompts, settings, model names, versions and dates | G2 | Not started | Not yet added |
+| O8 | Prompt library and model register | Prompts, settings, model names, versions and dates | G2 | v1.0 set (G2; restricted) | Not yet added |
 
 ## Files in this section
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-16 – Gate 2 passed
+- Codebook v1.0 frozen, with the coder prompt, output schema and model register (Coder A GPT-6 Astra; Coder B Gemini 3.8 Flash). The dry run on one case outside the sample passed all Gate 2 criteria.
+
 ## 2026-10-16 – Gate 1 passed
 - GSR confirmed the pilot and deployment definitions in protocol v0.4, Section 5.5. Gate 1 (sample and definitions) is passed.
 

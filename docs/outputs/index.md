@@ -10,8 +10,8 @@ Outputs O1 to O19 from the pilot design report, grouped by the same 13 sections 
 | O4 | Collection plan | G1 | [03_Collection](03_Collection/index.md) | Not started | – | Not yet added |
 | O5 | Collection log (actual) | G4 | [03_Collection](03_Collection/index.md) | Not started | – | Not yet added |
 | O6 | Evidence packets | G2–G4 | [04_Evidence_Packets](04_Evidence_Packets/index.md) | Not started | – | Not yet added |
-| O7 | Codebook and change log | G2, G3, G4 | [05_Codebook](05_Codebook/index.md) | Not started | – | Not yet added |
-| O8 | Prompt library and model register | G2 | [06_Prompts_and_Models](06_Prompts_and_Models/index.md) | Not started | – | Not yet added |
+| O7 | Codebook and change log | G2, G3, G4 | [05_Codebook](05_Codebook/index.md) | v1.0 frozen (G2; restricted) | 2026-10-16 | Not yet added |
+| O8 | Prompt library and model register | G2 | [06_Prompts_and_Models](06_Prompts_and_Models/index.md) | v1.0 set (G2; restricted) | 2026-10-16 | Not yet added |
 | O9 | Raw coder outputs | G3, G4 | [07_Coding_Raw](07_Coding_Raw/index.md) | Not started | – | Not yet added |
 | O10 | Agreement report | G3, G4 | [08_Agreement_and_Adjudication](08_Agreement_and_Adjudication/index.md) | Not started | – | Not yet added |
 | O11 | Adjudication and audit log | G4 | [08_Agreement_and_Adjudication](08_Agreement_and_Adjudication/index.md) | Not started | – | Not yet added |

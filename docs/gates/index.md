@@ -8,7 +8,7 @@ Output O18. Record every gate decision and every departure from the design.
 |---|---|---|---|---|---|
 | G0 Design | Recorded 2026-10-16 | Approved | GSR | GSR approval of v0.1 | v0.1 submitted 2026-10-09; posted publicly |
 | G1 Sample and definitions | 2026-10-16 | Passed. Parameters set (protocol v0.4, Section 5.5); GSR confirmed the pilot and deployment definitions | Michael; GSR (definitions) | Protocol v0.4; O2 and O3 (restricted); GSR confirmation 2026-10-16 | 30 cases: 11 MCV, 11 UNICEF, 5 Filecoin, 3 GSR; seed 20261016; GSR high-richness quota shortfall explained |
-| G2 Codebook v1.0, prompts, models | – | – | Michael | – | – |
+| G2 Codebook v1.0, prompts, models | 2026-10-16 | Passed. Codebook v1.0 frozen after a dry run on one case outside the sample; prompt, output schema and model register set | Michael | Dry-run report and frozen files (restricted) | Schema valid 2/2; 53 quotes verified, 0 failures; 5 dry-run disagreements fixed by rules before freezing (v1.0-12 to 16) |
 | G3 Calibration | – | – | Michael | – | – |
 | G4 Dataset and draft map | – | – | Michael | – | – |
 | G5 Findings and decision | – | – | GSR and Metagov | – | – |
