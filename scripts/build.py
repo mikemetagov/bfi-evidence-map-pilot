@@ -142,7 +142,8 @@ out_dir = DOCS / "outputs"
 for old in out_dir.glob("*/index.md"):
     old.unlink()
 lines = ["# Outputs", "",
-         "Outputs O1 to O19 from the pilot design report, grouped by the same 13 sections as the Google Drive folder. "
+         "Outputs O1 to O19 from the pilot design report, grouped by the same 13 sections as the restricted project folder. "
+         "Only O1 (the protocol) is public; the other outputs are held in the restricted workspace, and this page shows their structure and status only. "
          "This page is generated from `data/outputs_register.csv`; edit that file, not this page.", "",
          "| ID | Output | Gate | Section | Status | Updated | File |", "|---|---|---|---|---|---|---|"]
 for r in register:

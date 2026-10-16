@@ -1,57 +1,27 @@
-# Blockchain for Impact Funding Evidence Map – Pilot (restricted)
+# Blockchain for Impact Funding Evidence Map – Pilot (public protocol)
 
-**Restricted: GSR Foundation and Metagov only.** This private repository holds the pilot protocol, outputs O1–O19, the coded data, the evidence map and the visuals. Keep it private. The design is posted publicly only after Gate 0 approval, from a separate public repository.
+This public repository holds the GSR-approved pilot protocol for the Blockchain for Impact Funding Evidence Map, led by Michael Cooper (Research Director, Metagov) for the GSR Foundation. It also shows the project's file structure and is where the evidence map will be published once GSR approves release.
 
-## What is where
+GSR approved the pilot design (v0.1) at Gate 0.
 
-| Location | What it holds | Edit? |
-|---|---|---|
-| `docs/protocol/files/` | Pilot design report versions (PDF and Word) | Yes, add each new version |
-| `docs/outputs/<section>/` | Output files, in the same 13 sections as the Google Drive folder (`00_Admin_and_Approvals` … `12_Full_Scope`) | Yes, upload files here |
-| `data/outputs_register.csv` | Status, file path and date for O1–O19. Drives the Outputs pages. | Yes |
-| `data/cases.csv` | One row per use case | Yes, at Gate 4 (O12) |
-| `data/coding.csv` | One row per use case and outcome domain, with evidence level, quote and source | Yes, at Gate 4 (O12) |
-| `data/codebook.csv` | Draft codebook v0.1 (protocol Annex B): allowed values, labels, definitions | Only at approved codebook versions |
-| `docs/visuals/` | Visual pack V1–V7 (O15) | Yes |
-| `docs/gates/index.md` | Gate and deviations log (O18) | Yes |
-| `docs/index.md` | Home page, including the gate status table | Yes |
-| `docs/map/eppi-mapper/index.html` | EPPI-Mapper version of the map | Replace after Gate 4 |
-| `scripts/build.py` | Checks the data and generates map data, outputs pages and downloads | Rarely |
-| `.github/workflows/check.yml` | Runs the checks and builds the site on every change | Rarely |
-| `HOSTING.md` | How to host the site behind a login with Cloudflare | Read once |
+## What is here
 
-Pages under `docs/outputs/` (the `index.md` files) and `docs/map/map-data.json` are generated. Edit the register and data files, not those pages.
+| Location | What it holds |
+|---|---|
+| [`docs/protocol/files/`](docs/protocol/files/) | The approved pilot design report, v0.1 (PDF and Word). Section 13 covers data management for the pilot; Annex A sets out the full-scale research design. |
+| [`docs/outputs/`](docs/outputs/) | The 13-section file structure for outputs O1–O19, with status. Only O1 (the protocol) is public. |
+| [`data/codebook.csv`](data/codebook.csv) | Draft codebook v0.1, the same as protocol Annex B. |
+| [`docs/map/`](docs/map/) | The evidence map page. It stays empty until GSR approves the release of coded data. |
+| [`docs/gates/`](docs/gates/index.md) | The gate and deviations log. |
 
-## Adding an output file
+## What is not here
 
-1. Open the section folder, for example `docs/outputs/02_Sampling/`, then click **Add file > Upload files**.
-2. Use the Drive naming pattern, for example `20261020_O2_Sampling-Frame_v1.0.xlsx`. PDFs open in the browser; other files download.
-3. Commit.
-4. Open `data/outputs_register.csv` and edit the output's row: set `status` (for example `Final v1.0`), `file` (path from `docs/`, for example `outputs/02_Sampling/20261020_O2_Sampling-Frame_v1.0.xlsx`) and `updated` (YYYY-MM-DD). Commit.
+Pilot working outputs (sampling, evidence packets, prompts, raw coding, adjudication, datasets and the pilot findings memo) are held in a restricted workspace and are not published. Non-public partner data from the full-scale study will never be stored in this repository. Under the protocol, partner data goes into restricted storage under data-sharing agreements, and only GSR-approved, partner-reviewed, de-identified outputs are copied here.
 
-Every file in a section folder is also listed automatically on that section's page.
+## Licence
 
-## Adding the coded data (Gate 4)
+The licence for the public materials is still to be confirmed.
 
-1. Paste the final dataset into `data/cases.csv` and `data/coding.csv`, keeping the column headings. Use the codes in `data/codebook.csv` (for example `1`–`6` or `none` for domains, `A`–`F` for outcomes, `L1`–`L5` for evidence levels).
-2. Commit. The **Check data and build site** run on the Actions tab either passes (green tick) or stops with a list of problems and line numbers.
-3. If the codebook changes at an approved version, update `data/codebook.csv` at the same time and note it in the changelog.
+## Contact
 
-## Checking a change
-
-Every commit starts a run on the **Actions** tab:
-- **Green tick**: the data passed every check and the site was built. The built site is attached to the run under **Artifacts** as `pilot-site` for 30 days.
-- **Red X**: open the run, then **build**, then **Check data and build generated files** to see each problem.
-
-## Size limits
-
-- GitHub's web upload accepts files up to 25 MB, and GitHub rejects any file over 100 MB.
-- Cloudflare Pages also limits each file to 25 MB. Keep large raw files (for example web archives) on the restricted Drive and link to them.
-
-## Previewing on your own computer (optional)
-
-```sh
-pip install -r requirements.txt
-python scripts/build.py
-zensical serve
-```
+Michael Cooper, Research Director, Metagov.

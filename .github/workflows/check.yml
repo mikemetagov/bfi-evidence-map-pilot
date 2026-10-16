@@ -1,7 +1,7 @@
-# Checks the data and builds the site on every push. Nothing is published from
-# GitHub: the repository is private. The built site is saved as a downloadable
-# artifact on each run, and Cloudflare Pages (see HOSTING.md) can host it behind a login.
-name: Check data and build site
+# Checks the data, builds the site and publishes it to GitHub Pages on every
+# push to main. This repository is public: only GSR-approved, public-safe files
+# belong here. Restricted outputs and partner data stay in the private workspace.
+name: Check data, build and publish site
 on:
   push:
     branches: [main]
@@ -9,11 +9,16 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -22,8 +27,16 @@ jobs:
         run: python scripts/build.py
       - name: Build site
         run: zensical build --clean
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-pages-artifact@v4
         with:
-          name: pilot-site
           path: site
-          retention-days: 30
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

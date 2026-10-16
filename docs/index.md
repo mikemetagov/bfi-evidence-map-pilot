@@ -5,8 +5,8 @@ hide:
 
 # Blockchain for Impact Funding Evidence Map – Pilot
 
-!!! danger "Restricted"
-    This workspace is for the GSR Foundation and Metagov only. Do not forward links or files. The pilot findings memo (O16) is shared only between GSR and Metagov. The design is posted publicly only after GSR approves it at Gate 0.
+!!! success "Protocol approved"
+    GSR approved the pilot design (v0.1) at Gate 0. This public site holds the protocol and shows the project's file structure. Pilot working outputs and the pilot findings memo are held in a restricted workspace and are not published here. The evidence map will appear here once GSR approves the release of coded data.
 
 A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ventures, the UNICEF Venture Fund, the Filecoin Foundation and GSR Blockchain for Good grantees. It tests whether a full map of 800+ cases is feasible and worth funding.
 
@@ -24,7 +24,7 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 
     ---
 
-    Outputs O1 to O19, filed in the same 13 sections as the Google Drive folder.
+    The file structure for outputs O1 to O19, in 13 sections. Only the protocol is public.
 
     [See all outputs](outputs/index.md)
 
@@ -40,7 +40,7 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 
     ---
 
-    The visual pack (V1–V7) and the coded data.
+    Published after GSR approves release.
 
     [Visuals](visuals/index.md) · [Data](data/index.md)
 
@@ -50,7 +50,7 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 
 | Gate | Timing | Approver | Status |
 |---|---|---|---|
-| G0 Design | Before Week 1 | GSR, with Michael | Awaiting approval |
+| G0 Design | Before Week 1 | GSR, with Michael | Approved (v0.1) |
 | G1 Sample and definitions | End of Week 1 | Michael; GSR confirms definitions | Not started |
 | G2 Codebook v1.0, prompts, models | Early Week 2 | Michael | Not started |
 | G3 Calibration | Mid Week 2 | Michael | Not started |

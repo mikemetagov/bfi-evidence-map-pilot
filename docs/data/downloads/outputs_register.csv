@@ -1,5 +1,5 @@
 id,output,contents,gate,folder,status,file,updated
-O1,Pilot design report,"This document, with versions",G0,01_Design,Draft v0.1,protocol/files/20261009_O1_Pilot-Design-Report_v0.1.pdf,2026-10-09
+O1,Pilot design report,"This document, with versions",G0,01_Design,Approved v0.1 (G0),protocol/files/20261009_O1_Pilot-Design-Report_v0.1.pdf,2026-10-09
 O2,Sampling frame,"Census of eligible public use cases per portfolio, with lineage IDs",G1,02_Sampling,Not started,,
 O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; planned versus actual",G1,02_Sampling,Not started,,
 O4,Collection plan,"Search steps, stopping rule, cap, status-signal list",G1,03_Collection,Not started,,

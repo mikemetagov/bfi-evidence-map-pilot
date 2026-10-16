@@ -1,7 +1,7 @@
 [project]
-site_name = "Blockchain for Impact Funding Evidence Map – Pilot"
-site_description = "Restricted pilot workspace: protocol, outputs O1–O19, evidence map and visuals."
-copyright = "Restricted: GSR Foundation and Metagov only · Not for circulation"
+site_name = "Blockchain for Impact Funding Evidence Map"
+site_description = "GSR-approved pilot protocol, project file structure and evidence map (published after approval)."
+copyright = "Metagov for the GSR Foundation · Licence to be confirmed"
 extra_css = ["assets/css/site.css"]
 extra_javascript = ["assets/js/evidence-map.js"]
 nav = [

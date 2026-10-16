@@ -2,7 +2,7 @@
 
 | ID | Output | Contents | Gate | Status | File |
 |---|---|---|---|---|---|
-| O1 | Pilot design report | This document, with versions | G0 | Draft v0.1 | [Open](../../protocol/files/20261009_O1_Pilot-Design-Report_v0.1.pdf) |
+| O1 | Pilot design report | This document, with versions | G0 | Approved v0.1 (G0) | [Open](../../protocol/files/20261009_O1_Pilot-Design-Report_v0.1.pdf) |
 
 ## Files in this section
 
