@@ -4,7 +4,7 @@ The pilot design report (O1) is the protocol. It is not registered. GSR approved
 
 | Version | Date | Status | PDF | Word |
 |---|---|---|---|---|
-| v0.4 | 2026-10-16 | Current. Adds Section 5.5 Gate 1 parameters (definitions, eligibility rulings, allocation, seed, quota results, search cap of 12); related updates in Sections 1, 5.1–5.3, 6.1, 6.3 and 13. Definitions pending GSR confirmation | [Open PDF](files/20261016_O1_Pilot-Design-Report_v0.4.pdf) | [Download](files/20261016_O1_Pilot-Design-Report_v0.4.docx) |
+| v0.4 | 2026-10-16 | Current. Adds Section 5.5 Gate 1 parameters (definitions, eligibility rulings, allocation, seed, quota results, search cap of 12); related updates in Sections 1, 5.1–5.3, 6.1, 6.3 and 13. Definitions confirmed by GSR (Gate 1 passed) | [Open PDF](files/20261016_O1_Pilot-Design-Report_v0.4.pdf) | [Download](files/20261016_O1_Pilot-Design-Report_v0.4.docx) |
 | v0.3 | 2026-10-16 | Superseded by v0.4. Pilot unchanged from v0.1; Annex A expanded: participatory milestones (A7), data management, security and privacy (A10), itemised data request (A11) | [Open PDF](files/20261016_O1_Pilot-Design-Report_v0.3.pdf) | [Download](files/20261016_O1_Pilot-Design-Report_v0.3.docx) |
 | v0.1 | 2026-10-09 | Approved by GSR (Gate 0) | [Open PDF](files/20261009_O1_Pilot-Design-Report_v0.1.pdf) | [Download](files/20261009_O1_Pilot-Design-Report_v0.1.docx) |
 

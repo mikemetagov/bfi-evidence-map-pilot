@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-16 – Gate 1 passed
+- GSR confirmed the pilot and deployment definitions in protocol v0.4, Section 5.5. Gate 1 (sample and definitions) is passed.
+
 ## 2026-10-16 – protocol v0.4 (Gate 1 parameters)
 - Posted protocol v0.4. New Section 5.5 records the Gate 1 definitions, eligibility rulings, allocation (11 MCV, 11 UNICEF, 5 Filecoin, 3 GSR), random seed, quota results and the search cap of 12. Related updates in Sections 1, 5.1–5.3, 6.1, 6.3 and 13. Definitions await GSR confirmation.
 - Gate log: G1 parameters recorded; deviation added for the pre-draw status check.

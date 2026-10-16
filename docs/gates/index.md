@@ -7,7 +7,7 @@ Output O18. Record every gate decision and every departure from the design.
 | Gate | Date | Decision | Approver | Evidence | Notes |
 |---|---|---|---|---|---|
 | G0 Design | Recorded 2026-10-16 | Approved | GSR | GSR approval of v0.1 | v0.1 submitted 2026-10-09; posted publicly |
-| G1 Sample and definitions | 2026-10-16 | Parameters set (protocol v0.4, Section 5.5); definitions sent to GSR for confirmation | Michael; GSR confirms definitions | Protocol v0.4; O2 and O3 (restricted) | 30 cases: 11 MCV, 11 UNICEF, 5 Filecoin, 3 GSR; seed 20261016; GSR high-richness quota shortfall explained |
+| G1 Sample and definitions | 2026-10-16 | Passed. Parameters set (protocol v0.4, Section 5.5); GSR confirmed the pilot and deployment definitions | Michael; GSR (definitions) | Protocol v0.4; O2 and O3 (restricted); GSR confirmation 2026-10-16 | 30 cases: 11 MCV, 11 UNICEF, 5 Filecoin, 3 GSR; seed 20261016; GSR high-richness quota shortfall explained |
 | G2 Codebook v1.0, prompts, models | – | – | Michael | – | – |
 | G3 Calibration | – | – | Michael | – | – |
 | G4 Dataset and draft map | – | – | Michael | – | – |
