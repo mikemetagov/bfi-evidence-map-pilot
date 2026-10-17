@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-17 – Correction: conflict-of-interest statement removed
+- An erroneous statement that the research lead had previously worked with the UNICEF Venture Fund, and the related double human-audit rate for UNICEF cases, were removed from every version of the protocol (v0.1–v0.5, Section 13). Section 13 now reads "Conflict of interest: none declared". The human audit rate is the same for every portfolio. No audit had been drawn, so no pilot results are affected. The declared-interest flag for cases where GSR is itself the donor is unchanged.
+
 ## 2026-10-17 – Gate 3 passed; protocol v0.5
 - Gate 3 passed with the approved fix plan. Codebook v1.2 (v1.1 plus two worked status examples) is frozen for main coding, with prompt and schema v1.2.
 - Protocol v0.5 records the fix plan and the cost limits on collection and coding. Deviation added for the cost limits.
