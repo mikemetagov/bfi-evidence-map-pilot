@@ -8,7 +8,7 @@ GSR approved the pilot design (v0.1) at Gate 0.
 
 | Location | What it holds |
 |---|---|
-| [`docs/protocol/files/`](docs/protocol/files/) | The pilot design report: v0.1 as approved by GSR, v0.3, which expanded Annex A, and v0.4 (current), which records the Gate 1 sampling and collection parameters in Section 5.5. |
+| [`docs/protocol/files/`](docs/protocol/files/) | The pilot design report: v0.1 as approved by GSR, v0.3, which expanded Annex A, v0.4, which recorded the Gate 1 parameters, and v0.5 (current), which records the Gate 3 fix plan and cost limits. |
 | [`docs/outputs/`](docs/outputs/) | The 13-section file structure for outputs O1–O19, with status. Only O1 (the protocol) is public. |
 | [`data/codebook.csv`](data/codebook.csv) | Allowed values for codebook v1.0 (frozen at Gate 2). Full rules: [`docs/outputs/05_Codebook/codebook_v1.0.md`](docs/outputs/05_Codebook/codebook_v1.0.md). |
 | [`docs/map/`](docs/map/) | The evidence map page. It stays empty until GSR approves the release of coded data. |

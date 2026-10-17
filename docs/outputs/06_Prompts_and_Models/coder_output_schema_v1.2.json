@@ -1,0 +1,934 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "BFI evidence map coder output v1.2",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "case_id",
+  "codebook_version",
+  "coder_id",
+  "country",
+  "region",
+  "year_launched",
+  "problem_addressed",
+  "objectives",
+  "use_case_domain",
+  "blockchain_functions",
+  "blockchain_component_status",
+  "implementation_model",
+  "delivery_partners",
+  "funding_model",
+  "population_groups",
+  "reach",
+  "outcomes",
+  "objective_achievement",
+  "evidence_producers",
+  "blockchain_added_value",
+  "risks_harms",
+  "stated_deployment_status",
+  "claims",
+  "insufficient_information",
+  "coder_notes"
+ ],
+ "properties": {
+  "case_id": {
+   "type": "string"
+  },
+  "codebook_version": {
+   "enum": [
+    "1.0",
+    "1.1",
+    "1.2"
+   ]
+  },
+  "coder_id": {
+   "enum": [
+    "A",
+    "B"
+   ]
+  },
+  "country": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^([A-Z]{3}|not reported)$"
+     }
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "region": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "East Asia and Pacific",
+      "Europe and Central Asia",
+      "Latin America and the Caribbean",
+      "Middle East and North Africa",
+      "North America",
+      "South Asia",
+      "Sub-Saharan Africa",
+      "Multiple",
+      "not reported"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "year_launched": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "problem_addressed": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": "string"
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "objectives": {
+   "type": "array",
+   "maxItems": 3,
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "value",
+     "source_id",
+     "quote",
+     "confidence"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "enum": [
+       "O1",
+       "O2",
+       "O3"
+      ]
+     },
+     "value": {
+      "type": "string"
+     },
+     "source_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "quote": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 300
+     },
+     "confidence": {
+      "enum": [
+       "High",
+       "Medium",
+       "Low"
+      ]
+     }
+    }
+   }
+  },
+  "use_case_domain": {
+   "type": "object",
+   "required": [
+    "value",
+    "subcategory",
+    "note",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "none",
+      "not reported"
+     ]
+    },
+    "subcategory": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "blockchain_functions": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "F1",
+       "F2",
+       "F3",
+       "F4",
+       "F5",
+       "F6",
+       "F7",
+       "other",
+       "not reported"
+      ]
+     }
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "blockchain_component_status": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "Used as designed",
+      "Partly used",
+      "Removed or not used",
+      "Unclear"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "implementation_model": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "Start-up",
+      "NGO",
+      "UN agency or country office",
+      "Government",
+      "Consortium",
+      "Other",
+      "not reported"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "delivery_partners": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "funding_model": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "Grant",
+      "Equity or venture investment",
+      "Recoverable grant or convertible instrument",
+      "Blended",
+      "Yield- or staking-funded",
+      "not reported"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "population_groups": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "Women",
+       "Youth",
+       "Children",
+       "Refugees or displaced people",
+       "Smallholder farmers",
+       "Micro-entrepreneurs or MSMEs",
+       "Unbanked or underbanked",
+       "Low-income individuals",
+       "Rural communities",
+       "Other",
+       "not reported"
+      ]
+     }
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "reach": {
+   "type": "object",
+   "required": [
+    "number",
+    "unit",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "number": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "unit": {
+     "type": "string"
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "outcomes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "domain",
+     "evidence_level",
+     "key_result",
+     "source_id",
+     "quote",
+     "evidence_producer",
+     "confidence"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "domain": {
+      "enum": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     "evidence_level": {
+      "enum": [
+       "L1",
+       "L2",
+       "L3",
+       "L4",
+       "L5"
+      ]
+     },
+     "key_result": {
+      "type": "string"
+     },
+     "source_id": {
+      "type": "string"
+     },
+     "quote": {
+      "type": "string",
+      "maxLength": 300
+     },
+     "evidence_producer": {
+      "enum": [
+       "Implementer",
+       "Partner or funder",
+       "Independent",
+       "Peer-reviewed"
+      ]
+     },
+     "confidence": {
+      "enum": [
+       "High",
+       "Medium",
+       "Low"
+      ]
+     }
+    }
+   }
+  },
+  "objective_achievement": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "objective_id",
+     "value",
+     "source_id",
+     "quote",
+     "confidence"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "objective_id": {
+      "enum": [
+       "O1",
+       "O2",
+       "O3"
+      ]
+     },
+     "value": {
+      "enum": [
+       "Achieved",
+       "Partly achieved",
+       "Not achieved",
+       "Unclear"
+      ]
+     },
+     "source_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "quote": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 300
+     },
+     "confidence": {
+      "enum": [
+       "High",
+       "Medium",
+       "Low"
+      ]
+     }
+    }
+   }
+  },
+  "evidence_producers": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "source_id",
+     "value"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "source_id": {
+      "type": "string"
+     },
+     "value": {
+      "enum": [
+       "Implementer",
+       "Partner or funder",
+       "Independent",
+       "Peer-reviewed"
+      ]
+     }
+    }
+   }
+  },
+  "blockchain_added_value": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "risks_harms": {
+   "type": "object",
+   "required": [
+    "reported",
+    "items"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "reported": {
+     "enum": [
+      "Yes",
+      "No"
+     ]
+    },
+    "items": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "risk",
+       "source_id",
+       "quote"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "risk": {
+        "type": "string"
+       },
+       "source_id": {
+        "type": "string"
+       },
+       "quote": {
+        "type": "string",
+        "maxLength": 300
+       }
+      }
+     }
+    }
+   }
+  },
+  "stated_deployment_status": {
+   "type": "object",
+   "required": [
+    "value",
+    "source_id",
+    "quote",
+    "confidence"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "value": {
+     "enum": [
+      "Pilot",
+      "Extended pilot",
+      "Scaled",
+      "Handed over",
+      "Discontinued",
+      "Unknown"
+     ]
+    },
+    "source_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^S\\d{2}$"
+    },
+    "quote": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "maxLength": 300
+    },
+    "confidence": {
+     "enum": [
+      "High",
+      "Medium",
+      "Low"
+     ]
+    }
+   }
+  },
+  "claims": {
+   "type": "array",
+   "maxItems": 5,
+   "items": {
+    "type": "object",
+    "required": [
+     "text",
+     "claim_type",
+     "source_id",
+     "quote",
+     "conflicts_with"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "text": {
+      "type": "string"
+     },
+     "claim_type": {
+      "enum": [
+       "cost",
+       "speed",
+       "reach",
+       "outcome",
+       "value",
+       "other"
+      ]
+     },
+     "source_id": {
+      "type": "string"
+     },
+     "quote": {
+      "type": "string",
+      "maxLength": 300
+     },
+     "conflicts_with": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "insufficient_information": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "coder_notes": {
+   "type": "string",
+   "maxLength": 600
+  }
+ }
+}

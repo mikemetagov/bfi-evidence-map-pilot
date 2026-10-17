@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-17 – Gate 3 passed; protocol v0.5
+- Gate 3 passed with the approved fix plan. Codebook v1.2 (v1.1 plus two worked status examples) is frozen for main coding, with prompt and schema v1.2.
+- Protocol v0.5 records the fix plan and the cost limits on collection and coding. Deviation added for the cost limits.
+
 ## 2026-10-17 – Gate 3 calibration results
 - Two calibration rounds on six cases (codebook v1.0, then v1.1). Posted codebook v1.1 (tested; pending approval) with change log entries v1.1-17 to v1.1-23, coder prompt and schema v1.1, `scripts/agreement.py`, and the O10 calibration agreement summary.
 - Gate log: G3 results submitted with a proposed fix plan. Deviation added for collection step 5 on the calibration packets.
