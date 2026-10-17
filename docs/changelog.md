@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-17 – Codebook v1.0 and coding method posted
+- Posted codebook v1.0, its change log and hash manifest (O7), the coder prompt, output schema and model register (O8), and `scripts/check_coder_output.py`. `data/codebook.csv` now holds the v1.0 values. Case-level materials stay restricted.
+
 ## 2026-10-16 – Gate 2 passed
 - Codebook v1.0 frozen, with the coder prompt, output schema and model register (Coder A GPT-6 Astra; Coder B Gemini 3.8 Flash). The dry run on one case outside the sample passed all Gate 2 criteria.
 

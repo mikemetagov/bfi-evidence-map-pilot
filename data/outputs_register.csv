@@ -5,8 +5,8 @@ O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; pla
 O4,Collection plan,"Search steps, stopping rule, cap, status-signal list",G1,03_Collection,Not started,,
 O5,Collection log (actual),"Every search with date and results; document inventory with source IDs, archived copies and hashes",G4,03_Collection,Not started,,
 O6,Evidence packets,Frozen verbatim text for each case,G2–G4,04_Evidence_Packets,Not started,,
-O7,Codebook and change log,"Versions v0.1 to v2.0, the change log, and a narrative summary of changes and reasons","G2, G3, G4",05_Codebook,v1.0 frozen (G2; restricted),,2026-10-16
-O8,Prompt library and model register,"Prompts, settings, model names, versions and dates",G2,06_Prompts_and_Models,v1.0 set (G2; restricted),,2026-10-16
+O7,Codebook and change log,"Versions v0.1 to v2.0, the change log, and a narrative summary of changes and reasons","G2, G3, G4",05_Codebook,v1.0 frozen (G2),outputs/05_Codebook/codebook_v1.0.md,2026-10-17
+O8,Prompt library and model register,"Prompts, settings, model names, versions and dates",G2,06_Prompts_and_Models,v1.0 set (G2),outputs/06_Prompts_and_Models/model_register.csv,2026-10-17
 O9,Raw coder outputs,"Coder A and Coder B structured outputs, plus test-retest runs","G3, G4",07_Coding_Raw,Not started,,
 O10,Agreement report,"Statistics with confidence intervals, by field and phase","G3, G4",08_Agreement_and_Adjudication,Not started,,
 O11,Adjudication and audit log,"Disagreements, suggestions, decisions, error types, audit results",G4,08_Agreement_and_Adjudication,Not started,,

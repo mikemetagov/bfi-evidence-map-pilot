@@ -1,0 +1,6 @@
+role,model_id,provider,access_route,version_pinning,settings,used_for,first_used,notes
+Orchestrator,claude_opus_5_5 (Claude Opus 5.5),Anthropic,Perplexity Computer main session,Session model recorded per run,Platform default,"Frame, packets, scripts, agreement; never codes",2026-10-16,Protocol 4.3
+Coder A,gpt_6_astra (GPT-6 Astra),OpenAI,Perplexity Computer subagent (separate session),Model ID recorded per run; provider build not exposed,Temperature not user-settable on this route,Independent coding,2026-10-16,Protocol proposes OpenAI GPT family
+Coder B,gemini_3_8_flash (Gemini 3.8 Flash),Google,Perplexity Computer subagent (separate session),Model ID recorded per run; provider build not exposed,Temperature not user-settable on this route,Independent coding,2026-10-16,Flash tier is the only Gemini model available on the subagent route; Gemini 4 Argon is available only as a full session model
+Adjudication assistant,claude_opus_5_5 (Claude Opus 5.5),Anthropic,Separate Computer session,Model ID recorded per run,Platform default,Suggests resolutions for disagreements; Michael decides,Not yet used,Protocol 8.5
+Status-check classifier,gpt_6_luna (GPT-6 Luna),OpenAI,Structured extraction tool,Model ID recorded,Schema-constrained output,G1 pre-draw status checks (sampling aid only),2026-10-16,Lessons log S6: 4 funder-link judgements overridden

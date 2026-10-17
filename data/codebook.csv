@@ -5,7 +5,7 @@ use_case_domain,3,"Identity, records and data integrity",3,"Digital ID, credenti
 use_case_domain,4,Supply chain and traceability,4,"Vaccines, food, commodities, tokenised goods."
 use_case_domain,5,Climate and natural assets,5,"Carbon and environmental credits, regenerative finance, climate data."
 use_case_domain,6,"Governance, funding and coordination",6,"DAOs, community treasuries, crowdfunding, grant and donor flows."
-use_case_domain,none,None fits,7,No domain fits; explained in a note. Counts toward taxonomy fit (metric 3).
+use_case_domain,none,None fits,7,No domain fits; explained in a note. Connectivity and information access are coded here (rule D5). Counts toward taxonomy fit (metric 3).
 outcome_domain,A,Delivery efficiency,1,"Transaction cost, speed, administrative burden."
 outcome_domain,B,Reach and access,2,"Adoption, active use, inclusion of women, unbanked people and displaced people."
 outcome_domain,C,"Transparency, trust and accountability",3,"Traceability, leakage, fraud, user trust."
@@ -17,16 +17,16 @@ evidence_level,L2,Operational,2,"Data on outputs, usage or operational performan
 evidence_level,L3,"Outcome, no comparison",3,Outcome data from participants without a comparison group.
 evidence_level,L4,Outcome with comparison,4,"Outcomes compared with a comparison group or non-blockchain alternative, without strong identification."
 evidence_level,L5,Counterfactual impact,5,"Randomised or strong quasi-experimental impact estimate, ideally independent."
-deployment_status,Pilot,Pilot,1,
-deployment_status,Extended pilot,Extended pilot,2,
-deployment_status,Scaled,Scaled,3,
-deployment_status,Handed over,Handed over,4,
-deployment_status,Discontinued,Discontinued,5,
-deployment_status,Unknown,Unknown,6,
+deployment_status,Pilot,Pilot,1,"A time-bound test with named users (GSR-confirmed, Gate 1)."
+deployment_status,Extended pilot,Extended pilot,2,"Continued or enlarged by the same operator, still described as a pilot."
+deployment_status,Scaled,Scaled,3,Same solution used beyond the pilot period with wider reach as routine operation (a deployment).
+deployment_status,Handed over,Handed over,4,"Used by a new operator such as a government, partner or country office (a deployment)."
+deployment_status,Discontinued,Discontinued,5,Sources say the use case ended or the organisation closed.
+deployment_status,Unknown,Unknown,6,Sources do not state what happened after the pilot.
 blockchain_added_value,0,Not addressed,1,
-blockchain_added_value,1,Asserted,2,
+blockchain_added_value,1,Asserted,2,"Sources say blockchain helped, with no comparison."
 blockchain_added_value,2,Descriptive comparison,3,Descriptive comparison with a prior or alternative channel.
-blockchain_added_value,3,Tested comparison,4,Tested comparison against a non-blockchain alternative.
+blockchain_added_value,3,Tested comparison,4,Tested comparison against a non-blockchain alternative on the same outcome; only when the comparison isolates the ledger (rule V1).
 primary_portfolio,MCV,Mercy Corps Ventures,1,
 primary_portfolio,UNICEF,UNICEF Venture Fund,2,
 primary_portfolio,FIL,Filecoin Foundation,3,
@@ -38,3 +38,41 @@ evidence_producer,Peer-reviewed,Peer-reviewed,4,
 confidence,High,High,1,
 confidence,Medium,Medium,2,
 confidence,Low,Low,3,
+blockchain_function,F1,Stablecoin or payment rail,1,
+blockchain_function,F2,Smart-contract automation,2,
+blockchain_function,F3,Tokenisation or fractionalisation,3,
+blockchain_function,F4,Tamper-evident record or traceability,4,
+blockchain_function,F5,Decentralised storage,5,
+blockchain_function,F6,Decentralised governance,6,
+blockchain_function,F7,Digital identity or credentials,7,
+blockchain_function,other,Other,8,
+blockchain_component_status,Used as designed,Used as designed,1,
+blockchain_component_status,Partly used,Partly used,2,
+blockchain_component_status,Removed or not used,Removed or not used,3,
+blockchain_component_status,Unclear,Unclear,4,
+implementation_model,Start-up,Start-up,1,
+implementation_model,NGO,NGO,2,
+implementation_model,UN agency or country office,UN agency or country office,3,
+implementation_model,Government,Government,4,
+implementation_model,Consortium,Consortium,5,Consortium = three or more organisations with named roles
+implementation_model,Other,Other,6,
+funding_model,Grant,Grant,1,
+funding_model,Equity or venture investment,Equity or venture investment,2,
+funding_model,Recoverable grant or convertible instrument,Recoverable grant or convertible instrument,3,
+funding_model,Blended,Blended,4,
+funding_model,Yield- or staking-funded,Yield- or staking-funded,5,
+funding_model,not reported,not reported,6,
+population_group,Women,Women,1,
+population_group,Youth,Youth,2,
+population_group,Children,Children,3,
+population_group,Refugees or displaced people,Refugees or displaced people,4,
+population_group,Smallholder farmers,Smallholder farmers,5,
+population_group,Micro-entrepreneurs or MSMEs,Micro-entrepreneurs or MSMEs,6,
+population_group,Unbanked or underbanked,Unbanked or underbanked,7,
+population_group,Low-income individuals,Low-income individuals,8,
+population_group,Rural communities,Rural communities,9,
+population_group,Other,Other,10,
+objective_achievement,Achieved,Achieved,1,
+objective_achievement,Partly achieved,Partly achieved,2,
+objective_achievement,Not achieved,Not achieved,3,
+objective_achievement,Unclear,Unclear,4,
