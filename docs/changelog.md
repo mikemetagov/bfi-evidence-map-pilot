@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-17 – Gate 3 calibration results
+- Two calibration rounds on six cases (codebook v1.0, then v1.1). Posted codebook v1.1 (tested; pending approval) with change log entries v1.1-17 to v1.1-23, coder prompt and schema v1.1, `scripts/agreement.py`, and the O10 calibration agreement summary.
+- Gate log: G3 results submitted with a proposed fix plan. Deviation added for collection step 5 on the calibration packets.
+
 ## 2026-10-17 – Codebook v1.0 and coding method posted
 - Posted codebook v1.0, its change log and hash manifest (O7), the coder prompt, output schema and model register (O8), and `scripts/check_coder_output.py`. `data/codebook.csv` now holds the v1.0 values. Case-level materials stay restricted.
 
