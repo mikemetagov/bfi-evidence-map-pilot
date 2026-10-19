@@ -38,6 +38,5 @@ A use case. Each use case is given an evidence level separately for each outcome
 | 2. Public-source coverage | ≥ 80% | – |
 | 3. Taxonomy fit ("none fits") | ≤ 10% | – |
 | 4. Post-pilot status confirmed | ≥ 75% | – |
-| 5. Effort per case | ≤ 2 hours | – |
-| 6. Evidence level and scaling | Descriptive | – |
-| 7. Claims that held up | Reported as a finding | – |
+| 5. Evidence level and scaling | Descriptive | – |
+| 6. Claims that held up | Reported as a finding | – |
