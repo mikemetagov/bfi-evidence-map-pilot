@@ -13,7 +13,7 @@ O11,Adjudication and audit log,"Disagreements, suggestions, decisions, error typ
 O12,Final coded dataset,"Adjudicated codes with the original codes kept, plus a data dictionary",G4,09_Final_Dataset,v1.0 published (G4),outputs/09_Final_Dataset/O12_data_dictionary_v1.0.md,2026-10-19
 O13,Claims register,Headline claims and their verification status,G4,09_Final_Dataset,v1.0 published (G4); all 167 rows decided,outputs/09_Final_Dataset/O13_claims_register_note_v1.1.md,2026-10-19
 O14,Status tracing table,"Current status, signals and confidence for each case",G4,09_Final_Dataset,v1.0 published (G4); Michael's review closed,outputs/09_Final_Dataset/O14_status_tracing_note_v1.0.md,2026-10-19
-O15,Visual pack,"Static images V1–V3 and V5 (V4 and V6 optional), with data tables",G4,10_Analysis_and_Visuals,"V1–V3 and V5 published (G4); plain-language v1.1 images, 20 Oct",visuals/index.md,2026-10-20
+O15,Visual pack,"Static images V1–V3 and V5 (V4 and V6 optional), with data tables",G4,10_Analysis_and_Visuals,"V1–V3 and V5 published (G4); plain-language v1.1 images, 19 Oct",visuals/index.md,2026-10-19
 O16,Pilot findings memo,"What the cases show, method fixes, scale recommendation.",G5,11_Reports,Not started; method lessons log published,outputs/11_Reports/O16_method_lessons_log.md,2026-10-19
 O17,Methods note,"ROSES-style checklist, flow diagram, AI-use disclosure",G5,11_Reports,Not started,,
 O18,Deviations and gate log,"Every departure from the design, and every gate decision",Ongoing,00_Admin_and_Approvals,Ongoing; Gate 4 passed,gates/index.md,2026-10-19

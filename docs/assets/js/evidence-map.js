@@ -32,7 +32,7 @@
     const vals = (dim) => (cb[dim] || []).map((v) => v.value);
     const lab = (dim, v) => ((cb[dim] || []).find((x) => x.value === v) || {}).label || v || "";
     const def0 = (dim, v) => ((cb[dim] || []).find((x) => x.value === v) || {}).definition || "";
-    // Plain-language evidence names used on the site (20 Oct 2026). The data files and protocol keep the codes L1-L5.
+    // Plain-language evidence names used on the site (19 Oct 2026). The data files and protocol keep the codes L1-L5.
     const PLAIN = { L1: "Claims only", L2: "Operational data", L3: "Outcomes, no comparison", L4: "Outcomes with comparison", L5: "Proven impact" };
     const PLAIN_DEF = {
       L1: "The sources describe what the project does and why it should work, but give no data on results.",

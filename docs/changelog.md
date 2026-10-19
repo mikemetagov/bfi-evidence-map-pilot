@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-10-20 – Plain-language evidence spectrum
+## 2026-10-19 – Plain-language evidence spectrum
 - The map, visuals and methods pages now use plain names for the five evidence levels: claims only, operational data, outcomes without comparison, outcomes with comparison, and proven impact. The codes L1 to L5 stay in the protocol, codebook and data files; the [methods page](methods/index.md#evidence-spectrum) shows how the two match.
 - New evidence-spectrum explainer and "three things to know" on the [map](map/index.md) and [visuals](visuals/index.md) pages. Technical notes moved into collapsible boxes.
 - Map and charts now share one colour scale, light (weaker) to dark (stronger). In both, "gap" marks a cell with no evidence.

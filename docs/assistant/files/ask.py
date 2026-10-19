@@ -37,7 +37,7 @@ CB = {dim: {v["value"]: v for v in vals} for dim, vals in MAP["codebook"].items(
 CASES = {c["case_id"]: c for c in MAP["cases"]}
 RECORDS = MAP["records"]
 LEVELS = ["L1", "L2", "L3", "L4", "L5"]
-# Plain-language names used on the public site (v0.5, 20 Oct 2026). The protocol, codebook and data files keep
+# Plain-language names used on the public site (v0.5, 19 Oct 2026). The protocol, codebook and data files keep
 # the technical codes L1-L5; answers give the plain name first and the protocol code in brackets.
 PLAIN = {"L1": "Claims only", "L2": "Operational data", "L3": "Outcomes, no comparison",
          "L4": "Outcomes with comparison", "L5": "Proven impact"}

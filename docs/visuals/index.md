@@ -56,7 +56,7 @@ Each project's headline claims were checked against the other documents we held 
 [Download the data](../outputs/10_Analysis_and_Visuals/V5_claims_table_v1.0.csv)
 
 ??? note "Technical notes"
-    These images are version 1.1 (20 October 2026). They show the same data as version 1.0, with plain names in place of the level codes. Version 1.0 images are kept in the [outputs folder](../outputs/index.md). The charts draw on the final coded dataset (O12), status tracing (O14) and claims register (O13).
+    These images are version 1.1 (19 October 2026). They show the same data as version 1.0, with plain names in place of the level codes. Version 1.0 images are kept in the [outputs folder](../outputs/index.md). The charts draw on the final coded dataset (O12), status tracing (O14) and claims register (O13).
 
     | Chart | Protocol name | Status |
     |---|---|---|
