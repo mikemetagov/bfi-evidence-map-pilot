@@ -265,12 +265,7335 @@
       "AttributeDescription": "",
       "AttributeType": "Not selectable (no checkbox)",
       "Attributes": {
-       "AttributesList": []
+       "AttributesList": [
+        {
+         "AttributeId": 7001,
+         "AttributeName": "East Asia and Pacific",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7002,
+         "AttributeName": "Latin America and the Caribbean",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7003,
+         "AttributeName": "North America",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7004,
+         "AttributeName": "South Asia",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7005,
+         "AttributeName": "Sub-Saharan Africa",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7006,
+         "AttributeName": "not reported",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
       }
      }
     ]
    }
   }
  ],
- "References": []
+ "References": [
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-01",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100001,
+   "ShortTitle": "FIL-01",
+   "Title": "Starling Lab Capture-Store-Verify data integrity [Delivery efficiency]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Starling Lab Capture-Store-Verify data integrity Result: Verification methods are claimed to automate complex verification tasks and support real-time authentication, without timing or cost data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100002,
+   "ShortTitle": "FIL-01",
+   "Title": "Starling Lab Capture-Store-Verify data integrity [Reach and access]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Starling Lab Capture-Store-Verify data integrity Result: Deployed 22 real-world case studies in journalism, legal evidence, and history, archiving over 10,000 web pages.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100003,
+   "ShortTitle": "FIL-01",
+   "Title": "Starling Lab Capture-Store-Verify data integrity [Transparency, trust and accountability]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Starling Lab Capture-Store-Verify data integrity Result: The implementer reports archiving 10,000 web pages as an evidence base for DFRLab; this is an operational preservation output, not measured changes in public trust.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-01",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100004,
+   "ShortTitle": "FIL-01",
+   "Title": "Starling Lab Capture-Store-Verify data integrity [Sector outcomes]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Starling Lab Capture-Store-Verify data integrity Result: A cryptographic archive is claimed to have helped reopen a 30-year-old cold case; the case narrative is not systematic justice outcome data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-01",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100005,
+   "ShortTitle": "FIL-01",
+   "Title": "Starling Lab Capture-Store-Verify data integrity [Risks, harms and unintended effects]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Starling Lab Capture-Store-Verify data integrity Result: The framework identifies and claims to control provenance-data risks to privacy and agency, without incident or harm counts.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "USA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100006,
+   "ShortTitle": "FIL-02",
+   "Title": "EASIER Data geospatial data preservation [Delivery efficiency]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "EASIER Data geospatial data preservation Result: The demonstrative applications are claimed to make mapping and spatial analysis easier and potentially automated, without measured performance data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "USA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100007,
+   "ShortTitle": "FIL-02",
+   "Title": "EASIER Data geospatial data preservation [Reach and access]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "EASIER Data geospatial data preservation Result: The funder claims geospatial information remains openly accessible and censorship-resistant, without user or adoption counts.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "USA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100008,
+   "ShortTitle": "FIL-02",
+   "Title": "EASIER Data geospatial data preservation [Transparency, trust and accountability]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "EASIER Data geospatial data preservation Result: Integrated Ethereum Attestation Service (EAS) and Filecoin storage into Proofmode, creating cryptographically signed, immutable, and verifiable location attestations for captured media.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "USA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100009,
+   "ShortTitle": "FIL-02",
+   "Title": "EASIER Data geospatial data preservation [Risks, harms and unintended effects]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "EASIER Data geospatial data preservation Result: The implementer cautions that proof metadata does not settle the reliability of the underlying content.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100010,
+   "ShortTitle": "FIL-03",
+   "Title": "TRANSFER Data Trust artist-owned archive [Reach and access]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "TRANSFER Data Trust artist-owned archive Result: Five founding artists are named as participating in conservation and decentralized archive-management work.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100011,
+   "ShortTitle": "FIL-03",
+   "Title": "TRANSFER Data Trust artist-owned archive [Transparency, trust and accountability]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "TRANSFER Data Trust artist-owned archive Result: Deployed operational browser-based prototype with Fission supporting authenticated decentralized cataloging, loan requests, and acquisition transfers.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100012,
+   "ShortTitle": "FIL-03",
+   "Title": "TRANSFER Data Trust artist-owned archive [Financial resilience and wellbeing]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "TRANSFER Data Trust artist-owned archive Result: The Trust claims to manage and grow digital-asset value, without artist-income or equity measurements.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100013,
+   "ShortTitle": "FIL-03",
+   "Title": "TRANSFER Data Trust artist-owned archive [Sector outcomes]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "TRANSFER Data Trust artist-owned archive Result: The Trust reports maintaining artist proofs and stewarding committed artworks, without quantified conservation outcomes.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100014,
+   "ShortTitle": "FIL-03",
+   "Title": "TRANSFER Data Trust artist-owned archive [Risks, harms and unintended effects]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "TRANSFER Data Trust artist-owned archive Result: The metadata study identifies gaps in versioning, component documentation and conservation workflows that need resolution for the Trust Client's success.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100015,
+   "ShortTitle": "FIL-04",
+   "Title": "Akashic refugee digital memory archive [Reach and access]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Akashic refugee digital memory archive Result: The project claims that collected stories and curated collections are openly available as a data commons, without use or reach data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100016,
+   "ShortTitle": "FIL-04",
+   "Title": "Akashic refugee digital memory archive [Transparency, trust and accountability]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Akashic refugee digital memory archive Result: The archive claims that communities retain control of their stories rather than surrendering control to institutions.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100017,
+   "ShortTitle": "FIL-04",
+   "Title": "Akashic refugee digital memory archive [Sector outcomes]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Akashic refugee digital memory archive Result: Akashic is described as preserving refugee narratives on Filecoin so they remain accessible and resistant to erasure, without systematic cultural outcome data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-05",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100018,
+   "ShortTitle": "FIL-05",
+   "Title": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine) [Financial resilience and wellbeing]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine) Result: The project claims data-generated value flows back to contributing scientists and communities, without amounts or participant data.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-FIL-05",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100019,
+   "ShortTitle": "FIL-05",
+   "Title": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine) [Sector outcomes]",
+   "URL": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "Abstract": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine) Result: AI narration and physical interfaces are claimed to help participants connect emotionally with ocean ecosystems.",
+   "Institution": "Filecoin Foundation"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100020,
+   "ShortTitle": "GSR-01",
+   "Title": "Relay Funder aid platform for displaced communities [Delivery efficiency]",
+   "URL": "https://www.gsrfoundation.io/",
+   "Abstract": "Relay Funder aid platform for displaced communities Result: Platform fees are reported at 2%, with an additional claim of up to tenfold capital efficiency under community-managed project funds, not a ledger-isolating comparison.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100021,
+   "ShortTitle": "GSR-01",
+   "Title": "Relay Funder aid platform for displaced communities [Reach and access]",
+   "URL": "https://www.gsrfoundation.io/",
+   "Abstract": "Relay Funder aid platform for displaced communities Result: 24 community campaigns were live in Kenya and Uganda.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-01",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100022,
+   "ShortTitle": "GSR-01",
+   "Title": "Relay Funder aid platform for displaced communities [Transparency, trust and accountability]",
+   "URL": "https://www.gsrfoundation.io/",
+   "Abstract": "Relay Funder aid platform for displaced communities Result: The implementer claims that a verifiable ledger tracks donor-to-campaign flows and shows resource use, without measured accountability outcomes.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100023,
+   "ShortTitle": "GSR-02",
+   "Title": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity [Delivery efficiency]",
+   "URL": "https://cryptobriefing.com/pilot-demonstrates-stablecoin-yield-can-support-school-connectivity-through-stablecoin-for-impact-and-giga/",
+   "Abstract": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity Result: The operational platform charges a 5% fee on routed yield donations.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100024,
+   "ShortTitle": "GSR-02",
+   "Title": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity [Reach and access]",
+   "URL": "https://cryptobriefing.com/pilot-demonstrates-stablecoin-yield-can-support-school-connectivity-through-stablecoin-for-impact-and-giga/",
+   "Abstract": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity Result: GSR Foundation is the first institutional donor actively routing yield to Giga.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100025,
+   "ShortTitle": "GSR-02",
+   "Title": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity [Transparency, trust and accountability]",
+   "URL": "https://cryptobriefing.com/pilot-demonstrates-stablecoin-yield-can-support-school-connectivity-through-stablecoin-for-impact-and-giga/",
+   "Abstract": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity Result: The partners assert that donor participation demonstrates institutional standards for custody and transparency.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7006,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100026,
+   "ShortTitle": "GSR-02",
+   "Title": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity [Risks, harms and unintended effects]",
+   "URL": "https://cryptobriefing.com/pilot-demonstrates-stablecoin-yield-can-support-school-connectivity-through-stablecoin-for-impact-and-giga/",
+   "Abstract": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity Result: Fees do not cover approximately $200,000 annual platform costs and Launchnodes subsidises the shortfall.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2025",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100027,
+   "ShortTitle": "GSR-03",
+   "Title": "Lido Impact Staking yield to MCV, UNICEF and Giga [Reach and access]",
+   "URL": "https://www.gsrfoundation.io/",
+   "Abstract": "Lido Impact Staking yield to MCV, UNICEF and Giga Result: LIS grew from one to eight partners in one year and attracted its first institutional donor.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2025",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "not reported",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-GSR-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100028,
+   "ShortTitle": "GSR-03",
+   "Title": "Lido Impact Staking yield to MCV, UNICEF and Giga [Risks, harms and unintended effects]",
+   "URL": "https://www.gsrfoundation.io/",
+   "Abstract": "Lido Impact Staking yield to MCV, UNICEF and Giga Result: The proposal identifies uncertain future yields and the risk of premature project termination if pledged funds disappear; no realized harms are measured.",
+   "Institution": "GSR Blockchain for Good"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100029,
+   "ShortTitle": "MCV-01",
+   "Title": "Celo stablecoin payments for digital microwork (youth) [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Celo stablecoin payments for digital microwork (youth) Result: Cross-border fees reportedly fell from 28.8% for a $5 transfer to 2.02%; payment receipt took seconds, and fee comparisons are operational rather than participant counterfactual outcomes.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100030,
+   "ShortTitle": "MCV-01",
+   "Title": "Celo stablecoin payments for digital microwork (youth) [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Celo stablecoin payments for digital microwork (youth) Result: 200 urban youth undertook microwork on the platform.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-01",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100031,
+   "ShortTitle": "MCV-01",
+   "Title": "Celo stablecoin payments for digital microwork (youth) [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Celo stablecoin payments for digital microwork (youth) Result: The executive summary reports highly positive participant feedback, but supplies no numerical trust or satisfaction measure.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-01",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100032,
+   "ShortTitle": "MCV-01",
+   "Title": "Celo stablecoin payments for digital microwork (youth) [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Celo stablecoin payments for digital microwork (youth) Result: 95% reported improved quality of life and 80% improved saving ability; the summary supplies no comparison group or survey sampling details.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-01",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100033,
+   "ShortTitle": "MCV-01",
+   "Title": "Celo stablecoin payments for digital microwork (youth) [Sector outcomes]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Celo stablecoin payments for digital microwork (youth) Result: 200 Kenyan youth were trained to access global digital microwork through a mobile app and wallet; this is a training output, not measured learning gains.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100034,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: In phase two, all claims were processed within 24 hours, versus a pre-pilot average of 14 days.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100035,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: Coverage amount increased by 27% compared with the previous season.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100036,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: 53% of participating farmers reported increased trust; the packet does not specify the endline sample size.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100037,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: 40% reported improved quality of life, with reduced stress and improved input purchasing among reasons; the endline sample size is unspecified.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100038,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Sector outcomes]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: One farmer reported replanting bean seedlings and obtaining a good harvest after compensation.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-02",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100039,
+   "ShortTitle": "MCV-02",
+   "Title": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) [Risks, harms and unintended effects]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa) Result: The first-phase account reports incomplete automation and manual claims-approval bottlenecks.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "RWA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100040,
+   "ShortTitle": "MCV-03",
+   "Title": "DeFi merchant digitisation [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi merchant digitisation Result: Yield of roughly 18–20% APY on a $50,000 grant covered incentives and daily pilot costs.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "RWA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100041,
+   "ShortTitle": "MCV-03",
+   "Title": "DeFi merchant digitisation [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi merchant digitisation Result: 91% of merchants who made at least one prepayment continued using the service, adding money seven times on average over ten weeks.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "RWA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-03",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100042,
+   "ShortTitle": "MCV-03",
+   "Title": "DeFi merchant digitisation [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi merchant digitisation Result: All merchants who tried the service reported finding Sokowatch trustworthy; the survey sample size is not specified.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "RWA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-03",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100043,
+   "ShortTitle": "MCV-03",
+   "Title": "DeFi merchant digitisation [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi merchant digitisation Result: 89% of active participants reported improved quality of life through savings, income and business efficiency; sample size is unspecified.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "RWA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100044,
+   "ShortTitle": "MCV-03",
+   "Title": "DeFi merchant digitisation [Risks, harms and unintended effects]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi merchant digitisation Result: 78% of sign-ups never prepaid, with lack of awareness or understanding and inability to save cited as barriers.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-05",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100045,
+   "ShortTitle": "MCV-05",
+   "Title": "DeFi salary advances / credit for smallholders [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi salary advances / credit for smallholders Result: The product charged 8% APR, less than half the market alternatives, and onboarding and disbursement occurred within one day.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-05",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100046,
+   "ShortTitle": "MCV-05",
+   "Title": "DeFi salary advances / credit for smallholders [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi salary advances / credit for smallholders Result: 96% of participants were accessing this type of income advance for the first time.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-05",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100047,
+   "ShortTitle": "MCV-05",
+   "Title": "DeFi salary advances / credit for smallholders [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi salary advances / credit for smallholders Result: Over half the borrowers used loans for business purposes, mainly livestock and inventory for additional income sources; the survey method is not detailed.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-05",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100048,
+   "ShortTitle": "MCV-05",
+   "Title": "DeFi salary advances / credit for smallholders [Risks, harms and unintended effects]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "DeFi salary advances / credit for smallholders Result: Over-collateralization was identified as a barrier for lower-income users and future scale, mitigated during the pilot by Cinch supplying collateral.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-06",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100049,
+   "ShortTitle": "MCV-06",
+   "Title": "Stablecoin buy-now-pay-later for MSMEs/informal vendors [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Stablecoin buy-now-pay-later for MSMEs/informal vendors Result: The stablecoin transaction model offered a flat 30 KES fee, against reported alternative lenders' average APR of about 67%; inventory financing is not directly comparable to digital loans.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-06",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100050,
+   "ShortTitle": "MCV-06",
+   "Title": "Stablecoin buy-now-pay-later for MSMEs/informal vendors [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Stablecoin buy-now-pay-later for MSMEs/informal vendors Result: 77% of food vendors had not previously used credit or similar inventory financing.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-06",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100051,
+   "ShortTitle": "MCV-06",
+   "Title": "Stablecoin buy-now-pay-later for MSMEs/informal vendors [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Stablecoin buy-now-pay-later for MSMEs/informal vendors Result: The existing platform and agent network were claimed to have built trust during onboarding.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-06",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100052,
+   "ShortTitle": "MCV-06",
+   "Title": "Stablecoin buy-now-pay-later for MSMEs/informal vendors [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Stablecoin buy-now-pay-later for MSMEs/informal vendors Result: 63% of surveyed vendors reported reduced stress; the packet gives the survey size but limited methodological detail.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-12",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100053,
+   "ShortTitle": "MCV-12",
+   "Title": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) Result: The expanded pilot reports settlement under six hours versus 7–10 days, a reduction exceeding 95%; the initial pilot reports costs reduced to 2.5%.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-12",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100054,
+   "ShortTitle": "MCV-12",
+   "Title": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) Result: The initial proof of concept disbursed 11,271 USDT to 262 pastoralists.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-12",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100055,
+   "ShortTitle": "MCV-12",
+   "Title": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) Result: The expanded pilot reports participant trust with an NPS of 82; survey method and sample are not supplied, and respondents are not identified as donors.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-12",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100056,
+   "ShortTitle": "MCV-12",
+   "Title": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) Result: Three-meals-per-day consumption reportedly rose from 13% to 77% and 64% reported improved unexpected-expense capacity; no non-participant comparison or survey method is supplied.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-12",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100057,
+   "ShortTitle": "MCV-12",
+   "Title": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) [Risks, harms and unintended effects]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26) Result: The payout-trigger methodology was changed to reduce susceptibility to cloud cover, indicating a mitigated trigger-data reliability risk.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100058,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: Disbursement time fell by a reported 99.7%, from 3–7 days for MFIs to under five minutes.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100059,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: 47 VSLAs and more than 500 borrowers, 90% women, received $57,000 in credit.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100060,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: The narrative claims increased trust through faster, cheaper credit, while also reporting trust erosion from repayment failures.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100061,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Financial resilience and wellbeing]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: Credit is claimed to strengthen households, reduce dependence on male earners and ease income-related stress without systematic outcome data.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100062,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Sector outcomes]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: Borrowers reportedly used loans for school fees and climate-resilient farming; no quantified sector outcomes are supplied.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "GHA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-16",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100063,
+   "ShortTitle": "MCV-16",
+   "Title": "Haraka & Grameen Foundation onchain microfinance for VSLAs [Risks, harms and unintended effects]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Haraka & Grameen Foundation onchain microfinance for VSLAs Result: Principal recovery was 96.9% and full repayment 86.5%, with defaults linked mainly to liquidity and timing problems.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NPL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-18",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100064,
+   "ShortTitle": "MCV-18",
+   "Title": "Anticipatory cash transfers for flood-prone areas [Delivery efficiency]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Anticipatory cash transfers for flood-prone areas Result: The implementer claims automated cash transfers and pre-disaster delivery, without operational timing or cost data.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NPL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-18",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100065,
+   "ShortTitle": "MCV-18",
+   "Title": "Anticipatory cash transfers for flood-prone areas [Reach and access]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Anticipatory cash transfers for flood-prone areas Result: The implementer claims delivery of digital aid to at-risk populations, without a reach count for this pilot.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NPL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-18",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100066,
+   "ShortTitle": "MCV-18",
+   "Title": "Anticipatory cash transfers for flood-prone areas [Transparency, trust and accountability]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Anticipatory cash transfers for flood-prone areas Result: The implementer claims transparent and traceable digital cash distribution.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NPL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-18",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100067,
+   "ShortTitle": "MCV-18",
+   "Title": "Anticipatory cash transfers for flood-prone areas [Sector outcomes]",
+   "URL": "https://www.prosperglobalventures.com/fintech-lab",
+   "Abstract": "Anticipatory cash transfers for flood-prone areas Result: The implementer claims reduced humanitarian impact from forecast-based flood intervention, without sector outcome data.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-24",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100068,
+   "ShortTitle": "MCV-24",
+   "Title": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) [Reach and access]",
+   "URL": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "Abstract": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) Result: A secondary account reports 300 refugees using the payment system, but the funder launch text does not confirm achieved reach.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-24",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100069,
+   "ShortTitle": "MCV-24",
+   "Title": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) [Transparency, trust and accountability]",
+   "URL": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "Abstract": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) Result: The secondary account claims privacy and auditability have been reconciled at the cryptographic layer, while acknowledging auditability remains partly theoretical.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2026",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COL",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-MCV-24",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100070,
+   "ShortTitle": "MCV-24",
+   "Title": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) [Risks, harms and unintended effects]",
+   "URL": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "Abstract": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC) Result: A technical audit identifies an authorization flaw permitting a single-transaction drain of the aid contract's public balance; actual exploitation or remediation is not reported.",
+   "Institution": "Mercy Corps Ventures"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100071,
+   "ShortTitle": "UNI-03",
+   "Title": "OS City (blockchain government records/credentials) [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "OS City (blockchain government records/credentials) Result: The platform was implemented with institutions in four Latin American countries across several sectors.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100072,
+   "ShortTitle": "UNI-03",
+   "Title": "OS City (blockchain government records/credentials) [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "OS City (blockchain government records/credentials) Result: The team reports that UNICEF deployments support customer trust and ETC Labs strengthens technological credibility.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-03",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100073,
+   "ShortTitle": "UNI-03",
+   "Title": "OS City (blockchain government records/credentials) [Sector outcomes]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "OS City (blockchain government records/credentials) Result: Issued verified educational credentials (university diplomas and college skills) and sustainability commitments with an international observatory.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-03",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100074,
+   "ShortTitle": "UNI-03",
+   "Title": "OS City (blockchain government records/credentials) [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "OS City (blockchain government records/credentials) Result: Bureaucracy prevented consolidation of the originally proposed government use cases within twelve months and forced a pivot.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2019",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "BGD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3007,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100075,
+   "ShortTitle": "UNI-04",
+   "Title": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging [Delivery efficiency]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging Result: The implementer claims improved stability and faster network response without performance measurements.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2019",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "BGD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-04",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3007,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100076,
+   "ShortTitle": "UNI-04",
+   "Title": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging Result: Real-user pilot tests were conducted at three Bangladesh locations, without a user count.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2019",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "BGD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3007,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100077,
+   "ShortTitle": "UNI-04",
+   "Title": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging Result: The implementer claims the Dacope pilot ensured transparency, without supporting measurements.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2019",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "BGD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-04",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3007,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100078,
+   "ShortTitle": "UNI-04",
+   "Title": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "Abstract": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging Result: Feature-phone users could not use the Android-only solution and asked for support during field testing.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-07",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100079,
+   "ShortTitle": "UNI-07",
+   "Title": "BX Smart Labs smart-contract savings circles [Delivery efficiency]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "BX Smart Labs smart-contract savings circles Result: Users can create savings circles within minutes and check status remotely on blockchain.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-07",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100080,
+   "ShortTitle": "UNI-07",
+   "Title": "BX Smart Labs smart-contract savings circles [Reach and access]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "BX Smart Labs smart-contract savings circles Result: The funder reports reaching other countries, while a later independent account claims failure to scale or attract a user base; no user counts are supplied.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-07",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100081,
+   "ShortTitle": "UNI-07",
+   "Title": "BX Smart Labs smart-contract savings circles [Transparency, trust and accountability]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "BX Smart Labs smart-contract savings circles Result: The blockchain is claimed to make savings-round status reliable and available to participants.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-07",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100082,
+   "ShortTitle": "UNI-07",
+   "Title": "BX Smart Labs smart-contract savings circles [Sector outcomes]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "BX Smart Labs smart-contract savings circles Result: The funder claims increased crypto literacy among poor users without learning outcome data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-07",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100083,
+   "ShortTitle": "UNI-07",
+   "Title": "BX Smart Labs smart-contract savings circles [Risks, harms and unintended effects]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "BX Smart Labs smart-contract savings circles Result: Users unfamiliar with cryptocurrencies were unreceptive, creating an adoption barrier.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; RWA; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-08",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100084,
+   "ShortTitle": "UNI-08",
+   "Title": "Kotani Pay transfers, savings and payments [Delivery efficiency]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Kotani Pay transfers, savings and payments Result: The funder reports free operation, cash-out fees below 2 percent and transactions taking 3–5 seconds for Leaf and Kotani Pay.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; RWA; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-08",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100085,
+   "ShortTitle": "UNI-08",
+   "Title": "Kotani Pay transfers, savings and payments [Reach and access]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Kotani Pay transfers, savings and payments Result: Kotani Pay reached 15,000 beneficiaries in a year, including refugees and gig workers.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; RWA; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-08",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100086,
+   "ShortTitle": "UNI-08",
+   "Title": "Kotani Pay transfers, savings and payments [Transparency, trust and accountability]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Kotani Pay transfers, savings and payments Result: The solution claims the ability to ascertain transactions secured on the blockchain, without measured transparency results.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN; RWA; UGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-08",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100087,
+   "ShortTitle": "UNI-08",
+   "Title": "Kotani Pay transfers, savings and payments [Financial resilience and wellbeing]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Kotani Pay transfers, savings and payments Result: An individual UBI recipient reportedly established a garden, sold produce and purchased a goat; this is an anecdote, not systematic outcome data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-10",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100088,
+   "ShortTitle": "UNI-10",
+   "Title": "Rumsan Rahat cash and voucher assistance [Delivery efficiency]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "Rumsan Rahat cash and voucher assistance Result: AidLink reported near-instant disbursement with 100% transaction success and an average cash-out time of 27 minutes.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-10",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100089,
+   "ShortTitle": "UNI-10",
+   "Title": "Rumsan Rahat cash and voucher assistance [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "Rumsan Rahat cash and voucher assistance Result: The 2024 Nepal anticipatory-action implementation supported more than 4,000 households.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-10",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100090,
+   "ShortTitle": "UNI-10",
+   "Title": "Rumsan Rahat cash and voucher assistance [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "Rumsan Rahat cash and voucher assistance Result: The implementer claims reduced fraud and mismanagement through automated fund tracking.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-10",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100091,
+   "ShortTitle": "UNI-10",
+   "Title": "Rumsan Rahat cash and voucher assistance [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "Rumsan Rahat cash and voucher assistance Result: Live demonstrations experienced problems due to dependencies on SAFE multisig wallets and SMS providers.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-12",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100092,
+   "ShortTitle": "UNI-12",
+   "Title": "Xcapit blockchain wealth management and financial learning [Reach and access]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Xcapit blockchain wealth management and financial learning Result: The initial wallet onboarded over 14,000 users in two months; a separate case-study headline claims 4M+ people across 167+ countries without a reporting period.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-12",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100093,
+   "ShortTitle": "UNI-12",
+   "Title": "Xcapit blockchain wealth management and financial learning [Transparency, trust and accountability]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Xcapit blockchain wealth management and financial learning Result: DPGA recognition is claimed to have accelerated institutional trust and enabled government and multilateral conversations.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-12",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100094,
+   "ShortTitle": "UNI-12",
+   "Title": "Xcapit blockchain wealth management and financial learning [Risks, harms and unintended effects]",
+   "URL": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "Abstract": "Xcapit blockchain wealth management and financial learning Result: The implementer claims self-custody mitigates central-authority fund seizure and single-provider failure risks, without incident data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "IND",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-13",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100095,
+   "ShortTitle": "UNI-13",
+   "Title": "GovBlocks decentralised decision-making tools [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "GovBlocks decentralised decision-making tools Result: Nexus Mutual created and voted on 149 governance proposals using GovBlocks.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "IND",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-13",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100096,
+   "ShortTitle": "UNI-13",
+   "Title": "GovBlocks decentralised decision-making tools [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "GovBlocks decentralised decision-making tools Result: The GovBlocks impact narrative claims that decentralization enhances transparency and accountability without result data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "IND",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-13",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100097,
+   "ShortTitle": "UNI-13",
+   "Title": "GovBlocks decentralised decision-making tools [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "GovBlocks decentralised decision-making tools Result: High Ethereum transaction costs are identified as a reason for GovBlocks to expand to Polygon.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-14",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100098,
+   "ShortTitle": "UNI-14",
+   "Title": "Grassroots Economics community currency / emergency payments [Delivery efficiency]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "Grassroots Economics community currency / emergency payments Result: The implementer says low-cost xDai transactions helped reach basic-phone communities.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-14",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100099,
+   "ShortTitle": "UNI-14",
+   "Title": "Grassroots Economics community currency / emergency payments [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "Grassroots Economics community currency / emergency payments Result: More than 40,000 user accounts made over 400,000 transactions during January 2020–June 2021.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-14",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100100,
+   "ShortTitle": "UNI-14",
+   "Title": "Grassroots Economics community currency / emergency payments [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "Grassroots Economics community currency / emergency payments Result: Recording all transactions on blockchain is claimed to maximize transaction security.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-14",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100101,
+   "ShortTitle": "UNI-14",
+   "Title": "Grassroots Economics community currency / emergency payments [Financial resilience and wellbeing]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "Grassroots Economics community currency / emergency payments Result: The implementer claims emergency liquidity supported people and created new local trading connections during disruption.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "KEN",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-14",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100102,
+   "ShortTitle": "UNI-14",
+   "Title": "Grassroots Economics community currency / emergency payments [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "Abstract": "Grassroots Economics community currency / emergency payments Result: The organization changed blockchain platform three times to reduce fees, with time and budget implications.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100103,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Delivery efficiency]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: CHATS reduced aid delivery time by 80% compared with manual methods.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100104,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: Three humanitarian projects reached 13,613 unique beneficiaries, including 11% children and 30% women.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100105,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: The funder claims that direct transactions and secure identities ensured aid reached intended recipients with reduced fraud risk.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100106,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Financial resilience and wellbeing]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: A beneficiary testimonial reports a reduced burden of children's treatment costs.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100107,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Sector outcomes]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: A beneficiary reported that her sick son improved after medication obtained through the project.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "NGA",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-15",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100108,
+   "ShortTitle": "UNI-15",
+   "Title": "Convexity CHATS cash and voucher platform [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "Abstract": "Convexity CHATS cash and voucher platform Result: Deployments revealed insufficient architectural flexibility for diverse humanitarian organizations and users.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100109,
+   "ShortTitle": "UNI-16",
+   "Title": "WiiQare health-savings vouchers [Delivery efficiency]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "WiiQare health-savings vouchers Result: The platform is claimed to simplify healthcare-provider payments.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-16",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100110,
+   "ShortTitle": "UNI-16",
+   "Title": "WiiQare health-savings vouchers [Reach and access]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "WiiQare health-savings vouchers Result: Health Pass recorded successful transactions by 39 users in the DRC.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100111,
+   "ShortTitle": "UNI-16",
+   "Title": "WiiQare health-savings vouchers [Transparency, trust and accountability]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "WiiQare health-savings vouchers Result: Transparency and accountability in healthcare funding are asserted without result data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100112,
+   "ShortTitle": "UNI-16",
+   "Title": "WiiQare health-savings vouchers [Sector outcomes]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "WiiQare health-savings vouchers Result: One patient's testimonial describes quicker access to examination and treatment, without systematic outcome data.",
+   "Institution": "UNICEF Venture Fund"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "not reported",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "COD",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Keywords": "L-UNI-16",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5006,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100113,
+   "ShortTitle": "UNI-16",
+   "Title": "WiiQare health-savings vouchers [Risks, harms and unintended effects]",
+   "URL": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "Abstract": "WiiQare health-savings vouchers Result: Cash predominance limited adoption and validation, with digital infrastructure and familiarity identified as barriers.",
+   "Institution": "UNICEF Venture Fund"
+  }
+ ]
 }

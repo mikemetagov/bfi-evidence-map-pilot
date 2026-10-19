@@ -2,7 +2,7 @@
 
 | ID | Output | Contents | Gate | Status | File |
 |---|---|---|---|---|---|
-| O6 | Evidence packets | Frozen verbatim text for each case | G2–G4 | In progress: 6 calibration packets frozen (restricted) | Not yet added |
+| O6 | Evidence packets | Frozen verbatim text for each case | G2–G4 | Frozen; not published (full third-party text); hashes in O5 inventories | Not yet added |
 
 ## Files in this section
 

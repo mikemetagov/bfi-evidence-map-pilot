@@ -1,20 +1,20 @@
 id,output,contents,gate,folder,status,file,updated
 O1,Pilot design report,"This document, with versions",G0,01_Design,Current v0.5 (G3 fix plan and cost limits),protocol/files/20261017_O1_Pilot-Design-Report_v0.5.pdf,2026-10-17
 O2,Sampling frame,"Census of eligible public use cases per portfolio, with lineage IDs",G1,02_Sampling,Complete (restricted; G1),,2026-10-16
-O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; planned versus actual",G1,02_Sampling,Complete (restricted; G1),,2026-10-16
+O3,Sample plan and actual sample,"Strata, quotas, seed, draws, replacements; planned versus actual",G1,02_Sampling,Complete (G1); published at G4,outputs/02_Sampling/O3_sample_plan_v1.0.md,2026-10-19
 O4,Collection plan,"Search steps, stopping rule, cap, status-signal list",G1,03_Collection,Set (protocol v0.5: cap 6; packet limits),protocol/files/20261017_O1_Pilot-Design-Report_v0.5.pdf,2026-10-17
-O5,Collection log (actual),"Every search with date and results; document inventory with source IDs, archived copies and hashes",G4,03_Collection,In progress: calibration cases logged (restricted),,2026-10-17
-O6,Evidence packets,Frozen verbatim text for each case,G2–G4,04_Evidence_Packets,In progress: 6 calibration packets frozen (restricted),,2026-10-17
+O5,Collection log (actual),"Every search with date and results; document inventory with source IDs, archived copies and hashes",G4,03_Collection,"Complete; logs and inventories published at G4 (URLs, hashes)",outputs/03_Collection/main/O5_document_inventory.csv,2026-10-19
+O6,Evidence packets,Frozen verbatim text for each case,G2–G4,04_Evidence_Packets,Frozen; not published (full third-party text); hashes in O5 inventories,,2026-10-19
 O7,Codebook and change log,"Versions v0.1 to v2.0, the change log, and a narrative summary of changes and reasons","G2, G3, G4",05_Codebook,v1.2 frozen for main coding (G3),outputs/05_Codebook/codebook_v1.2.md,2026-10-17
 O8,Prompt library and model register,"Prompts, settings, model names, versions and dates",G2,06_Prompts_and_Models,v1.2 prompt and schema (G3),outputs/06_Prompts_and_Models/coder_prompt_v1.2.md,2026-10-17
-O9,Raw coder outputs,"Coder A and Coder B structured outputs, plus test-retest runs","G3, G4",07_Coding_Raw,In progress: calibration rounds 1 and 2 (restricted),,2026-10-17
-O10,Agreement report,"Statistics with confidence intervals, by field and phase","G3, G4",08_Agreement_and_Adjudication,Calibration summary (G3),outputs/08_Agreement_and_Adjudication/O10_calibration_agreement_summary.md,2026-10-17
-O11,Adjudication and audit log,"Disagreements, suggestions, decisions, error types, audit results",G4,08_Agreement_and_Adjudication,Not started,,
-O12,Final coded dataset,"Adjudicated codes with the original codes kept, plus a data dictionary",G4,09_Final_Dataset,Not started,,
-O13,Claims register,Headline claims and their verification status,G4,09_Final_Dataset,Not started,,
-O14,Status tracing table,"Current status, signals and confidence for each case",G4,09_Final_Dataset,Not started,,
-O15,Visual pack,"Static images V1–V3 and V5 (V4 and V6 optional), with data tables",G4,10_Analysis_and_Visuals,Not started,,
-O16,Pilot findings memo,"What the cases show, method fixes, scale recommendation. GSR and Metagov only.",G5,11_Reports,Not started,,
+O9,Raw coder outputs,"Coder A and Coder B structured outputs, plus test-retest runs","G3, G4",07_Coding_Raw,Complete; not published (full quotes),,2026-10-19
+O10,Agreement report,"Statistics with confidence intervals, by field and phase","G3, G4",08_Agreement_and_Adjudication,Main agreement summary (G4),outputs/08_Agreement_and_Adjudication/O10_main_agreement_summary.md,2026-10-19
+O11,Adjudication and audit log,"Disagreements, suggestions, decisions, error types, audit results",G4,08_Agreement_and_Adjudication,Complete (125 items decided; audit 92 of 92); not published (full quotes),,2026-10-19
+O12,Final coded dataset,"Adjudicated codes with the original codes kept, plus a data dictionary",G4,09_Final_Dataset,v1.0 published (G4),outputs/09_Final_Dataset/O12_data_dictionary_v1.0.md,2026-10-19
+O13,Claims register,Headline claims and their verification status,G4,09_Final_Dataset,v1.0 published (G4); all 167 rows decided,outputs/09_Final_Dataset/O13_claims_register_note_v1.1.md,2026-10-19
+O14,Status tracing table,"Current status, signals and confidence for each case",G4,09_Final_Dataset,v1.0 published (G4); Michael's review closed,outputs/09_Final_Dataset/O14_status_tracing_note_v1.0.md,2026-10-19
+O15,Visual pack,"Static images V1–V3 and V5 (V4 and V6 optional), with data tables",G4,10_Analysis_and_Visuals,V1–V3 and V5 published (G4),visuals/index.md,2026-10-19
+O16,Pilot findings memo,"What the cases show, method fixes, scale recommendation.",G5,11_Reports,Not started; method lessons log published,outputs/11_Reports/O16_method_lessons_log.md,2026-10-19
 O17,Methods note,"ROSES-style checklist, flow diagram, AI-use disclosure",G5,11_Reports,Not started,,
-O18,Deviations and gate log,"Every departure from the design, and every gate decision",Ongoing,00_Admin_and_Approvals,Ongoing,gates/index.md,2026-10-16
+O18,Deviations and gate log,"Every departure from the design, and every gate decision",Ongoing,00_Admin_and_Approvals,Ongoing; Gate 4 passed,gates/index.md,2026-10-19
 O19,Full-scope protocol (if approved),Annex A developed into a full protocol,After G5,12_Full_Scope,Not started,,

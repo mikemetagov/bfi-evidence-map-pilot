@@ -1,0 +1,31 @@
+case_id,stated_status_final,traced_status_O14,status_confidence,highest_level_final,counts_for_metric4
+FIL-01,Scaled,Unknown,,L2,No
+FIL-02,Unknown,Extended pilot,Low,L2,No
+FIL-03,Extended pilot,Extended pilot,Medium,L2,Yes
+FIL-04,Unknown,Unknown,,L1,No
+FIL-05,Unknown,Unknown,,L1,No
+GSR-01,Extended pilot,Unknown,,L2,No
+GSR-02,Pilot,Scaled,Low,L2,No
+GSR-03,Scaled,Unknown,,L2,No
+MCV-01,Pilot,Unknown,,L3,No
+MCV-02,Extended pilot,Unknown,,L3,No
+MCV-03,Pilot,Unknown,,L3,No
+MCV-05,Pilot,Unknown,,L3,No
+MCV-06,Extended pilot,Unknown,,L3,No
+MCV-11,Pilot,Unknown,,none,No
+MCV-12,Extended pilot,Unknown,,L3,No
+MCV-16,Extended pilot,Discontinued,High,L2,Yes
+MCV-18,Pilot,Unknown,,L1,No
+MCV-21,Pilot,Unknown,,none,No
+MCV-24,Pilot,Unknown,,L2,No
+UNI-03,Extended pilot,Scaled,Low,L2,No
+UNI-04,Extended pilot,Unknown,,L2,No
+UNI-07,Unknown,Unknown,,L1,No
+UNI-08,Unknown,Scaled,Low,L2,No
+UNI-10,Scaled,Scaled,Medium,L2,Yes
+UNI-12,Scaled,Unknown,,L2,No
+UNI-13,Scaled,Unknown,,L2,No
+UNI-14,Unknown,Unknown,,L2,No
+UNI-15,Scaled,Unknown,,L2,No
+UNI-16,Pilot,Unknown,,L2,No
+UNI-18,Unknown,Unknown,,none,No

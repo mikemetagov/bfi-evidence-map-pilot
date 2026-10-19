@@ -5,8 +5,8 @@ hide:
 
 # Blockchain for Impact Funding Evidence Map – Pilot
 
-!!! success "Protocol approved"
-    GSR approved the pilot design (v0.1) at Gate 0. This public site holds the protocol and shows the project's file structure. Pilot working outputs and the pilot findings memo are held in a restricted workspace and are not published here. The evidence map will appear here once GSR approves the release of coded data.
+!!! success "Gate 4 passed: pilot dataset published"
+    GSR approved the pilot design (v0.1) at Gate 0 and approved public release of the evaluation materials. On 19 October 2026 the Gate 4 note was approved and the pilot dataset, claims register, status tracing and visuals were published here. Partners approved publication and will fact-check their own cases while the full-scale study is prepared. Evidence packets and status signals hold third-party text, so only source lists, URLs, hashes and quotes of 25 words or fewer are published. The pilot meets 2 of 4 threshold metrics; see the [Gate 4 note](outputs/11_Reports/G4_gate_note_v0.1.md).
 
 A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ventures, the UNICEF Venture Fund, the Filecoin Foundation and GSR Blockchain for Good grantees. It tests whether a full map of 800+ cases is feasible and worth funding.
 
@@ -24,7 +24,7 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 
     ---
 
-    The file structure for outputs O1 to O19, in 13 sections. Only the protocol is public.
+    Outputs O1 to O19, in 13 sections: the protocol, sample, collection logs, codebook, agreement reports, final dataset, claims register, status tracing, visuals and the Gate 4 note.
 
     [See all outputs](outputs/index.md)
 
@@ -40,7 +40,7 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 
     ---
 
-    Published after GSR approves release.
+    The visual pack (V1–V3, V5) and the coded data.
 
     [Visuals](visuals/index.md) · [Data](data/index.md)
 
@@ -51,10 +51,10 @@ A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ven
 | Gate | Timing | Approver | Status |
 |---|---|---|---|
 | G0 Design | Before Week 1 | GSR, with Michael | Approved (v0.1) |
-| G1 Sample and definitions | End of Week 1 | Michael; GSR confirms definitions | Not started |
-| G2 Codebook v1.0, prompts, models | Early Week 2 | Michael | Not started |
-| G3 Calibration | Mid Week 2 | Michael | Not started |
-| G4 Dataset and draft map | End of Week 3 | Michael | Not started |
+| G1 Sample and definitions | End of Week 1 | Michael; GSR confirms definitions | Passed (2026-10-16) |
+| G2 Codebook v1.0, prompts, models | Early Week 2 | Michael | Passed (2026-10-16) |
+| G3 Calibration | Mid Week 2 | Michael | Passed with fix plan (2026-10-17) |
+| G4 Dataset and draft map | End of Week 3 | Michael | Passed; dataset published (2026-10-19). 2 of 4 threshold metrics met |
 | G5 Findings and decision | End of Week 4 | GSR and Metagov | Not started |
 
 Details and decisions are recorded in [Gates and deviations](gates/index.md).

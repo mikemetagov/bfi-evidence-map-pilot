@@ -1,0 +1,84 @@
+{
+ "cases": 30,
+ "traced_status": {
+  "Unknown": 23,
+  "Extended pilot": 2,
+  "Scaled": 4,
+  "Discontinued": 1
+ },
+ "confidence": {
+  "blank (Unknown)": 23,
+  "Low": 4,
+  "Medium": 2,
+  "High": 1
+ },
+ "rule": {
+  "T4": 6,
+  "T2": 6,
+  "T3": 12,
+  "T5": 5,
+  "T1": 1
+ },
+ "metric4_medium_or_high": 3,
+ "metric4_share": 0.1,
+ "metric4_target": 0.75,
+ "metric4_non_calibration": "2/24",
+ "matches_stated": {
+  "No": 23,
+  "Yes": 7
+ },
+ "stated_to_traced": {
+  "Scaled -> Unknown": 5,
+  "Unknown -> Extended pilot": 1,
+  "Extended pilot -> Extended pilot": 1,
+  "Unknown -> Unknown": 5,
+  "Extended pilot -> Unknown": 5,
+  "Pilot -> Scaled": 1,
+  "Pilot -> Unknown": 8,
+  "Extended pilot -> Discontinued": 1,
+  "Extended pilot -> Scaled": 1,
+  "Unknown -> Scaled": 1,
+  "Scaled -> Scaled": 1
+ },
+ "cases_with_no_signal": [
+  "MCV-01",
+  "MCV-03",
+  "MCV-12",
+  "MCV-24",
+  "UNI-12"
+ ],
+ "michael_review": {
+  "Confirmed": 26,
+  "Changed": 4
+ },
+ "review_check_first": [
+  "FIL-02",
+  "FIL-03",
+  "FIL-04",
+  "FIL-05",
+  "GSR-01",
+  "GSR-02",
+  "MCV-02",
+  "MCV-06",
+  "MCV-11",
+  "MCV-21",
+  "UNI-03",
+  "UNI-04",
+  "UNI-08",
+  "UNI-14",
+  "UNI-15",
+  "UNI-16",
+  "UNI-18"
+ ],
+ "input_sha256": {
+  "scripts/phaseD/o14_codes_v1.0.json": "4c894c1e92b00d04a75f429cbbe5e9ecd2fd2c7ac37cf6d895b14bd1f09e8e7e",
+  "scripts/phaseD/o14_michael_decisions_v1.0.json": "20cd973150b7c3aacaf344ade4c17da9f4763b5f5a52290eeb2ec8dc08980ce9",
+  "docs/outputs/03_Collection/main/O5_document_inventory.csv": "a7e31a792f7a078a7129db38d8983a473ba9fe71db4456b396ccb4159eb2634e",
+  "docs/outputs/03_Collection/calibration/O5_document_inventory_calibration.csv": "ca9800521f659d470a111b27186b92aa025fbe4cfdcfa8e3424512ba20c287f7"
+ },
+ "output_sha256": {
+  "docs/outputs/09_Final_Dataset/O14_status_tracing_v1.0.csv": "de90ce64885b74658328f8ab616ad7a9b8b5ec982fef4b1aa561d139ca63e9fb",
+  "docs/outputs/09_Final_Dataset/O12_cases_v1.0.csv": "78c439d5929a0188a28b8b3d0c760f565a6f706a58bd0bd9b5534f9c4f07c745",
+  "docs/outputs/09_Final_Dataset/site_staging/cases.csv": "4e7ce7e3db368c4a2a6855f0a3519c659328bc4b1e05fd6f674a376862f1159f"
+ }
+}

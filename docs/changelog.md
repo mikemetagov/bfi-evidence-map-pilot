@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-19 – Gate 4 passed; pilot dataset published
+- Gate 4 note approved by Michael: 2 of 4 threshold metrics met (agreement κ 0.64, not met; public-source coverage 30 of 30, met; taxonomy fit 2 of 30, met; status confirmed 3 of 30, not met). Recommendation: codebook v1.3 and a fresh calibration round before scaling.
+- Published with GSR's approval of public release (partners approved publication and will fact-check their own cases during full-scale preparation): O3 sample and plan; O5 search logs and document inventories; O10 main agreement summary and G3 calibration report; O12 final dataset, data dictionary and non-core differences; O13 claims register and notes; O14 status tracing; O15 visuals V1–V3 and V5; O16 method lessons log; the Gate 4 note. The map now shows the 30 pilot cases.
+- Quotes are cut to 25 words, with SHA-256 hashes of the full quote. Evidence packets, status-signal texts, raw coder outputs and adjudication and audit sheets are not published.
+- Gate log: Gate 4 row; deviations 5–8 added.
+
 ## 2026-10-17 – Correction: conflict-of-interest statement removed
 - An erroneous statement that the research lead had previously worked with the UNICEF Venture Fund, and the related double human-audit rate for UNICEF cases, were removed from every version of the protocol (v0.1–v0.5, Section 13). Section 13 now reads "Conflict of interest: none declared". The human audit rate is the same for every portfolio. No audit had been drawn, so no pilot results are affected. The declared-interest flag for cases where GSR is itself the donor is unchanged.
 

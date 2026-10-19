@@ -1,0 +1,27 @@
+case_id,step,query,timestamp_utc,result_count
+FIL-01,1,Filecoin Foundation GSR Foundation Starling Lab grant,2026-10-17T12:58:09.543Z,10
+FIL-01,2,Starling Lab Capture Store Verify,2026-10-17T12:58:09.543Z,10
+FIL-01,3,Starling Lab authenticated evidence case study,2026-10-17T12:58:09.543Z,10
+FIL-01,3,Starling Lab case study 78 Days authenticated archive,2026-10-17T12:58:58.889Z,10
+FIL-01,4,Starling Lab for Data Integrity 2026,2026-10-17T12:58:09.543Z,10
+GSR-01,1,GSR Foundation Relay Funder Akashic,2026-10-17T12:58:09.543Z,10
+GSR-01,2,Relay Funder humanitarian aid displaced communities,2026-10-17T12:58:09.543Z,10
+GSR-01,3,Relay Funder Kenya Uganda refugees blockchain pilot,2026-10-17T12:58:09.543Z,10
+GSR-01,4,Relay Funder 2026,2026-10-17T12:58:09.543Z,10
+MCV-01,1,Mercy Corps Ventures Celo digital microwork pilot endline,2026-10-17T12:58:09.541Z,10
+MCV-01,2,Celo Kenya youth microwork stablecoin payments,2026-10-17T12:58:09.542Z,10
+MCV-01,3,digital microwork stablecoin payments Kenya study,2026-10-17T12:58:09.542Z,10
+MCV-01,4,Celo microwork Kenya platform 2026,2026-10-17T12:58:09.542Z,10
+MCV-02,1,Mercy Corps Ventures smart contract weather index insurance endline,2026-10-17T12:58:09.544Z,10
+MCV-02,1,Pilot Insights smart contract insurance Kenya Mercy Corps Ventures payout,2026-10-17T12:58:58.673Z,10
+MCV-02,2,Etherisc ACRE Africa Kenya crop insurance blockchain,2026-10-17T12:58:09.544Z,10
+MCV-02,3,ACRE Africa Etherisc parametric insurance evaluation,2026-10-17T12:58:09.544Z,10
+MCV-02,4,Etherisc ACRE Africa 2025,2026-10-17T12:58:09.544Z,10
+MCV-16,1,Mercy Corps Ventures Haraka Grameen pilot insights,2026-10-17T12:58:09.544Z,10
+MCV-16,2,Haraka onchain microfinance VSLA Ghana,2026-10-17T12:58:09.544Z,10
+MCV-16,3,Grameen Foundation Haraka VSLA results,2026-10-17T12:58:09.544Z,10
+MCV-16,4,Haraka fintech Ghana 2026,2026-10-17T12:58:09.544Z,10
+UNI-15,1,UNICEF Venture Fund Convexity CHATS,2026-10-17T12:58:09.543Z,10
+UNI-15,2,Convexity CHATS cash and voucher transfer,2026-10-17T12:58:09.543Z,10
+UNI-15,3,CHATS blockchain humanitarian cash Nigeria evaluation,2026-10-17T12:58:09.543Z,10
+UNI-15,4,Convexity CHATS 2026,2026-10-17T12:58:09.543Z,10

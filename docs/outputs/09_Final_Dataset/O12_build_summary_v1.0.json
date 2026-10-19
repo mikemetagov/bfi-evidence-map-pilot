@@ -1,0 +1,94 @@
+{
+ "cases": 30,
+ "calibration_cases": 6,
+ "outcome_rows": 180,
+ "objective_rows": 86,
+ "adjudication_rows_used": 125,
+ "outcome_basis": {
+  "Adjudicated disagreement": 52,
+  "Agreed": 128
+ },
+ "outcome_final_levels": {
+  "L1": 60,
+  "L2": 44,
+  "absent": 67,
+  "L3": 9
+ },
+ "outcome_display_text_from": {
+  "A": 108,
+  "B": 5,
+  "none": 67
+ },
+ "domains_present_any_final": 113,
+ "domains_present_L2_final": 53,
+ "claim_only_cells": 60,
+ "objective_pair_status": {
+  "Confirmed pair (primary)": 56,
+  "In a split group, not the primary pair": 11,
+  "Unmatched (one coder only)": 19
+ },
+ "achievement_final_on_pairs": {
+  "Unclear": 24,
+  "Partly achieved": 18,
+  "Achieved": 14
+ },
+ "achievement_basis_on_pairs": {
+  "Adjudicated disagreement": 27,
+  "Agreed": 29
+ },
+ "case_core_basis": {
+  "use_case_domain": {
+   "Agreed": 29,
+   "Adjudicated disagreement": 1
+  },
+  "stated_deployment_status": {
+   "Reviewed agreed code": 24,
+   "Adjudicated disagreement": 6
+  },
+  "blockchain_added_value": {
+   "Agreed": 15,
+   "Reviewed agreed code": 12,
+   "Adjudicated disagreement": 3
+  }
+ },
+ "case_core_final": {
+  "use_case_domain": {
+   "3": 5,
+   "5": 2,
+   "6": 4,
+   "1": 8,
+   "2": 9,
+   "none": 2
+  },
+  "stated_deployment_status": {
+   "Scaled": 6,
+   "Unknown": 7,
+   "Extended pilot": 8,
+   "Pilot": 9
+  },
+  "blockchain_added_value": {
+   "1": 16,
+   "2": 14
+  }
+ },
+ "noncore_fields_where_coders_differ": {
+  "country": 5,
+  "region": 4,
+  "year_launched": 9,
+  "blockchain_functions": 12,
+  "blockchain_component_status": 0,
+  "implementation_model": 7,
+  "funding_model": 16,
+  "population_groups": 23,
+  "reach": 22
+ },
+ "site_staging_coding_rows": 113,
+ "noncore_difference_rows": 98,
+ "noncore_difference_rows_shown_on_site": 37,
+ "inputs_sha256": {
+  "docs/outputs/08_Agreement_and_Adjudication/O11_adjudication_batch_v1.csv": "5a7d849690e9ceff1f98d5c724e186c0de5c47e0304f153d4b38f4889ceace68",
+  "docs/outputs/08_Agreement_and_Adjudication/O11_objective_matches_proposed_v1.csv": "21edc8aa954f5df6fda9157f7f97315d6df9bbd0736c99e32302985f97972f41",
+  "docs/outputs/08_Agreement_and_Adjudication/O11_objective_matches_luna_v1.csv": "e2fe244a9486068fe087e65b6ca880fa943e980638394f17244e646613044791",
+  "docs/outputs/02_Sampling/O3_actual_sample_v1.0.csv": "352d40df66c2d3f815ef6c7126bc02406de6e63becef5e5f4ae9aad6972c7f47"
+ }
+}

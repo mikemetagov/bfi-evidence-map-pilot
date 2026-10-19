@@ -2,7 +2,7 @@
 
 | ID | Output | Contents | Gate | Status | File |
 |---|---|---|---|---|---|
-| O9 | Raw coder outputs | Coder A and Coder B structured outputs, plus test-retest runs | G3, G4 | In progress: calibration rounds 1 and 2 (restricted) | Not yet added |
+| O9 | Raw coder outputs | Coder A and Coder B structured outputs, plus test-retest runs | G3, G4 | Complete; not published (full quotes) | Not yet added |
 
 ## Files in this section
 

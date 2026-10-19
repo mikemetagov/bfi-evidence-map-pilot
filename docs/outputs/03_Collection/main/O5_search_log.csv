@@ -1,0 +1,81 @@
+case_id,step,query,timestamp_utc,result_count,type
+FIL-02,1,EASIER Data Initiative Filecoin geospatial data,2026-10-17T14:26:16.144Z,10,search
+FIL-02,3,EASIER Data Initiative Arizona State University NASA Landsat IPFS,2026-10-17T14:26:33.952Z,10,search
+FIL-02,4,EASIER Data Initiative 2026 update,2026-10-17T14:26:47.895Z,10,search
+FIL-03,1,TRANSFER Data Trust artists Filecoin,2026-10-17T14:26:16.227Z,10,search
+FIL-03,3,TRANSFER Data Trust Kelani Nichole decentralized archive,2026-10-17T14:26:33.799Z,10,search
+FIL-03,4,TRANSFER Data Trust 2026,2026-10-17T14:26:47.735Z,10,search
+FIL-03,5,Local reference-list check: Gray Area metadata report,2026-10-17T15:55:00Z,0,step 5 local check (no search); no case documents found
+FIL-04,1,Akashic refugee digital memory archive,2026-10-17T14:26:16.294Z,10,search
+FIL-04,3,Funding the Commons Akashic archive refugees Filecoin,2026-10-17T14:26:33.902Z,10,search
+FIL-04,4,Akashic archive Funding the Commons 2026,2026-10-17T14:26:47.804Z,10,search
+FIL-05,1,Oceanic Whispers data trust CROSSLUCID,2026-10-17T14:26:16.342Z,10,search
+FIL-05,3,Oceanic Whispers Serpentine RadicalxChange marine data,2026-10-17T14:26:35.053Z,10,search
+FIL-05,4,Oceanic Whispers CROSSLUCID 2026,2026-10-17T14:26:47.917Z,10,search
+GSR-02,1,Stablecoin for Impact Launchnodes Giga,2026-10-17T14:26:17.252Z,10,search
+GSR-02,3,Launchnodes Giga stablecoin yield school connectivity results,2026-10-17T14:26:33.922Z,10,search
+GSR-02,4,Stablecoin for Impact Launchnodes 2026,2026-10-17T14:26:48.497Z,10,search
+GSR-03,1,Lido Impact Staking GSR Foundation,2026-10-17T14:26:16.327Z,10,search
+GSR-03,3,Lido Impact Staking one year update Mercy Corps UNICEF,2026-10-17T14:26:33.974Z,10,search
+GSR-03,4,Lido Impact Staking 2026,2026-10-17T14:26:47.926Z,10,search
+MCV (all main cases),1,https://www.mercycorpsventures.com/blog/category/Crypto+Lab,2026-10-17T15:40:00Z,n.a.,portfolio index URL (not counted toward cap)
+MCV (all main cases),1,https://www.prosperglobalventures.com/blog/category/Humanitarian+Lab,2026-10-17T15:40:00Z,n.a.,portfolio index URL (not counted toward cap)
+MCV (all main cases),1,https://www.prosperglobalventures.com/fintech-lab,2026-10-17T15:40:00Z,n.a.,portfolio index URL (not counted toward cap)
+MCV-03,1,Mercy Corps Ventures DeFi merchant digitization Rwanda pilot,2026-10-17T14:26:16.374Z,10,search
+MCV-03,1,Mercy Corps Ventures pilot insights merchant Rwanda Celo,2026-10-17T14:26:33.932Z,10,search
+MCV-03,4,Mercy Corps Ventures Rwanda merchant DeFi pilot discontinued,2026-10-17T14:26:49.258Z,10,search
+MCV-05,1,Mercy Corps Ventures DeFi salary advance smallholder farmers Kenya,2026-10-17T14:26:16.400Z,10,search
+MCV-05,1,Mercy Corps Ventures pilot insights DeFi credit smallholder farmers,2026-10-17T14:26:33.985Z,10,search
+MCV-05,4,Mercy Corps Ventures salary advance Celo pilot ended,2026-10-17T14:26:47.946Z,10,search
+MCV-06,1,Mercy Corps Ventures stablecoin buy now pay later Kenya,2026-10-17T14:26:16.388Z,10,search
+MCV-06,1,Mercy Corps Ventures pilot insights buy now pay later street vendors,2026-10-17T14:26:34.001Z,10,search
+MCV-06,4,Symplifi buy now pay later Kenya 2025,2026-10-17T14:26:48.478Z,10,search
+MCV-11,1,Mercy Corps Ventures Forest Carbon Indonesia pilot,2026-10-17T14:26:17.292Z,10,search
+MCV-11,1,Mercy Corps Ventures carbon credits blockchain Indonesia pilot insights,2026-10-17T14:26:34.644Z,10,search
+MCV-11,4,Forest Carbon Indonesia Mercy Corps 2026 update blockchain,2026-10-17T14:26:48.631Z,10,search
+MCV-11,5,Local reference-list check: BitKE Crypto for Good Fund III PDF,2026-10-17T15:55:00Z,0,step 5 local check (no search); no case documents found
+MCV-12,1,Mercy Corps blockchain anticipatory cash transfers pastoralists Kenya,2026-10-17T14:26:16.409Z,10,search
+MCV-12,3,Mercy Corps anticipatory cash transfers pastoralists blockchain evaluation,2026-10-17T14:26:34.013Z,10,search
+MCV-12,4,Mercy Corps anticipatory cash transfers Kenya stablecoin scale-up 2026,2026-10-17T14:26:47.961Z,10,search
+MCV-12,5,Local reference-list check: Crypto in Mercy Corps PDF,2026-10-17T15:55:00Z,0,step 5 local check (no search); no case documents found
+MCV-18,1,Mercy Corps anticipatory cash transfers flood Nepal pilot,2026-10-17T14:26:16.440Z,10,search
+MCV-18,3,Mercy Corps Ventures Nepal anticipatory cash stablecoin flood,2026-10-17T14:26:35.460Z,10,search
+MCV-18,4,Rumsan anticipatory action Nepal 2026,2026-10-17T14:26:49.081Z,10,search
+MCV-21,1,Anzi grain tokenization Argentina Mercy Corps Ventures,2026-10-17T14:26:16.449Z,10,search
+MCV-21,3,Anzi Finance tokenized grain credit pilot results,2026-10-17T14:26:34.042Z,10,search
+MCV-21,4,Anzi Finance 2026,2026-10-17T14:26:47.971Z,10,search
+MCV-24,1,Aleo Mercy Corps USDCx humanitarian aid Colombia,2026-10-17T14:26:16.459Z,10,search
+MCV-24,3,Humanity Link Aleo Colombia pilot results,2026-10-17T14:26:34.117Z,10,search
+MCV-24,4,Humanity Link Aleo 2026,2026-10-17T14:26:47.984Z,10,search
+UNI-03,1,OS City blockchain UNICEF Innovation Fund Mexico,2026-10-17T14:26:16.483Z,10,search
+UNI-03,3,OS City Mexico blockchain credentials UNICEF pilot,2026-10-17T14:26:34.078Z,10,search
+UNI-03,4,OS City GovTech 2026,2026-10-17T14:26:48.030Z,10,search
+UNI-04,1,W3 Engineers TeleMesh UNICEF,2026-10-17T14:26:16.547Z,10,search
+UNI-04,3,TeleMesh mesh network Rohingya Bangladesh pilot,2026-10-17T14:26:34.099Z,10,search
+UNI-04,4,TeleMesh W3 Engineers app status,2026-10-17T14:26:48.927Z,10,search
+UNI-07,1,BX Smart Labs UNICEF savings circles,2026-10-17T14:26:16.524Z,10,search
+UNI-07,3,Bloinx savings circles Mexico pilot users,2026-10-17T14:26:35.022Z,10,search
+UNI-07,4,Bloinx BX Smart Labs 2025,2026-10-17T14:26:48.100Z,10,search
+UNI-08,1,Kotani Pay UNICEF Innovation Fund,2026-10-17T14:26:16.503Z,10,search
+UNI-08,3,Kotani Pay UNICEF pilot results Kenya,2026-10-17T14:26:34.126Z,10,search
+UNI-08,4,Kotani Pay 2026,2026-10-17T14:26:48.137Z,10,search
+UNI-10,1,Rahat Rumsan UNICEF cash voucher assistance,2026-10-17T14:26:16.514Z,10,search
+UNI-10,3,Evaluation of Rahat UNICEF Nepal,2026-10-17T14:26:34.164Z,10,search
+UNI-10,4,Rahat Rumsan 2026,2026-10-17T14:26:48.864Z,10,search
+UNI-10,5,Local reference-list check: UNICEF evaluation of Rahat (full report),2026-10-17T15:55:00Z,0,step 5 local check (no search); no case documents found
+UNI-12,1,Xcapit UNICEF Innovation Fund,2026-10-17T14:26:16.556Z,10,search
+UNI-12,3,Xcapit UNICEF Innovation Fund financial education app,2026-10-17T14:26:35.392Z,10,search
+UNI-12,4,Xcapit wallet UNICEF 2025,2026-10-17T14:26:48.186Z,10,search
+UNI-13,1,GovBlocks UNICEF Innovation Fund,2026-10-17T14:26:16.535Z,10,search
+UNI-13,3,GovBlocks Somish UNICEF pilot results,2026-10-17T14:26:35.562Z,10,search
+UNI-13,4,GovBlocks Somish 2025,2026-10-17T14:26:48.282Z,10,search
+UNI-14,1,Grassroots Economics UNICEF Innovation Fund,2026-10-17T14:26:16.619Z,10,search
+UNI-14,3,Grassroots Economics Sarafu community currency evaluation,2026-10-17T14:26:35.146Z,10,search
+UNI-14,4,Grassroots Economics Sarafu 2026,2026-10-17T14:26:48.356Z,10,search
+UNI-14,5,Local reference-list check: arXiv 2207.08941,2026-10-17T15:55:00Z,0,step 5 local check (no search); no case documents found
+UNI-16,1,WiiQare UNICEF Innovation Fund,2026-10-17T14:26:16.610Z,10,search
+UNI-16,3,WiiQare health voucher DRC pilot results,2026-10-17T14:26:34.266Z,10,search
+UNI-16,4,WiiQare 2026,2026-10-17T14:26:48.338Z,10,search
+UNI-18,1,Investtools UNICEF blockchain Brazil,2026-10-17T14:26:17.277Z,10,search
+UNI-18,3,Investtools UNICEF Venture Fund blockchain,2026-10-17T14:26:34.278Z,10,search
+UNI-18,4,Investtools blockchain token 2025,2026-10-17T14:26:49.727Z,10,search
