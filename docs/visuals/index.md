@@ -6,7 +6,7 @@ Four charts that summarise the evidence for the 30 pilot projects. Each chart an
 
 - **Most evidence is claims or activity data.** Only 9 of 113 project-outcome records report outcomes for participants, and none of those has a comparison group.
 - **We could confirm what happened after funding for only a few projects.** For 23 of 30, public sources did not show whether the project is still running. That does not mean it failed.
-- **Reported results were rarely contradicted, but most could not be checked.** Of 167 headline claims, 53 matched another source, none were contradicted and 114 could not be checked against any other source.
+- **No reported result was contradicted, but most could not be checked.** Of 167 headline claims, 53 matched another source, none were contradicted and 114 could not be checked against any other source.
 
 ## The evidence spectrum
 
