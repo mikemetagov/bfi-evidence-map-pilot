@@ -6,6 +6,7 @@
 - Map and charts now share one colour scale, light (weaker) to dark (stronger). In both, "gap" marks a cell with no evidence.
 - Visuals reissued as v1.1: same data, plain labels, question titles. The v1.0 images are kept.
 - "Ask the map" v0.5 answers with the plain names, gives the protocol code in brackets, and understands either form. It passed the frozen test set again (35 of 35).
+- "Ask the map" is now also on the [map page](map/index.md#ask-the-map), below the interactive map.
 - Removed the statement that partners will fact-check their own cases during full-study preparation. Partner review is now covered in the partner memos.
 
 ## 2026-10-19 – "Ask the map" launched (code-only)

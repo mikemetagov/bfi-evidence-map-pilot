@@ -1,5 +1,5 @@
 /* "Ask the map", code-only version (option 4, phase 1).
-   Runs the tested answering code (assistant/ask.py v0.4, unchanged) in the browser with Pyodide.
+   Runs the tested answering code (assistant/ask.py v0.5) in the browser with Pyodide.
    No model, no server, nothing logged. Files are in docs/assistant/files/. */
 (function () {
   const PYODIDE = "https://cdn.jsdelivr.net/pyodide/v0.27.7/full/";

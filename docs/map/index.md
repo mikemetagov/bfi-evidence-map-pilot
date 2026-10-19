@@ -34,11 +34,18 @@ The spectrum describes the type of evidence found in public sources. It does not
 2. **Use the filters** to look at one portfolio, region or status.
 3. A project appears once for each outcome it reports, so the numbers across a row can add up to more than the number of projects.
 4. A cell marked "gap" means no evidence was found.
+5. **Ask a question** in plain language with the [assistant below the map](#ask-the-map).
 
 !!! info "Pilot data, published 19 October 2026"
     This is a pilot of 30 projects chosen to cover different uses. It is not a representative sample of all funded projects. See also the [visuals](../visuals/index.md), or [ask the map](../assistant/index.md) a question in plain language.
 
 <div id="egm" class="egm" data-src="map-data.json"></div>
+
+## Ask the map
+
+Ask a question about the 30 pilot projects in plain language, for example "Which payment projects have outcome evidence?" or "Tell me about UNI-07". Answers are built by code from the map data, and every answer cites its sources. The first question loads a Python runtime (about 10 MB), which takes a few seconds. Your questions are not sent to or stored by us. The assistant also has [its own page](../assistant/index.md), with notes on what it will not do.
+
+<div id="atm" class="atm" data-base="../assistant/files/"></div>
 
 ??? note "Technical notes"
     **Filter gaps.** Where the two coders differed on a minor field, it was left blank for the pilot and will be fixed in codebook v1.3. 21 of 30 cases have at least one blank (37 in all): country 5, region 4, year launched 9, blockchain functions 12, implementation model 7. Filtering on one of these fields leaves those cases out. The coders' values are in the [non-core differences table](../outputs/09_Final_Dataset/O12_noncore_differences_v1.0.csv).
