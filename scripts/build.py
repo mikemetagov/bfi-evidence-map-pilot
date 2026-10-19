@@ -67,6 +67,7 @@ for r in sorted(cb_rows, key=lambda r: (r["dimension"], int(r["order"] or 0))):
                                                     "definition": r["definition"]})
 allowed = {d: {v["value"] for v in vals} for d, vals in codebook.items()}
 label = {(d, v["value"]): v["label"] for d, vals in codebook.items() for v in vals}
+definition = {(d, v["value"]): v["definition"] for d, vals in codebook.items() for v in vals}
 
 # ---- checks ----------------------------------------------------------------
 ids = [c["case_id"] for c in cases]
@@ -173,6 +174,14 @@ for name in ["cases.csv", "coding.csv", "codebook.csv", "outputs_register.csv"]:
     shutil.copy(DATA / name, dl / name)
 
 # EPPI-Mapper JSON: one reference per use case x outcome domain
+PLAIN = {"L1": "Claims only", "L2": "Operational data", "L3": "Outcomes, no comparison",
+         "L4": "Outcomes with comparison", "L5": "Proven impact"}
+PLAIN_DEF = {
+    "L1": "The sources describe what the project does and why it should work, but give no data on results.",
+    "L2": "The sources give data on activity, such as payments made or users reached, but not on whether people are better off.",
+    "L3": "The sources report changes for participants, such as income or savings, with nothing to compare against.",
+    "L4": "The sources compare participants with a similar group or a non-blockchain alternative.",
+    "L5": "A randomised trial or strong quasi-experimental study estimates the project's impact."}
 dims = [("evidence_level", "Evidence level", "record"), ("outcome_domain", "Outcome domain", "record"),
         ("use_case_domain", "Use-case domain", "case"), ("primary_portfolio", "Portfolio", "case"),
         ("deployment_status_traced", "Traced status", "case"), ("blockchain_added_value", "Blockchain added value", "case"),
@@ -186,10 +195,15 @@ for i, (field, title, _) in enumerate(dims, start=1):
         aid = i * 1000 + len(kids) + 1
         attr[(field, v)] = aid
         name = label.get((dim, v), v)
+        desc = definition.get((dim, v), "")
         if field == "evidence_level":
-            name = f"{v} {name}"
-        kids.append({"AttributeId": aid, "AttributeName": name, "AttributeDescription": "",
+            # Plain names as on the site's evidence spectrum (19 Oct 2026); the code L1-L5 stays in the description.
+            name = f"{int(v[1:])}. {PLAIN[v]}"
+            desc = f"{PLAIN_DEF[v]} Protocol code {v}."
+        kids.append({"AttributeId": aid, "AttributeName": name, "AttributeDescription": desc,
                      "AttributeType": "Selectable (show checkbox)"})
+    if field == "evidence_level":
+        title = "Strength of evidence"
     sets.append({"AttributeId": i, "AttributeName": title, "AttributeDescription": "",
                  "AttributeType": "Not selectable (no checkbox)", "Attributes": {"AttributesList": kids}})
 BLANK = ["ParentTitle", "DateCreated", "CreatedBy", "DateEdited", "EditedBy", "Year", "Month", "StandardNumber", "City",
@@ -204,7 +218,7 @@ for n, r in enumerate(coding, start=1):
                           for f, _, _ in dims if merged.get(f) and (f, merged[f]) in attr],
                 "Outcomes": [], "ItemId": 100000 + n, "ShortTitle": c["case_id"],
                 "Title": f"{c['name']} [{label.get(('outcome_domain', r['outcome_domain']), r['outcome_domain'])}]",
-                "URL": c["case_url"], "Abstract": f"{c['summary']} Result: {r['key_result']}",
+                "URL": c["case_url"], "Abstract": f"{c['summary'].rstrip(' .')}. Result: {r['key_result']}",
                 "Institution": label.get(("primary_portfolio", c["primary_portfolio"]), ""),
                 "Country": c["country"], "Year": c["year_launched"], "Keywords": c["lineage_id"]})
     refs.append(ref)

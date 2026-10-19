@@ -25,6 +25,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Check data and build generated files
         run: python scripts/build.py
+      - name: Build EPPI-Mapper map from the generated data
+        run: python scripts/build_eppi_map.py
       - name: Build site
         run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4

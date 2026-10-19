@@ -1,0 +1,38 @@
+{
+ "note": "EPPI-Mapper map setup for the pilot. Read by scripts/build_eppi_map.py. Colours match the site's evidence spectrum (docs/assets/css/site.css, --g1 to --g5, light theme).",
+ "title": "Blockchain for Impact Funding Evidence Map: pilot, 30 cases (19 October 2026)",
+ "columns": "Outcome domain",
+ "rows": "Use-case domain",
+ "segments": "Strength of evidence",
+ "segment_colours": [
+  "#d9d9d9",
+  "#9ecae1",
+  "#3182bd",
+  "#08519c",
+  "#08306b"
+ ],
+ "segment_is_light": [
+  true,
+  true,
+  false,
+  false,
+  false
+ ],
+ "filters": [
+  "Strength of evidence",
+  "Portfolio",
+  "Traced status",
+  "Blockchain added value",
+  "Region"
+ ],
+ "header_colours": [
+  "#1f3a4d",
+  "#1f3a4d",
+  "#1f3a4d",
+  "#1f3a4d"
+ ],
+ "header_font_colour": "#FFFFFF",
+ "data_colour": "#3182bd",
+ "show_record_count": true,
+ "show_descriptions": true
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-19 – EPPI-Mapper map published
+- The [EPPI-Mapper version](map/eppi.md) of the map is now live, built from the published pilot data (113 records, 30 cases). It uses the same plain evidence names and colours as the evidence spectrum; the codes L1 to L5 stay in the data descriptions.
+- `scripts/build_eppi_map.py` and the saved setup in `map-config/` rebuild the page on every update, so it stays in step with the interactive map.
+
 ## 2026-10-19 – Plain-language evidence spectrum
 - The map, visuals and methods pages now use plain names for the five evidence levels: claims only, operational data, outcomes without comparison, outcomes with comparison, and proven impact. The codes L1 to L5 stay in the protocol, codebook and data files; the [methods page](methods/index.md#evidence-spectrum) shows how the two match.
 - New evidence-spectrum explainer and "three things to know" on the [map](map/index.md) and [visuals](visuals/index.md) pages. Technical notes moved into collapsible boxes.
