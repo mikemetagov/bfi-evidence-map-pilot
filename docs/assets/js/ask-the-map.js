@@ -5,10 +5,10 @@
   const PYODIDE = "https://cdn.jsdelivr.net/pyodide/v0.27.7/full/";
   const EXAMPLES = [
     "How many cases have a traced status of Scaled?",
-    "Which cases have evidence at L3 or above?",
+    "Which cases have outcome evidence or stronger?",
     "Tell me about MCV-02.",
     "Is there any evidence on climate and natural assets?",
-    "What does L2 mean?",
+    "What does operational data mean?",
     "How were the cases coded?",
   ];
   const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

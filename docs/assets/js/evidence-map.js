@@ -31,7 +31,18 @@
     const { config: cfg, codebook: cb } = data;
     const vals = (dim) => (cb[dim] || []).map((v) => v.value);
     const lab = (dim, v) => ((cb[dim] || []).find((x) => x.value === v) || {}).label || v || "";
-    const def = (dim, v) => ((cb[dim] || []).find((x) => x.value === v) || {}).definition || "";
+    const def0 = (dim, v) => ((cb[dim] || []).find((x) => x.value === v) || {}).definition || "";
+    // Plain-language evidence names used on the site (20 Oct 2026). The data files and protocol keep the codes L1-L5.
+    const PLAIN = { L1: "Claims only", L2: "Operational data", L3: "Outcomes, no comparison", L4: "Outcomes with comparison", L5: "Proven impact" };
+    const PLAIN_DEF = {
+      L1: "The sources describe what the project does and why it should work, but give no data on results.",
+      L2: "The sources give data on activity, such as payments made or users reached, but not on whether people are better off.",
+      L3: "The sources report changes for participants, such as income or savings, with nothing to compare against.",
+      L4: "The sources compare participants with a similar group or a non-blockchain alternative.",
+      L5: "A randomised trial or strong quasi-experimental study estimates the project's impact." };
+    const glab = (g) => PLAIN[g] || lab(cfg.grade.dim, g);
+    const def = (dim, v) => (dim === cfg.grade.dim && PLAIN_DEF[v]) || def0(dim, v);
+    const gradeTitle = "Strength of evidence";
     const caseById = Object.fromEntries(data.cases.map((c) => [c.case_id, c]));
     const rows = vals(cfg.row.dim), cols = vals(cfg.col.dim), grades = vals(cfg.grade.dim);
     const gIdx = Object.fromEntries(grades.map((g, i) => [g, i + 1]));
@@ -49,10 +60,10 @@
     controls.append(el("button", { type: "button", class: "egm-reset", text: "Clear filters",
       onclick: () => { controls.querySelectorAll("select").forEach((s) => (s.value = "")); for (const k in state) state[k] = ""; render(); } }));
     const legend = el("div", { class: "egm-legend", "aria-label": cfg.grade.title + " key" },
-      el("span", { class: "egm-legend-title", text: cfg.grade.title }),
+      el("span", { class: "egm-legend-title", text: gradeTitle + ", weakest to strongest:" }),
       grades.map((g) => el("span", { class: "egm-legend-item", title: def(cfg.grade.dim, g) },
-        el("span", { class: "egm-dot g" + gIdx[g] }), el("span", { text: g + " " + lab(cfg.grade.dim, g) }))),
-      el("span", { class: "egm-legend-note", text: "Bubble size = number of use cases" }));
+        el("span", { class: "egm-dot g" + gIdx[g] }), el("span", { text: glab(g) + (data.records.some((r) => r[cfg.grade.field] === g) ? "" : " (none in pilot)") }))),
+      el("span", { class: "egm-legend-note", text: "Bubble size and number = use cases. \u201cgap\u201d = no evidence found." }));
     const summary = el("p", { class: "egm-summary", "aria-live": "polite" });
     const gridWrap = el("div", { class: "egm-scroll" });
     const listWrap = el("div", { class: "egm-records" });
@@ -78,7 +89,7 @@
         el("div", { class: "egm-card-head" },
           el("div", { class: "egm-card-cell", text: lab(cfg.row.dim, cell.row) + " \u00d7 " + lab(cfg.col.dim, cell.col) }),
           el("div", { class: "egm-card-grade" }, el("span", { class: "egm-dot g" + gIdx[cell.grade] }),
-            el("span", { text: cell.grade + " \u2013 " + lab(cfg.grade.dim, cell.grade) })),
+            el("span", { text: glab(cell.grade) })),
           el("div", { class: "egm-card-count", text: plural(cell.items.length, "use case") }),
           el("button", { type: "button", class: "egm-card-close", "aria-label": "Close", text: "\u00d7",
             onclick: () => { const b = pinned; hideCard(); if (b) b.focus(); } })),
@@ -87,7 +98,7 @@
                      : el("span", { class: "egm-case-link", text: c.name || c.case_id }),
           el("div", { class: "egm-meta", text: [c.case_id, lab("primary_portfolio", c.primary_portfolio), c.country || c.region,
             c.deployment_status_traced && ("Status: " + c.deployment_status_traced + (c.status_confidence ? " (" + c.status_confidence.toLowerCase() + " confidence)" : ""))].filter(Boolean).join(" \u00b7 ") }),
-          c.blockchain_added_value !== "" ? el("div", { class: "egm-meta", text: "Blockchain added value: " + c.blockchain_added_value + " " + lab("blockchain_added_value", c.blockchain_added_value) }) : null,
+          c.blockchain_added_value !== "" ? el("div", { class: "egm-meta", text: "Blockchain added value: " + lab("blockchain_added_value", c.blockchain_added_value) }) : null,
           r.key_result ? el("div", { class: "egm-rationale", text: r.key_result }) : null,
           r.quote ? el("blockquote", { class: "egm-quote", text: "\u201c" + r.quote + "\u201d" }) : null,
           el("div", { class: "egm-meta" },
@@ -111,7 +122,7 @@
       const recs = data.records.filter((r) => keepIds.has(r.case_id));
       const shown = new Set(recs.map((r) => r.case_id));
       summary.textContent = data.records.length === 0
-        ? `No cases coded yet (${plural(data.cases.length, "use case")} listed). The map fills in when the final coded dataset (O12) is added at Gate 4. Hatched cells are gaps.`
+        ? `No cases coded yet (${plural(data.cases.length, "use case")} listed). The map fills in when the final coded dataset (O12) is added at Gate 4. Cells marked \u201cgap\u201d have no evidence.`
         : `Showing ${plural(shown.size, "use case")} (${plural(recs.length, "use case\u2013outcome record")}).`;
 
       const cells = {};
@@ -123,12 +134,12 @@
       const maxN = Math.max(1, ...Object.values(cells).flatMap((g) => Object.values(g).map((a) => a.length)));
       const thead = el("thead", {}, el("tr", {},
         el("th", { class: "egm-corner", scope: "col" }, el("span", { text: cfg.row.title + " \u2193 / " + cfg.col.title + " \u2192" })),
-        cols.map((o) => el("th", { scope: "col", title: def(cfg.col.dim, o), text: o + ". " + lab(cfg.col.dim, o) }))));
+        cols.map((o) => el("th", { scope: "col", title: def(cfg.col.dim, o), text: lab(cfg.col.dim, o) }))));
       const tbody = el("tbody", {}, rows.map((rv) => el("tr", {},
-        el("th", { scope: "row", title: def(cfg.row.dim, rv), text: (rv === "none" ? "" : rv + ". ") + lab(cfg.row.dim, rv) }),
+        el("th", { scope: "row", title: def(cfg.row.dim, rv), text: lab(cfg.row.dim, rv) }),
         cols.map((cv) => {
           const byGrade = cells[rv + "|" + cv] || {};
-          const td = el("td", { class: Object.keys(byGrade).length ? "" : "egm-empty" });
+          const td = el("td", Object.keys(byGrade).length ? {} : { class: "egm-empty", "aria-label": "gap: no evidence found" });
           const wrap = el("div", { class: "egm-bubbles" });
           for (const g of grades) {
             const items = byGrade[g];
@@ -136,7 +147,7 @@
             const size = Math.round(26 + 22 * Math.sqrt(items.length / maxN));
             const cell = { row: rv, col: cv, grade: g, items };
             const btn = el("button", { type: "button", class: "egm-bubble g" + gIdx[g], style: `width:${size}px;height:${size}px`,
-              "aria-label": `${lab(cfg.row.dim, rv)}, ${lab(cfg.col.dim, cv)}: ${g} ${lab(cfg.grade.dim, g)}, ${plural(items.length, "use case")}. Press Enter to open details.`,
+              "aria-label": `${lab(cfg.row.dim, rv)}, ${lab(cfg.col.dim, cv)}: ${glab(g)}, ${plural(items.length, "use case")}. Press Enter to open details.`,
               "aria-expanded": "false", "aria-haspopup": "dialog", text: String(items.length) });
             btn.addEventListener("mouseenter", () => { if (!pinned && lastPointer === "mouse") showCard(btn, cell); });
             btn.addEventListener("mouseleave", () => { if (lastPointer === "mouse") scheduleHide(); });
@@ -163,11 +174,11 @@
       listWrap.replaceChildren(el("details", {},
         el("summary", { text: `List all ${plural(recs.length, "record")} shown on the map` }),
         el("table", { class: "egm-list" },
-          el("thead", {}, el("tr", {}, ["Use case", cfg.col.title, cfg.row.title, cfg.grade.title, "Portfolio"].map((h) => el("th", { scope: "col", text: h })))),
+          el("thead", {}, el("tr", {}, ["Use case", cfg.col.title, cfg.row.title, gradeTitle, "Portfolio"].map((h) => el("th", { scope: "col", text: h })))),
           el("tbody", {}, sorted.map((r) => { const c = caseById[r.case_id]; return el("tr", {},
             el("td", {}, c.case_url ? el("a", { href: c.case_url, target: "_blank", rel: "noopener", text: c.name || c.case_id }) : (c.name || c.case_id)),
             el("td", { text: lab(cfg.col.dim, r[cfg.col.field]) }), el("td", { text: lab(cfg.row.dim, c[cfg.row.field]) }),
-            el("td", { text: r[cfg.grade.field] + " " + lab(cfg.grade.dim, r[cfg.grade.field]) }),
+            el("td", { text: glab(r[cfg.grade.field]) }),
             el("td", { text: lab("primary_portfolio", c.primary_portfolio) })); })))));
     }
     render();

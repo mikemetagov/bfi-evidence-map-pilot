@@ -6,7 +6,7 @@ hide:
 # Blockchain for Impact Funding Evidence Map – Pilot
 
 !!! success "Gate 4 passed: pilot dataset published"
-    GSR approved the pilot design (v0.1) at Gate 0 and approved public release of the evaluation materials. On 19 October 2026 the Gate 4 note was approved and the pilot dataset, claims register, status tracing and visuals were published here. Partners approved publication and will fact-check their own cases while the full-scale study is prepared. Evidence packets and status signals hold third-party text, so only source lists, URLs, hashes and quotes of 25 words or fewer are published. The pilot meets 2 of 4 threshold metrics; see the [Gate 4 note](outputs/11_Reports/G4_gate_note_v0.1.md). You can also [ask the map](assistant/index.md) questions about the 30 cases.
+    GSR approved the pilot design (v0.1) at Gate 0 and approved public release of the evaluation materials. On 19 October 2026 the Gate 4 note was approved and the pilot dataset, claims register, status tracing and visuals were published here. Partners approved publication. Evidence packets and status signals hold third-party text, so only source lists, URLs, hashes and quotes of 25 words or fewer are published. The pilot meets 2 of 4 threshold metrics; see the [Gate 4 note](outputs/11_Reports/G4_gate_note_v0.1.md). You can also [ask the map](assistant/index.md) questions about the 30 cases.
 
 A four-week pilot of up to 30 publicly documented use cases from Mercy Corps Ventures, the UNICEF Venture Fund, the Filecoin Foundation and GSR Blockchain for Good grantees. It tests whether a full map of 800+ cases is feasible and worth funding.
 

@@ -14,14 +14,19 @@ A use case. Each use case is given an evidence level separately for each outcome
 | Coder B | Frontier LLM from a third developer (proposed: Google Gemini family) |
 | Adjudication assistant | Orchestrator model in a separate session; Michael decides |
 
-## Evidence levels
-| Level | Definition |
-|---|---|
-| L1 Claim | Describes what the solution does and why it should work. No data on results. |
-| L2 Operational | Data on outputs, usage or operational performance, with no measure of user outcomes. |
-| L3 Outcome, no comparison | Outcome data from participants without a comparison group. |
-| L4 Outcome with comparison | Compared with a comparison group or non-blockchain alternative, without strong identification. |
-| L5 Counterfactual impact | Randomised or strong quasi-experimental impact estimate, ideally independent. |
+## Evidence spectrum { #evidence-spectrum }
+
+The site uses plain names for the five evidence levels. The protocol, codebook, data files and analysis documents use the codes L1 to L5. Both refer to the same scale.
+
+| Plain name (site) | Protocol code | Plain meaning | Technical definition (codebook) |
+|---|---|---|---|
+| Claims only | L1 | The project describes what it does and why it should work. There are no data on results. | Describes what the solution does and why it should work. No data on results. |
+| Operational data | L2 | Data on activity, such as payments made or users reached, but not on whether people are better off. | Data on outputs, usage or operational performance, with no measure of user outcomes. |
+| Outcomes, no comparison | L3 | Changes reported for participants, with nothing to compare against. | Outcome data from participants without a comparison group. |
+| Outcomes with comparison | L4 | Participants compared with a similar group or a non-blockchain alternative. | Compared with a comparison group or non-blockchain alternative, without strong identification. |
+| Proven impact | L5 | A randomised trial or strong quasi-experimental study estimates the effect. | Randomised or strong quasi-experimental impact estimate, ideally independent. |
+
+The scale follows the Nesta Standards of Evidence and the Maryland Scientific Methods Scale (protocol section 7). It describes the type of evidence found in public sources, not the quality of a project.
 
 ## Reliability bands
 | Band | Threshold | Action |

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-20 – Plain-language evidence spectrum
+- The map, visuals and methods pages now use plain names for the five evidence levels: claims only, operational data, outcomes without comparison, outcomes with comparison, and proven impact. The codes L1 to L5 stay in the protocol, codebook and data files; the [methods page](methods/index.md#evidence-spectrum) shows how the two match.
+- New evidence-spectrum explainer and "three things to know" on the [map](map/index.md) and [visuals](visuals/index.md) pages. Technical notes moved into collapsible boxes.
+- Map and charts now share one colour scale, light (weaker) to dark (stronger). In both, "gap" marks a cell with no evidence.
+- Visuals reissued as v1.1: same data, plain labels, question titles. The v1.0 images are kept.
+- "Ask the map" v0.5 answers with the plain names, gives the protocol code in brackets, and understands either form. It passed the frozen test set again (35 of 35).
+- Removed the statement that partners will fact-check their own cases during full-study preparation. Partner review is now covered in the partner memos.
+
 ## 2026-10-19 – "Ask the map" launched (code-only)
 - New page [Ask the map](assistant/index.md): answers questions about the 30 pilot cases with cited sources. The tested answering code runs in the browser; no AI model and no server are used, and questions are not logged. It passed the frozen 35-question test set in code-only mode (35 of 35), and the browser answers match the tested code exactly.
 

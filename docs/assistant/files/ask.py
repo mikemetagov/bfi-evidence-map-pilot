@@ -27,7 +27,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CORPUS = HERE / "corpus"
-VERSION = "0.4"
+VERSION = "0.5"
 
 MAP = json.loads((CORPUS / "map.json").read_text(encoding="utf-8"))
 MANIFEST = json.loads((CORPUS / "manifest.json").read_text(encoding="utf-8"))
@@ -37,6 +37,20 @@ CB = {dim: {v["value"]: v for v in vals} for dim, vals in MAP["codebook"].items(
 CASES = {c["case_id"]: c for c in MAP["cases"]}
 RECORDS = MAP["records"]
 LEVELS = ["L1", "L2", "L3", "L4", "L5"]
+# Plain-language names used on the public site (v0.5, 20 Oct 2026). The protocol, codebook and data files keep
+# the technical codes L1-L5; answers give the plain name first and the protocol code in brackets.
+PLAIN = {"L1": "Claims only", "L2": "Operational data", "L3": "Outcomes, no comparison",
+         "L4": "Outcomes with comparison", "L5": "Proven impact"}
+PLAIN_DEF = {"L1": "The sources describe what the project does and why it should work, but give no data on results.",
+             "L2": "The sources give data on activity, such as payments made, users reached or processing times, but not on whether people are better off.",
+             "L3": "The sources report changes for participants, such as income or savings, but with nothing to compare against.",
+             "L4": "The sources compare participants with a similar group, or with a non-blockchain alternative, but the comparison may not rule out other explanations.",
+             "L5": "A randomised trial or a strong quasi-experimental study estimates the project's impact, ideally done independently."}
+PLAIN_TERMS = [("L5", r"proven impact|counterfactual|randomi[sz]ed|\brct"),
+               ("L4", r"outcomes? with (a )?comparison|comparison group"),
+               ("L3", r"outcomes?,? (with )?no comparison|outcomes? without (a )?comparison|outcome evidence|outcome data"),
+               ("L2", r"operational( data)?"),
+               ("L1", r"claims?[- ]only")]
 
 LIMITS = ("What this map cannot tell you: whether a project worked, or would work in another setting; "
           "which project is best; or what to fund. Evidence levels describe the type of evidence found in "
@@ -99,7 +113,7 @@ R_OUT = [r"\bprice\b", r"\bstock\b", r"\bpresident\b", r"\bcapital of\b", r"\bne
          r"weather (like|forecast|tomorrow|this week)", r"\bforecast for\b",
          r"write (me )?(a|an) (poem|essay|story|code)", r"translate"]
 R_FILES = [r"where (can|do) i (find|get|download|see)", r"\bdownload", r"\blink to\b", r"where (is|are) the (code ?book|protocol|memo|one[- ]pager|data)"]
-R_DEFINE = [r"what (does|do|is|are) (an? )?(l[1-5]|level [1-5])\b", r"\bdefin(e|ition)", r"what (does|do) .{1,40} mean"]
+R_DEFINE = [r"what (does|do|is|are) (an? )?(l[1-5]|level [1-5])\b", r"what are the (evidence )?levels", r"\bevidence (levels|spectrum|scale)\b", r"\bdefin(e|ition)", r"what (does|do) .{1,40} mean"]
 R_TAKEAWAY = [r"take-?aways?", r"main (finding|result|conclusion|lesson)s?", r"key (finding|result|lesson)s?", r"what did (the|this) (research|study|pilot|map) find",
               r"conclusions?\b", r"does blockchain (work|help)"]
 R_COUNT = [r"how many", r"number of", r"\bcount\b", r"\blist (the |all )?", r"which cases", r"what cases"]
@@ -135,15 +149,24 @@ def parse_filters(q):
         f["levels"] = LEVELS[lo - 1:]
     else:
         f["levels"] = sorted(set(re.findall(r"\b(l[1-5])\b", ql))) and [x.upper() for x in sorted(set(re.findall(r"\b(l[1-5])\b", ql)))]
-        if not f["levels"] and re.search(r"\boperational\b", ql):
-            f["levels"] = ["L2"]
-        if not f["levels"] and re.search(r"\bclaim[- ]only\b", ql):
-            f["levels"] = ["L1"]
+        if not f["levels"]:
+            for lv, pat in PLAIN_TERMS:
+                pm = re.search(r"(" + pat + r")(\s+(evidence|data))?\s*(\+|or (above|higher|more|stronger|better)|and above)", ql) or \
+                     re.search(r"(at least|or stronger than|stronger than) (" + pat + r")", ql)
+                if pm:
+                    i = LEVELS.index(lv)
+                    f["levels"] = LEVELS[i + 1:] if pm.group(0).startswith("stronger than") else LEVELS[i:]
+                    break
+                if re.search(r"\b(" + pat + r")\b", ql):
+                    f["levels"] = [lv]
+                    break
     f["case_ids"] = sorted(set(m.upper() for m in re.findall(r"\b(?:mcv|uni|fil|gsr)-\d{2}\b", ql)))
     return {k: v for k, v in f.items() if v}
 
 
 def label(dim, v):
+    if dim == "evidence_level" and v in PLAIN:
+        return f"{PLAIN[v]} ({v})"
     e = CB.get(dim, {}).get(v)
     return f"{v} {e['label']}" if e and e["label"] != v else (e["label"] if e else v)
 
@@ -210,10 +233,10 @@ def tool_gap(f):
             lv = Counter(r["evidence_level"] for r in recs)
             n_l1 = lv.get("L1", 0)
             n_hi = len(recs) - n_l1
-            state = "gap (no records)" if not recs else ("claim only (L1)" if set(lv) == {"L1"} else "evidence at L2 or above")
+            state = "gap (no records)" if not recs else ("claims only (L1)" if set(lv) == {"L1"} else "operational data or stronger (L2 or above)")
             thin = bool(recs) and n_hi > 0 and n_l1 > n_hi
             detail = ("no records" if not recs else
-                      f"{len(recs)} records: {n_l1} at L1 (claim only), {n_hi} at L2 or above; highest level {max(lv)}"
+                      f"{len(recs)} records: {n_l1} claims only (L1), {n_hi} operational data or stronger (L2 or above); strongest: {label('evidence_level', max(lv))}"
                       + ("; thin: most records are claims only" if thin else ""))
             cells.append({"cell": f"{u}/{o}", "cell_name": f"{label('use_case_domain', u).split(' ', 1)[-1]} × {label('outcome_domain', o).split(' ', 1)[-1]}",
                           "use_case_domain": label("use_case_domain", u), "outcome_domain": label("outcome_domain", o),
@@ -224,7 +247,7 @@ def tool_gap(f):
     empty_rows = [label("use_case_domain", u) for u in rows if all(c["cases_in_row"] == 0 for c in cells if c["cell"].startswith(u + "/"))]
     no_l4 = not any(r["evidence_level"] in ("L4", "L5") for r in RECORDS)
     return {"filters": describe_filters(f), "cells_checked": len(cells), "gap_cells": summary.get("gap (no records)", 0),
-            "claim_only_cells": summary.get("claim only (L1)", 0), "cells_with_L2_plus": summary.get("evidence at L2 or above", 0),
+            "claim_only_cells": summary.get("claims only (L1)", 0), "cells_with_L2_plus": summary.get("operational data or stronger (L2 or above)", 0),
             "thin_cells_with_L2_plus": sum(c["thin"] for c in cells),
             "use_case_domains_with_no_cases": empty_rows, "no_record_at_L4_or_L5": no_l4,
             "cases_without_outcome_coding": sorted(set(CASES) - {r["case_id"] for r in RECORDS}), "cells": cells}
@@ -374,7 +397,7 @@ def route(q):
     if any_re(R_SCEN, ql): return "scenario"
     if any_re(R_COUNT, ql): return "count"
     if any_re(R_GAP, ql): return "gap"
-    if any_re(R_DEFINE, ql) and re.search(r"\bl[1-5]\b|level|status|added value|domain", ql): return "define"
+    if any_re(R_DEFINE, ql) and re.search(r"\bl[1-5]\b|level|status|added value|domain|spectrum|" + "|".join(p for _, p in PLAIN_TERMS), ql): return "define"
     if find_case(q): return "lookup"
     if any_re(R_METHOD + R_BEST_PRACTICE + R_OVERVIEW, ql): return "method"
     if name_terms(q) and any_re(R_LOOKUP_INTENT, ql): return "lookup_not_found"
@@ -404,7 +427,8 @@ def case_link(cid):
 
 
 def level_defs(levels):
-    return [f"{l} {CB['evidence_level'][l]['label']}: {CB['evidence_level'][l]['definition']}" for l in LEVELS if l in levels]
+    return [f"{PLAIN[l]} (protocol code {l}): {PLAIN_DEF[l]} Technical definition: {CB['evidence_level'][l]['definition']}"
+            for l in LEVELS if l in levels]
 
 
 def answer_count(f, facts):
@@ -431,6 +455,8 @@ def answer_define(q):
     out = []
     lv = [x.upper() for x in re.findall(r"\bl([1-5])\b", ql)] or [m for m in re.findall(r"level ([1-5])", ql)]
     lv = ["L" + x if not x.startswith("L") else x for x in lv]
+    if not lv:
+        lv = [l for l, pat in PLAIN_TERMS if re.search(pat, ql)]
     out += level_defs(lv or LEVELS)
     if "status" in ql:
         out += [f"{v}: {e['definition']}" for v, e in CB["deployment_status"].items()]
@@ -446,9 +472,9 @@ def answer_takeaways():
     return ["The pilot's findings memo has not been published yet, so I can't summarise its conclusions or interpret the results. "
             "These descriptive facts are computed by code from the map data:",
             f"- {len(CASES)} cases and {len(RECORDS)} case-outcome records; evidence levels: "
-            + ", ".join(f"{l} {CB['evidence_level'][l]['label']} {lv.get(l, 0)}" for l in LEVELS) + ".",
+            + ", ".join(f"{PLAIN[l]} ({l}) {lv.get(l, 0)}" for l in LEVELS) + ".",
             f"- Of {g['cells_checked']} use-case × outcome cells: {g['gap_cells']} have no records, {g['claim_only_cells']} hold claims only (L1), "
-            f"{g['cells_with_L2_plus']} hold evidence at L2 or above. Use-case domains with no cases: {', '.join(g['use_case_domains_with_no_cases']) or 'none'}.",
+            f"{g['cells_with_L2_plus']} hold operational data or stronger (L2 or above). Use-case domains with no cases: {', '.join(g['use_case_domains_with_no_cases']) or 'none'}.",
             "- Traced status: " + ", ".join(f"{k} {v}" for k, v in st.most_common()) + ".",
             "Ask about a domain, a case or the gaps for detail."]
 
@@ -553,11 +579,11 @@ def template(rt, ctx):
     if rt == "gap":
         f = ctx["COMPUTED_FACTS"]
         lines = [f"Of {f['cells_checked']} use-case × outcome cells checked ({f['filters']}): {f['gap_cells']} have no records (gaps), "
-                 f"{f['claim_only_cells']} hold claims only (L1) and {f['cells_with_L2_plus']} hold evidence at L2 or above."]
+                 f"{f['claim_only_cells']} hold claims only (L1) and {f['cells_with_L2_plus']} hold operational data or stronger (L2 or above)."]
         if f.get("thin_cells_with_L2_plus"):
-            lines.append(f"{f['thin_cells_with_L2_plus']} of the cells with evidence at L2 or above are thin: most of their records are claims only (L1).")
+            lines.append(f"{f['thin_cells_with_L2_plus']} of the cells with operational data or stronger (L2 or above) are thin: most of their records are claims only (L1).")
         lines += [f"- {c['cell_name']}: {c['state']}; {c['detail']}" + (f" ({', '.join(c['case_ids'])})" if c["case_ids"] else "")
-                  for c in f["cells"] if c["state"] != "evidence at L2 or above" or c["thin"]][:20]
+                  for c in f["cells"] if c["state"] != "operational data or stronger (L2 or above)" or c["thin"]][:20]
         if f["use_case_domains_with_no_cases"]:
             lines.append("Use-case domains with no cases in the pilot: " + ", ".join(f["use_case_domains_with_no_cases"]) + ".")
         if f["no_record_at_L4_or_L5"]:
