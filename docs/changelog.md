@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-19 – "Ask the map" launched (code-only)
+- New page [Ask the map](assistant/index.md): answers questions about the 30 pilot cases with cited sources. The tested answering code runs in the browser; no AI model and no server are used, and questions are not logged. It passed the frozen 35-question test set in code-only mode (35 of 35), and the browser answers match the tested code exactly.
+
 ## 2026-10-19 – Gate 4 passed; pilot dataset published
 - Gate 4 note approved by Michael: 2 of 4 threshold metrics met (agreement κ 0.64, not met; public-source coverage 30 of 30, met; taxonomy fit 2 of 30, met; status confirmed 3 of 30, not met). Recommendation: codebook v1.3 and a fresh calibration round before scaling.
 - Published with GSR's approval of public release (partners approved publication and will fact-check their own cases during full-scale preparation): O3 sample and plan; O5 search logs and document inventories; O10 main agreement summary and G3 calibration report; O12 final dataset, data dictionary and non-core differences; O13 claims register and notes; O14 status tracing; O15 visuals V1–V3 and V5; O16 method lessons log; the Gate 4 note. The map now shows the 30 pilot cases.

@@ -12,6 +12,7 @@ GSR approved the pilot design (v0.1) at Gate 0.
 | [`docs/outputs/`](docs/outputs/) | Outputs O1–O19 in 13 sections, with status. Published pilot outputs are in their section folders. |
 | [`data/codebook.csv`](data/codebook.csv) | Allowed values for codebook v1.0 (frozen at Gate 2). Full rules: [`docs/outputs/05_Codebook/codebook_v1.0.md`](docs/outputs/05_Codebook/codebook_v1.0.md). |
 | [`docs/map/`](docs/map/) | The evidence map for the 30 pilot cases (data in `data/cases.csv` and `data/coding.csv`). |
+| `docs/assistant/` | "Ask the map": a code-only question-answering page that runs the tested answering code in the browser (no AI model, no server). |
 | [`docs/gates/`](docs/gates/index.md) | The gate and deviations log. |
 
 ## What is not here

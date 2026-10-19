@@ -1,0 +1,89 @@
+{
+ "version": "0.2",
+ "built": "2026-10-19",
+ "documents": [
+  {
+   "doc_id": "PROTOCOL",
+   "title": "Pilot design report (protocol) v0.5",
+   "path": "docs/protocol/files/20261017_O1_Pilot-Design-Report_v0.5.pdf",
+   "public_url": "https://github.com/mikemetagov/bfi-evidence-map-pilot/blob/main/docs/protocol/files/20261017_O1_Pilot-Design-Report_v0.5.pdf",
+   "status": "Public",
+   "sha256": "fd184c132aefef59140e28e744c8ad764abad169305e88848ab427af77ff4549"
+  },
+  {
+   "doc_id": "CODEBOOK",
+   "title": "Codebook v1.2",
+   "path": "docs/outputs/05_Codebook/codebook_v1.2.md",
+   "public_url": "https://github.com/mikemetagov/bfi-evidence-map-pilot/blob/main/docs/outputs/05_Codebook/codebook_v1.2.md",
+   "status": "Public",
+   "sha256": "70ed24b7f8f4c87549ba92c749196e7bc978a106d003a7fe470ec45115bab52c"
+  },
+  {
+   "doc_id": "MEMO",
+   "title": "Purpose and Use Memo (final draft, 9 Oct 2026)",
+   "path": "docs/outputs/01_Design/gsr_purpose_and_pilot_summary/20261009_Purpose-and-Use-Memo_final-draft.pdf",
+   "public_url": "https://github.com/mikemetagov/bfi-evidence-map-pilot/blob/main/docs/outputs/01_Design/gsr_purpose_and_pilot_summary/20261009_Purpose-and-Use-Memo_final-draft.pdf",
+   "status": "Public",
+   "sha256": "cecc49b8e702500587e41f52460352caa809c37a5b7e33554db420bb57ff2094"
+  },
+  {
+   "doc_id": "ONEPAGER",
+   "title": "Pilot One-Pager (12 Oct 2026)",
+   "path": "docs/outputs/01_Design/gsr_purpose_and_pilot_summary/20261012_Pilot-One-Pager.pdf",
+   "public_url": "https://github.com/mikemetagov/bfi-evidence-map-pilot/blob/main/docs/outputs/01_Design/gsr_purpose_and_pilot_summary/20261012_Pilot-One-Pager.pdf",
+   "status": "Public",
+   "sha256": "e5db890248f824d798254d6029c22df2036417eb5fcb8e9bd164471f2881e992"
+  },
+  {
+   "doc_id": "CODEBOOK_TABLE",
+   "title": "Codebook labels and definitions (site codebook table)",
+   "path": "data/codebook.csv",
+   "public_url": "https://github.com/mikemetagov/bfi-evidence-map-pilot/blob/main/docs/data/downloads/codebook.csv",
+   "status": "Public",
+   "sha256": "a44ac45113112d2d58f2fe314b6d75f39b69d4c8e5eba28b4b11c3d17c24d56d"
+  }
+ ],
+ "map_data": {
+  "inputs": [
+   {
+    "path": "docs/outputs/09_Final_Dataset/site_staging/cases.csv",
+    "sha256": "4e7ce7e3db368c4a2a6855f0a3519c659328bc4b1e05fd6f674a376862f1159f"
+   },
+   {
+    "path": "docs/outputs/09_Final_Dataset/site_staging/coding.csv",
+    "sha256": "8809672cbda5bff4cdb056719ce0f70f3a42b33e6781f5646780cd8ba4709f1a"
+   }
+  ],
+  "status": "Public (published at Gate 4, 19 October 2026)",
+  "public_url": "https://mikemetagov.github.io/bfi-evidence-map-pilot/map/",
+  "cases": 30,
+  "records": 113,
+  "fields_removed": [
+   "quote"
+  ],
+  "site_build": "OK: 30 use cases, 113 use case-outcome records, 19 outputs. Generated files rebuilt."
+ },
+ "excluded_restricted": [
+  "review_sheet",
+  "decision_cards",
+  "review_cards",
+  "recheck_cards",
+  "michael_answers",
+  "04_Evidence_Packets",
+  "status_signals",
+  "07_Coding_Raw",
+  "08_Agreement_and_Adjudication",
+  "open16",
+  "audit",
+  "11_Reports",
+  "HANDOFF",
+  "[Pp]artner",
+  "[Aa]greement",
+  "Annex"
+ ],
+ "flags": {
+  "traced_status": "deployment_status_traced comes from O14 v1.0 after Michael's code-by-code review (closed 19 October 2026).",
+  "blank_noncore": "Blank country, region, year_launched, implementation_model and blockchain_functions mean the two coders differed and the field was not adjudicated for the pilot (decision D1); 'not reported' means the sources do not say.",
+  "partner_review": "Partners approved publication and will fact-check their own cases while the full-scale study is prepared."
+ }
+}

@@ -1,0 +1,2190 @@
+{
+ "config": {
+  "row": {
+   "field": "use_case_domain",
+   "dim": "use_case_domain",
+   "title": "Use-case domain"
+  },
+  "col": {
+   "field": "outcome_domain",
+   "dim": "outcome_domain",
+   "title": "Outcome domain"
+  },
+  "grade": {
+   "field": "evidence_level",
+   "dim": "evidence_level",
+   "title": "Evidence level"
+  },
+  "filters": [
+   {
+    "field": "primary_portfolio",
+    "dim": "primary_portfolio",
+    "title": "Portfolio"
+   },
+   {
+    "field": "region",
+    "dim": null,
+    "title": "Region"
+   },
+   {
+    "field": "deployment_status_traced",
+    "dim": "deployment_status",
+    "title": "Traced status"
+   },
+   {
+    "field": "blockchain_added_value",
+    "dim": "blockchain_added_value",
+    "title": "Blockchain added value"
+   }
+  ]
+ },
+ "cases": [
+  {
+   "case_id": "FIL-01",
+   "lineage_id": "L-FIL-01",
+   "name": "Starling Lab Capture-Store-Verify data integrity",
+   "primary_portfolio": "FIL",
+   "all_funders": "Filecoin Foundation/FFDW; GSR Foundation",
+   "country": "",
+   "region": "",
+   "year_launched": "",
+   "use_case_domain": "3",
+   "blockchain_functions": "F4; F5",
+   "implementation_model": "Other",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "summary": "Starling Lab Capture-Store-Verify data integrity",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "FIL-02",
+   "lineage_id": "L-FIL-02",
+   "name": "EASIER Data geospatial data preservation",
+   "primary_portfolio": "FIL",
+   "all_funders": "Filecoin Foundation/FFDW; GSR Foundation",
+   "country": "USA",
+   "region": "North America",
+   "year_launched": "not reported",
+   "use_case_domain": "3",
+   "blockchain_functions": "F4; F5",
+   "implementation_model": "",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Extended pilot",
+   "status_confidence": "Low",
+   "blockchain_added_value": "2",
+   "case_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "summary": "EASIER Data geospatial data preservation",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "FIL-03",
+   "lineage_id": "L-FIL-03",
+   "name": "TRANSFER Data Trust artist-owned archive",
+   "primary_portfolio": "FIL",
+   "all_funders": "Filecoin Foundation/FFDW; GSR Foundation",
+   "country": "not reported",
+   "region": "not reported",
+   "year_launched": "2023",
+   "use_case_domain": "3",
+   "blockchain_functions": "",
+   "implementation_model": "",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Extended pilot",
+   "status_confidence": "Medium",
+   "blockchain_added_value": "1",
+   "case_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "summary": "TRANSFER Data Trust artist-owned archive",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "FIL-04",
+   "lineage_id": "L-FIL-04",
+   "name": "Akashic refugee digital memory archive",
+   "primary_portfolio": "FIL",
+   "all_funders": "Filecoin Foundation/FFDW; GSR Foundation",
+   "country": "not reported",
+   "region": "not reported",
+   "year_launched": "not reported",
+   "use_case_domain": "3",
+   "blockchain_functions": "",
+   "implementation_model": "",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "summary": "Akashic refugee digital memory archive",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "FIL-05",
+   "lineage_id": "L-FIL-05",
+   "name": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine)",
+   "primary_portfolio": "FIL",
+   "all_funders": "Filecoin Foundation/FFDW; GSR Foundation",
+   "country": "not reported",
+   "region": "not reported",
+   "year_launched": "",
+   "use_case_domain": "5",
+   "blockchain_functions": "F5",
+   "implementation_model": "",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "summary": "Oceanic Whispers marine data trust (CROSSLUCID/RadicalxChange/Serpentine)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "GSR-01",
+   "lineage_id": "L-GSR-01",
+   "name": "Relay Funder aid platform for displaced communities",
+   "primary_portfolio": "GSR",
+   "all_funders": "GSR Foundation",
+   "country": "KEN; UGA",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "not reported",
+   "use_case_domain": "6",
+   "blockchain_functions": "F1; F4; F6; F7",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.gsrfoundation.io/",
+   "summary": "Relay Funder aid platform for displaced communities",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "GSR-02",
+   "lineage_id": "L-GSR-02",
+   "name": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity",
+   "primary_portfolio": "GSR",
+   "all_funders": "GSR Foundation; UNICEF/ITU Giga",
+   "country": "not reported",
+   "region": "not reported",
+   "year_launched": "2026",
+   "use_case_domain": "6",
+   "blockchain_functions": "F1; F2",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Scaled",
+   "status_confidence": "Low",
+   "blockchain_added_value": "1",
+   "case_url": "https://cryptobriefing.com/pilot-demonstrates-stablecoin-yield-can-support-school-connectivity-through-stablecoin-for-impact-and-giga/",
+   "summary": "Stablecoin for Impact (Launchnodes) yield to Giga school connectivity",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "GSR-03",
+   "lineage_id": "L-GSR-03",
+   "name": "Lido Impact Staking yield to MCV, UNICEF and Giga",
+   "primary_portfolio": "GSR",
+   "all_funders": "GSR Foundation",
+   "country": "not reported",
+   "region": "",
+   "year_launched": "2025",
+   "use_case_domain": "6",
+   "blockchain_functions": "",
+   "implementation_model": "",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.gsrfoundation.io/",
+   "summary": "Lido Impact Staking yield to MCV, UNICEF and Giga",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-01",
+   "lineage_id": "L-MCV-01",
+   "name": "Celo stablecoin payments for digital microwork (youth)",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2021",
+   "use_case_domain": "1",
+   "blockchain_functions": "F1",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Celo stablecoin payments for digital microwork (youth)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-02",
+   "lineage_id": "L-MCV-02",
+   "name": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa)",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2021",
+   "use_case_domain": "2",
+   "blockchain_functions": "",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Smart-contract weather index insurance (inX/Etherisc/ACRE Africa)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-03",
+   "lineage_id": "L-MCV-03",
+   "name": "DeFi merchant digitisation",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "RWA",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2021",
+   "use_case_domain": "2",
+   "blockchain_functions": "",
+   "implementation_model": "",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "DeFi merchant digitisation",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-05",
+   "lineage_id": "L-MCV-05",
+   "name": "DeFi salary advances / credit for smallholders",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2022",
+   "use_case_domain": "2",
+   "blockchain_functions": "F1; F2",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "DeFi salary advances / credit for smallholders",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-06",
+   "lineage_id": "L-MCV-06",
+   "name": "Stablecoin buy-now-pay-later for MSMEs/informal vendors",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2022",
+   "use_case_domain": "2",
+   "blockchain_functions": "F1",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Stablecoin buy-now-pay-later for MSMEs/informal vendors",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-11",
+   "lineage_id": "L-MCV-11",
+   "name": "Forest Carbon Web3 carbon projects",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "IDN",
+   "region": "East Asia and Pacific",
+   "year_launched": "2023",
+   "use_case_domain": "5",
+   "blockchain_functions": "F4",
+   "implementation_model": "",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Forest Carbon Web3 carbon projects",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-12",
+   "lineage_id": "L-MCV-12",
+   "name": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26)",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2023",
+   "use_case_domain": "1",
+   "blockchain_functions": "",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Blockchain anticipatory cash transfers for pastoralists (pilot + scale-up 2025-26)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-16",
+   "lineage_id": "L-MCV-16",
+   "name": "Haraka & Grameen Foundation onchain microfinance for VSLAs",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "GHA",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "not reported",
+   "use_case_domain": "2",
+   "blockchain_functions": "F1; F2",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Discontinued",
+   "status_confidence": "High",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Haraka & Grameen Foundation onchain microfinance for VSLAs",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-18",
+   "lineage_id": "L-MCV-18",
+   "name": "Anticipatory cash transfers for flood-prone areas",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "NPL",
+   "region": "South Asia",
+   "year_launched": "",
+   "use_case_domain": "1",
+   "blockchain_functions": "F1; F2; F4",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Anticipatory cash transfers for flood-prone areas",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-21",
+   "lineage_id": "L-MCV-21",
+   "name": "Anzi grain tokenisation and credit guarantees",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV",
+   "country": "ARG",
+   "region": "Latin America and the Caribbean",
+   "year_launched": "not reported",
+   "use_case_domain": "2",
+   "blockchain_functions": "F2; F3; F4",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.prosperglobalventures.com/fintech-lab",
+   "summary": "Anzi grain tokenisation and credit guarantees",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "MCV-24",
+   "lineage_id": "L-MCV-24",
+   "name": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC)",
+   "primary_portfolio": "MCV",
+   "all_funders": "MCV; GSR Foundation",
+   "country": "COL",
+   "region": "Latin America and the Caribbean",
+   "year_launched": "2026",
+   "use_case_domain": "1",
+   "blockchain_functions": "",
+   "implementation_model": "Consortium",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "summary": "Aleo/Humanity Link privacy-preserving USDCx aid (with DRC)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-03",
+   "lineage_id": "L-UNI-03",
+   "name": "OS City (blockchain government records/credentials)",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "",
+   "region": "",
+   "year_launched": "",
+   "use_case_domain": "3",
+   "blockchain_functions": "F4; F7",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Scaled",
+   "status_confidence": "Low",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "summary": "OS City (blockchain government records/credentials)",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-04",
+   "lineage_id": "L-UNI-04",
+   "name": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "BGD",
+   "region": "South Asia",
+   "year_launched": "2019",
+   "use_case_domain": "none",
+   "blockchain_functions": "",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Extended pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/story/unicef-innovation-fund-welcomes-1st-blockchain-cohort-new-york",
+   "summary": "W3 Engineers TeleMesh blockchain-backed offline mesh messaging",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-07",
+   "lineage_id": "L-UNI-07",
+   "name": "BX Smart Labs smart-contract savings circles",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "",
+   "region": "Latin America and the Caribbean",
+   "year_launched": "not reported",
+   "use_case_domain": "2",
+   "blockchain_functions": "",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "summary": "BX Smart Labs smart-contract savings circles",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-08",
+   "lineage_id": "L-UNI-08",
+   "name": "Kotani Pay transfers, savings and payments",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "KEN; RWA; UGA",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "",
+   "use_case_domain": "1",
+   "blockchain_functions": "",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Scaled",
+   "status_confidence": "Low",
+   "blockchain_added_value": "2",
+   "case_url": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "summary": "Kotani Pay transfers, savings and payments",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-10",
+   "lineage_id": "L-UNI-10",
+   "name": "Rumsan Rahat cash and voucher assistance",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "",
+   "region": "",
+   "year_launched": "2022",
+   "use_case_domain": "1",
+   "blockchain_functions": "F1; F2; F4",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Scaled",
+   "status_confidence": "Medium",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "summary": "Rumsan Rahat cash and voucher assistance",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-12",
+   "lineage_id": "L-UNI-12",
+   "name": "Xcapit blockchain wealth management and financial learning",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "",
+   "region": "Latin America and the Caribbean",
+   "year_launched": "",
+   "use_case_domain": "2",
+   "blockchain_functions": "",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://unicef.github.io/inventory/cohorts/blockchain/",
+   "summary": "Xcapit blockchain wealth management and financial learning",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-13",
+   "lineage_id": "L-UNI-13",
+   "name": "GovBlocks decentralised decision-making tools",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF",
+   "country": "IND",
+   "region": "South Asia",
+   "year_launched": "",
+   "use_case_domain": "6",
+   "blockchain_functions": "",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "summary": "GovBlocks decentralised decision-making tools",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-14",
+   "lineage_id": "L-UNI-14",
+   "name": "Grassroots Economics community currency / emergency payments",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF; GSR Foundation (staking yield)",
+   "country": "KEN",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "2020",
+   "use_case_domain": "2",
+   "blockchain_functions": "F1; F3; F4",
+   "implementation_model": "NGO",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/call/blockchain-financial-inclusion-2021",
+   "summary": "Grassroots Economics community currency / emergency payments",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-15",
+   "lineage_id": "L-UNI-15",
+   "name": "Convexity CHATS cash and voucher platform",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF (Giga)",
+   "country": "NGA",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "",
+   "use_case_domain": "1",
+   "blockchain_functions": "F1; F2; F4; F7",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Scaled",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "2",
+   "case_url": "https://www.unicefventurefund.org/sites/default/files/2024-10/UNICEF%20Venture%20Fund%20Annual%20Report%202023-2024.pdf",
+   "summary": "Convexity CHATS cash and voucher platform",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-16",
+   "lineage_id": "L-UNI-16",
+   "name": "WiiQare health-savings vouchers",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF (Giga)",
+   "country": "COD",
+   "region": "Sub-Saharan Africa",
+   "year_launched": "not reported",
+   "use_case_domain": "1",
+   "blockchain_functions": "F1; F3",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Pilot",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "summary": "WiiQare health-savings vouchers",
+   "codebook_version": "1.2"
+  },
+  {
+   "case_id": "UNI-18",
+   "lineage_id": "L-UNI-18",
+   "name": "Investtools blockchain resource-delivery marketplace",
+   "primary_portfolio": "UNICEF",
+   "all_funders": "UNICEF VF (Giga)",
+   "country": "BRA",
+   "region": "Latin America and the Caribbean",
+   "year_launched": "",
+   "use_case_domain": "none",
+   "blockchain_functions": "F3; F4",
+   "implementation_model": "Start-up",
+   "deployment_status_stated": "Unknown",
+   "deployment_status_traced": "Unknown",
+   "status_confidence": "",
+   "blockchain_added_value": "1",
+   "case_url": "https://www.unicefventurefund.org/sites/default/files/2024-05/VF%20Annual%20Report%202023_External.pdf",
+   "summary": "Investtools blockchain resource-delivery marketplace",
+   "codebook_version": "1.2"
+  }
+ ],
+ "records": [
+  {
+   "case_id": "FIL-01",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "Verification methods are claimed to automate complex verification tasks and support real-time authentication, without timing or cost data.",
+   "source_id": "S02",
+   "evidence_url": "https://starlinglab.org/starling-framework/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-01",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Deployed 22 real-world case studies in journalism, legal evidence, and history, archiving over 10,000 web pages.",
+   "source_id": "S03",
+   "evidence_url": "https://starling.stanford.edu/case-studies-index/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-01",
+   "outcome_domain": "C",
+   "evidence_level": "L2",
+   "key_result": "The implementer reports archiving 10,000 web pages as an evidence base for DFRLab; this is an operational preservation output, not measured changes in public trust.",
+   "source_id": "S03",
+   "evidence_url": "https://starling.stanford.edu/case-studies-index/",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-01",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "A cryptographic archive is claimed to have helped reopen a 30-year-old cold case; the case narrative is not systematic justice outcome data.",
+   "source_id": "S03",
+   "evidence_url": "https://starling.stanford.edu/case-studies-index/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-01",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The framework identifies and claims to control provenance-data risks to privacy and agency, without incident or harm counts.",
+   "source_id": "S02",
+   "evidence_url": "https://starlinglab.org/starling-framework/",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-02",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "The demonstrative applications are claimed to make mapping and spatial analysis easier and potentially automated, without measured performance data.",
+   "source_id": "S04",
+   "evidence_url": "https://easierdata.org/updates/2025/2025-09-15-location-protocol-demo-apps",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-02",
+   "outcome_domain": "B",
+   "evidence_level": "L1",
+   "key_result": "The funder claims geospatial information remains openly accessible and censorship-resistant, without user or adoption counts.",
+   "source_id": "S01",
+   "evidence_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-02",
+   "outcome_domain": "C",
+   "evidence_level": "L2",
+   "key_result": "Integrated Ethereum Attestation Service (EAS) and Filecoin storage into Proofmode, creating cryptographically signed, immutable, and verifiable location attestations for captured media.",
+   "source_id": "S05",
+   "evidence_url": "https://easierdata.org/updates/2025/2025-11-17-preserving-proof-proofmode-integration",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-02",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The implementer cautions that proof metadata does not settle the reliability of the underlying content.",
+   "source_id": "S05",
+   "evidence_url": "https://easierdata.org/updates/2025/2025-11-17-preserving-proof-proofmode-integration",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-03",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Five founding artists are named as participating in conservation and decentralized archive-management work.",
+   "source_id": "S05",
+   "evidence_url": "https://grayarea.org/wp-content/uploads/2026/03/TRANSFER-Data-Trust-Metadata-Report.pdf",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-03",
+   "outcome_domain": "C",
+   "evidence_level": "L2",
+   "key_result": "Deployed operational browser-based prototype with Fission supporting authenticated decentralized cataloging, loan requests, and acquisition transfers.",
+   "source_id": "S02",
+   "evidence_url": "https://fil.org/ecosystem-explorer/transfer-data-trust",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-03",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "The Trust claims to manage and grow digital-asset value, without artist-income or equity measurements.",
+   "source_id": "S05",
+   "evidence_url": "https://grayarea.org/wp-content/uploads/2026/03/TRANSFER-Data-Trust-Metadata-Report.pdf",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-03",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "The Trust reports maintaining artist proofs and stewarding committed artworks, without quantified conservation outcomes.",
+   "source_id": "S03",
+   "evidence_url": "https://transfer.art/trust/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-03",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The metadata study identifies gaps in versioning, component documentation and conservation workflows that need resolution for the Trust Client's success.",
+   "source_id": "S05",
+   "evidence_url": "https://grayarea.org/wp-content/uploads/2026/03/TRANSFER-Data-Trust-Metadata-Report.pdf",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-04",
+   "outcome_domain": "B",
+   "evidence_level": "L1",
+   "key_result": "The project claims that collected stories and curated collections are openly available as a data commons, without use or reach data.",
+   "source_id": "S02",
+   "evidence_url": "https://github.com/fundingthecommons/akashic",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-04",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The archive claims that communities retain control of their stories rather than surrendering control to institutions.",
+   "source_id": "S03",
+   "evidence_url": "https://blockchainreporter.net/filecoin-foundation-and-gsr-foundation-are-funding-the-blockchain-projects-most-people-overlook/",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-04",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "Akashic is described as preserving refugee narratives on Filecoin so they remain accessible and resistant to erasure, without systematic cultural outcome data.",
+   "source_id": "S03",
+   "evidence_url": "https://blockchainreporter.net/filecoin-foundation-and-gsr-foundation-are-funding-the-blockchain-projects-most-people-overlook/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "FIL-05",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "The project claims data-generated value flows back to contributing scientists and communities, without amounts or participant data.",
+   "source_id": "S01",
+   "evidence_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "FIL-05",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "AI narration and physical interfaces are claimed to help participants connect emotionally with ocean ecosystems.",
+   "source_id": "S01",
+   "evidence_url": "https://fil.org/blog/unlocking-impact-through-infrastructure-filecoin-foundation-and-the-gsr-foundation-work-together-to-fund-filecoin-use-cases",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-01",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "Platform fees are reported at 2%, with an additional claim of up to tenfold capital efficiency under community-managed project funds, not a ledger-isolating comparison.",
+   "source_id": "S03",
+   "evidence_url": "https://www.linkedin.com/posts/refunite_humanitarianinnovation-locallyledaid-refugeeledsolutions-activity-7427259187174453249-Sl2B",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-01",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "24 community campaigns were live in Kenya and Uganda.",
+   "source_id": "S03",
+   "evidence_url": "https://www.linkedin.com/posts/refunite_humanitarianinnovation-locallyledaid-refugeeledsolutions-activity-7427259187174453249-Sl2B",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-01",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims that a verifiable ledger tracks donor-to-campaign flows and shows resource use, without measured accountability outcomes.",
+   "source_id": "S02",
+   "evidence_url": "https://www.relayfunder.com/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-02",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "The operational platform charges a 5% fee on routed yield donations.",
+   "source_id": "S03",
+   "evidence_url": "https://governance.aave.com/t/temp-check-stablecoin-for-impact-sfi-yield-to-impact-button-in-aave-v3-interface/24379",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-02",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "GSR Foundation is the first institutional donor actively routing yield to Giga.",
+   "source_id": "S03",
+   "evidence_url": "https://governance.aave.com/t/temp-check-stablecoin-for-impact-sfi-yield-to-impact-button-in-aave-v3-interface/24379",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-02",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The partners assert that donor participation demonstrates institutional standards for custody and transparency.",
+   "source_id": "S03",
+   "evidence_url": "https://governance.aave.com/t/temp-check-stablecoin-for-impact-sfi-yield-to-impact-button-in-aave-v3-interface/24379",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-02",
+   "outcome_domain": "F",
+   "evidence_level": "L2",
+   "key_result": "Fees do not cover approximately $200,000 annual platform costs and Launchnodes subsidises the shortfall.",
+   "source_id": "S03",
+   "evidence_url": "https://governance.aave.com/t/temp-check-stablecoin-for-impact-sfi-yield-to-impact-button-in-aave-v3-interface/24379",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "GSR-03",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "LIS grew from one to eight partners in one year and attracted its first institutional donor.",
+   "source_id": "S02",
+   "evidence_url": "https://research.lido.fi/t/lido-impact-staking-one-year-update/11349",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "GSR-03",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The proposal identifies uncertain future yields and the risk of premature project termination if pledged funds disappear; no realized harms are measured.",
+   "source_id": "S03",
+   "evidence_url": "https://research.lido.fi/t/launchnodes-impact-staking-with-lido-grant-proposal/3732",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-01",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "Cross-border fees reportedly fell from 28.8% for a $5 transfer to 2.02%; payment receipt took seconds, and fee comparisons are operational rather than participant counterfactual outcomes.",
+   "source_id": "S02",
+   "evidence_url": "https://europe.prosperglobal.org/en-gb/press-room/releases/mercycorps-celo-pilot-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-01",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "200 urban youth undertook microwork on the platform.",
+   "source_id": "S03",
+   "evidence_url": "https://www.mercycorps.org/sites/default/files/2022-10/Jobtech-Approach-230922.pdf",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-01",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The executive summary reports highly positive participant feedback, but supplies no numerical trust or satisfaction measure.",
+   "source_id": "S01",
+   "evidence_url": "https://europe.mercycorps.org/sites/default/files/2022-02/Policy_Exec-Summary_MCV-Pilot-Insights-Report_Stablecoin-Digital-Microwork-in-Kenya-Web.pdf",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-01",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "95% reported improved quality of life and 80% improved saving ability; the summary supplies no comparison group or survey sampling details.",
+   "source_id": "S03",
+   "evidence_url": "https://www.mercycorps.org/sites/default/files/2022-10/Jobtech-Approach-230922.pdf",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-01",
+   "outcome_domain": "E",
+   "evidence_level": "L2",
+   "key_result": "200 Kenyan youth were trained to access global digital microwork through a mobile app and wallet; this is a training output, not measured learning gains.",
+   "source_id": "S02",
+   "evidence_url": "https://europe.prosperglobal.org/en-gb/press-room/releases/mercycorps-celo-pilot-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "In phase two, all claims were processed within 24 hours, versus a pre-pilot average of 14 days.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-driving-climate-resilience-for-smallholder-farmers-in-kenya-through-smart-contract-weather-index-insurance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Coverage amount increased by 27% compared with the previous season.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-driving-climate-resilience-for-smallholder-farmers-in-kenya-through-smart-contract-weather-index-insurance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "C",
+   "evidence_level": "L3",
+   "key_result": "53% of participating farmers reported increased trust; the packet does not specify the endline sample size.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-driving-climate-resilience-for-smallholder-farmers-in-kenya-through-smart-contract-weather-index-insurance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "40% reported improved quality of life, with reduced stress and improved input purchasing among reasons; the endline sample size is unspecified.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-driving-climate-resilience-for-smallholder-farmers-in-kenya-through-smart-contract-weather-index-insurance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "One farmer reported replanting bean seedlings and obtaining a good harvest after compensation.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-driving-climate-resilience-for-smallholder-farmers-in-kenya-through-smart-contract-weather-index-insurance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-02",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The first-phase account reports incomplete automation and manual claims-approval bottlenecks.",
+   "source_id": "S04",
+   "evidence_url": "https://blog.ethereum.org/2021/12/07/fellows-spotlight-on-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-03",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "Yield of roughly 18–20% APY on a $50,000 grant covered incentives and daily pilot costs.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-improving-business-efficiency-for-merchants-in-rwanda-through-defi-systems",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-03",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "91% of merchants who made at least one prepayment continued using the service, adding money seven times on average over ten weeks.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-improving-business-efficiency-for-merchants-in-rwanda-through-defi-systems",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-03",
+   "outcome_domain": "C",
+   "evidence_level": "L3",
+   "key_result": "All merchants who tried the service reported finding Sokowatch trustworthy; the survey sample size is not specified.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-improving-business-efficiency-for-merchants-in-rwanda-through-defi-systems",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-03",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "89% of active participants reported improved quality of life through savings, income and business efficiency; sample size is unspecified.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-improving-business-efficiency-for-merchants-in-rwanda-through-defi-systems",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-03",
+   "outcome_domain": "F",
+   "evidence_level": "L2",
+   "key_result": "78% of sign-ups never prepaid, with lack of awareness or understanding and inability to save cited as barriers.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-improving-business-efficiency-for-merchants-in-rwanda-through-defi-systems",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-05",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "The product charged 8% APR, less than half the market alternatives, and onboarding and disbursement occurred within one day.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-fast-and-affordable-defi-enabled-credit-for-smallholder-farmers-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-05",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "96% of participants were accessing this type of income advance for the first time.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-fast-and-affordable-defi-enabled-credit-for-smallholder-farmers-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-05",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "Over half the borrowers used loans for business purposes, mainly livestock and inventory for additional income sources; the survey method is not detailed.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-fast-and-affordable-defi-enabled-credit-for-smallholder-farmers-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-05",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Over-collateralization was identified as a barrier for lower-income users and future scale, mitigated during the pilot by Cinch supplying collateral.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-fast-and-affordable-defi-enabled-credit-for-smallholder-farmers-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-06",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "The stablecoin transaction model offered a flat 30 KES fee, against reported alternative lenders' average APR of about 67%; inventory financing is not directly comparable to digital loans.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-buy-now-pay-later-products-driving-financial-inclusion-for-msmes-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-06",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "77% of food vendors had not previously used credit or similar inventory financing.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-buy-now-pay-later-products-driving-financial-inclusion-for-msmes-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-06",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The existing platform and agent network were claimed to have built trust during onboarding.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-buy-now-pay-later-products-driving-financial-inclusion-for-msmes-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-06",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "63% of surveyed vendors reported reduced stress; the packet gives the survey size but limited methodological detail.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-buy-now-pay-later-products-driving-financial-inclusion-for-msmes-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-12",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "The expanded pilot reports settlement under six hours versus 7–10 days, a reduction exceeding 95%; the initial pilot reports costs reduced to 2.5%.",
+   "source_id": "S02",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-scaling-up-anticipatory-cash-transfers-pilot-for-pastoralists-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-12",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "The initial proof of concept disbursed 11,271 USDT to 262 pastoralists.",
+   "source_id": "S01",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-anticipatory-action-leveraging-blockchain-for-drought-impact-pastoralists-in-the-horn-of-africa",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-12",
+   "outcome_domain": "C",
+   "evidence_level": "L3",
+   "key_result": "The expanded pilot reports participant trust with an NPS of 82; survey method and sample are not supplied, and respondents are not identified as donors.",
+   "source_id": "S02",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-scaling-up-anticipatory-cash-transfers-pilot-for-pastoralists-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-12",
+   "outcome_domain": "D",
+   "evidence_level": "L3",
+   "key_result": "Three-meals-per-day consumption reportedly rose from 13% to 77% and 64% reported improved unexpected-expense capacity; no non-participant comparison or survey method is supplied.",
+   "source_id": "S02",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/pilot-insights-scaling-up-anticipatory-cash-transfers-pilot-for-pastoralists-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-12",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The payout-trigger methodology was changed to reduce susceptibility to cloud cover, indicating a mitigated trigger-data reliability risk.",
+   "source_id": "S04",
+   "evidence_url": "https://www.prosperglobalventures.com/blog/scaling-up-anticipatory-cash-transfers-pilot-in-kenya",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "Disbursement time fell by a reported 99.7%, from 3–7 days for MFIs to under five minutes.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "47 VSLAs and more than 500 borrowers, 90% women, received $57,000 in credit.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The narrative claims increased trust through faster, cheaper credit, while also reporting trust erosion from repayment failures.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "Credit is claimed to strengthen households, reduce dependence on male earners and ease income-related stress without systematic outcome data.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "Borrowers reportedly used loans for school fees and climate-resilient farming; no quantified sector outcomes are supplied.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-16",
+   "outcome_domain": "F",
+   "evidence_level": "L2",
+   "key_result": "Principal recovery was 96.9% and full repayment 86.5%, with defaults linked mainly to liquidity and timing problems.",
+   "source_id": "S01",
+   "evidence_url": "https://www.mercycorpsventures.com/blog/pilot-insights-microfinance-onchain-unlocking-credit-in-ghana-using-stablecoins-and-reputation-based-lending",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-18",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims automated cash transfers and pre-disaster delivery, without operational timing or cost data.",
+   "source_id": "S02",
+   "evidence_url": "https://rumsan.com/portfolio/blockchain-anticipatory-action",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-18",
+   "outcome_domain": "B",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims delivery of digital aid to at-risk populations, without a reach count for this pilot.",
+   "source_id": "S02",
+   "evidence_url": "https://rumsan.com/portfolio/blockchain-anticipatory-action",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-18",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims transparent and traceable digital cash distribution.",
+   "source_id": "S02",
+   "evidence_url": "https://rumsan.com/portfolio/blockchain-anticipatory-action",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-18",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims reduced humanitarian impact from forecast-based flood intervention, without sector outcome data.",
+   "source_id": "S02",
+   "evidence_url": "https://rumsan.com/portfolio/blockchain-anticipatory-action",
+   "evidence_producer": "Implementer",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-24",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "A secondary account reports 300 refugees using the payment system, but the funder launch text does not confirm achieved reach.",
+   "source_id": "S03",
+   "evidence_url": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "MCV-24",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The secondary account claims privacy and auditability have been reconciled at the cryptographic layer, while acknowledging auditability remains partly theoretical.",
+   "source_id": "S03",
+   "evidence_url": "https://blockeden.xyz/blog/2026/04/28/aleo-mercy-corps-usdcx-zk-humanitarian-aid-colombia/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "MCV-24",
+   "outcome_domain": "F",
+   "evidence_level": "L2",
+   "key_result": "A technical audit identifies an authorization flaw permitting a single-transaction drain of the aid contract's public balance; actual exploitation or remediation is not reported.",
+   "source_id": "S04",
+   "evidence_url": "https://reports.zksecurity.xyz/reports/humanitylink-1/",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-03",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "The platform was implemented with institutions in four Latin American countries across several sectors.",
+   "source_id": "S04",
+   "evidence_url": "https://contxto.com/es/mexico-es/3-startups-latam-graduadas-fondo-innovacion-unicef/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-03",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The team reports that UNICEF deployments support customer trust and ETC Labs strengthens technological credibility.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/blockchain-graduate-os-city",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-03",
+   "outcome_domain": "E",
+   "evidence_level": "L2",
+   "key_result": "Issued verified educational credentials (university diplomas and college skills) and sustainability commitments with an international observatory.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/blockchain-graduate-os-city",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-03",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Bureaucracy prevented consolidation of the originally proposed government use cases within twelve months and forced a pivot.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/blockchain-graduate-os-city",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-04",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims improved stability and faster network response without performance measurements.",
+   "source_id": "S03",
+   "evidence_url": "https://w3engineers.com/telemesh-connecting-the-unconnected-billions-quarterly-update-december-2019/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-04",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Real-user pilot tests were conducted at three Bangladesh locations, without a user count.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/blockchain-graduate-w3-engineers",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-04",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims the Dacope pilot ensured transparency, without supporting measurements.",
+   "source_id": "S03",
+   "evidence_url": "https://w3engineers.com/telemesh-connecting-the-unconnected-billions-quarterly-update-december-2019/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-04",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Feature-phone users could not use the Android-only solution and asked for support during field testing.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/blockchain-graduate-w3-engineers",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-07",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "Users can create savings circles within minutes and check status remotely on blockchain.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/bloinx-crypto-more-reliable-savings-communities-among-low-income-populations",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-07",
+   "outcome_domain": "B",
+   "evidence_level": "L1",
+   "key_result": "The funder reports reaching other countries, while a later independent account claims failure to scale or attract a user base; no user counts are supplied.",
+   "source_id": "S04",
+   "evidence_url": "https://www.observers.com/roscas-and-blockchain-why-the-perfect-match-never-worked/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-07",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The blockchain is claimed to make savings-round status reliable and available to participants.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/bloinx-crypto-more-reliable-savings-communities-among-low-income-populations",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-07",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "The funder claims increased crypto literacy among poor users without learning outcome data.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/bloinx-crypto-more-reliable-savings-communities-among-low-income-populations",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-07",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Users unfamiliar with cryptocurrencies were unreceptive, creating an adoption barrier.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/bloinx-crypto-more-reliable-savings-communities-among-low-income-populations",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-08",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "The funder reports free operation, cash-out fees below 2 percent and transactions taking 3–5 seconds for Leaf and Kotani Pay.",
+   "source_id": "S04",
+   "evidence_url": "https://ssir.org/articles/entry/working_toward_financial_inclusion_with_blockchain",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-08",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Kotani Pay reached 15,000 beneficiaries in a year, including refugees and gig workers.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/kotani-pay-increasing-access-financial-solutions-underbanked-and-unbanked",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-08",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The solution claims the ability to ascertain transactions secured on the blockchain, without measured transparency results.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/kotani-pay-increasing-access-financial-instruments-using-blockchain-and-cryptocurrency",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-08",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "An individual UBI recipient reportedly established a garden, sold produce and purchased a goat; this is an anecdote, not systematic outcome data.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/kotani-pay-increasing-access-financial-solutions-underbanked-and-unbanked",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-10",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "AidLink reported near-instant disbursement with 100% transaction success and an average cash-out time of 27 minutes.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/rumsan-graduates-growth-investment-stablecoin-based-aid-platform-primed-scale",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-10",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "The 2024 Nepal anticipatory-action implementation supported more than 4,000 households.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/mid-investment-update-how-rumsan-transforming-digital-humanitarian-aid-disconnected",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-10",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims reduced fraud and mismanagement through automated fund tracking.",
+   "source_id": "S03",
+   "evidence_url": "https://rumsan.com/portfolio/rahat-unicef-venture-fund",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-10",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Live demonstrations experienced problems due to dependencies on SAFE multisig wallets and SMS providers.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/rumsan-graduates-growth-investment-stablecoin-based-aid-platform-primed-scale",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-12",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "The initial wallet onboarded over 14,000 users in two months; a separate case-study headline claims 4M+ people across 167+ countries without a reporting period.",
+   "source_id": "S01",
+   "evidence_url": "https://unicef.github.io/inventory/cohorts/blockchain/xcapit/",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-12",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "DPGA recognition is claimed to have accelerated institutional trust and enabled government and multilateral conversations.",
+   "source_id": "S03",
+   "evidence_url": "https://www.xcapit.com/en/case-studies/unicef-digital-wallet",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-12",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims self-custody mitigates central-authority fund seizure and single-provider failure risks, without incident data.",
+   "source_id": "S03",
+   "evidence_url": "https://www.xcapit.com/en/case-studies/unicef-digital-wallet",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-13",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Nexus Mutual created and voted on 149 governance proposals using GovBlocks.",
+   "source_id": "S04",
+   "evidence_url": "https://forkast.news/unicef-venture-fund-blockchain-govblocks-india/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-13",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The GovBlocks impact narrative claims that decentralization enhances transparency and accountability without result data.",
+   "source_id": "S01",
+   "evidence_url": "https://www.unicefventurefund.org/story/somish-blockchain-labs-building-open-permissionless-protocols-decentralized-governance",
+   "evidence_producer": "Partner or funder",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-13",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "High Ethereum transaction costs are identified as a reason for GovBlocks to expand to Polygon.",
+   "source_id": "S04",
+   "evidence_url": "https://forkast.news/unicef-venture-fund-blockchain-govblocks-india/",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-14",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "The implementer says low-cost xDai transactions helped reach basic-phone communities.",
+   "source_id": "S03",
+   "evidence_url": "https://grassecon.substack.com/p/circling-back",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-14",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "More than 40,000 user accounts made over 400,000 transactions during January 2020–June 2021.",
+   "source_id": "S05",
+   "evidence_url": "https://arxiv.org/html/2207.08941v2",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-14",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "Recording all transactions on blockchain is claimed to maximize transaction security.",
+   "source_id": "S04",
+   "evidence_url": "https://ssir.org/articles/entry/working_toward_financial_inclusion_with_blockchain",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-14",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "The implementer claims emergency liquidity supported people and created new local trading connections during disruption.",
+   "source_id": "S03",
+   "evidence_url": "https://grassecon.substack.com/p/circling-back",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-14",
+   "outcome_domain": "F",
+   "evidence_level": "L2",
+   "key_result": "The organization changed blockchain platform three times to reduce fees, with time and budget implications.",
+   "source_id": "S04",
+   "evidence_url": "https://ssir.org/articles/entry/working_toward_financial_inclusion_with_blockchain",
+   "evidence_producer": "Independent",
+   "confidence": "Medium"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "A",
+   "evidence_level": "L2",
+   "key_result": "CHATS reduced aid delivery time by 80% compared with manual methods.",
+   "source_id": "S03",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Three humanitarian projects reached 13,613 unique beneficiaries, including 11% children and 30% women.",
+   "source_id": "S03",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "The funder claims that direct transactions and secure identities ensured aid reached intended recipients with reduced fraud risk.",
+   "source_id": "S03",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "D",
+   "evidence_level": "L1",
+   "key_result": "A beneficiary testimonial reports a reduced burden of children's treatment costs.",
+   "source_id": "S04",
+   "evidence_url": "https://withconvexity.com/red-cross-nigerias-impact-fighting-malaria-in-idp-camps-in-abuja/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "A beneficiary reported that her sick son improved after medication obtained through the project.",
+   "source_id": "S04",
+   "evidence_url": "https://withconvexity.com/red-cross-nigerias-impact-fighting-malaria-in-idp-camps-in-abuja/",
+   "evidence_producer": "Implementer",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-15",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Deployments revealed insufficient architectural flexibility for diverse humanitarian organizations and users.",
+   "source_id": "S03",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-16",
+   "outcome_domain": "A",
+   "evidence_level": "L1",
+   "key_result": "The platform is claimed to simplify healthcare-provider payments.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-16",
+   "outcome_domain": "B",
+   "evidence_level": "L2",
+   "key_result": "Health Pass recorded successful transactions by 39 users in the DRC.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-16",
+   "outcome_domain": "C",
+   "evidence_level": "L1",
+   "key_result": "Transparency and accountability in healthcare funding are asserted without result data.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-16",
+   "outcome_domain": "E",
+   "evidence_level": "L1",
+   "key_result": "One patient's testimonial describes quicker access to examination and treatment, without systematic outcome data.",
+   "source_id": "S04",
+   "evidence_url": "https://techtrends.africa/app-disrupts-health-care-services-in-eastern-congo/",
+   "evidence_producer": "Independent",
+   "confidence": "High"
+  },
+  {
+   "case_id": "UNI-16",
+   "outcome_domain": "F",
+   "evidence_level": "L1",
+   "key_result": "Cash predominance limited adoption and validation, with digital infrastructure and familiarity identified as barriers.",
+   "source_id": "S02",
+   "evidence_url": "https://www.unicefventurefund.org/story/insights-graduates-giga-blockchain-cohort",
+   "evidence_producer": "Partner or funder",
+   "confidence": "High"
+  }
+ ],
+ "codebook": {
+  "blockchain_added_value": [
+   {
+    "value": "0",
+    "label": "Not addressed",
+    "definition": ""
+   },
+   {
+    "value": "1",
+    "label": "Asserted",
+    "definition": "Sources say blockchain helped, with no comparison."
+   },
+   {
+    "value": "2",
+    "label": "Descriptive comparison",
+    "definition": "Descriptive comparison with a prior or alternative channel."
+   },
+   {
+    "value": "3",
+    "label": "Tested comparison",
+    "definition": "Tested comparison against a non-blockchain alternative on the same outcome; only when the comparison isolates the ledger (rule V1)."
+   }
+  ],
+  "blockchain_component_status": [
+   {
+    "value": "Used as designed",
+    "label": "Used as designed",
+    "definition": ""
+   },
+   {
+    "value": "Partly used",
+    "label": "Partly used",
+    "definition": ""
+   },
+   {
+    "value": "Removed or not used",
+    "label": "Removed or not used",
+    "definition": ""
+   },
+   {
+    "value": "Unclear",
+    "label": "Unclear",
+    "definition": ""
+   }
+  ],
+  "blockchain_function": [
+   {
+    "value": "F1",
+    "label": "Stablecoin or payment rail",
+    "definition": ""
+   },
+   {
+    "value": "F2",
+    "label": "Smart-contract automation",
+    "definition": ""
+   },
+   {
+    "value": "F3",
+    "label": "Tokenisation or fractionalisation",
+    "definition": ""
+   },
+   {
+    "value": "F4",
+    "label": "Tamper-evident record or traceability",
+    "definition": ""
+   },
+   {
+    "value": "F5",
+    "label": "Decentralised storage",
+    "definition": ""
+   },
+   {
+    "value": "F6",
+    "label": "Decentralised governance",
+    "definition": ""
+   },
+   {
+    "value": "F7",
+    "label": "Digital identity or credentials",
+    "definition": ""
+   },
+   {
+    "value": "other",
+    "label": "Other",
+    "definition": ""
+   }
+  ],
+  "confidence": [
+   {
+    "value": "High",
+    "label": "High",
+    "definition": ""
+   },
+   {
+    "value": "Medium",
+    "label": "Medium",
+    "definition": ""
+   },
+   {
+    "value": "Low",
+    "label": "Low",
+    "definition": ""
+   }
+  ],
+  "deployment_status": [
+   {
+    "value": "Pilot",
+    "label": "Pilot",
+    "definition": "A time-bound test with named users (GSR-confirmed, Gate 1)."
+   },
+   {
+    "value": "Extended pilot",
+    "label": "Extended pilot",
+    "definition": "Continued or enlarged by the same operator, still described as a pilot."
+   },
+   {
+    "value": "Scaled",
+    "label": "Scaled",
+    "definition": "Same solution used beyond the pilot period with wider reach as routine operation (a deployment)."
+   },
+   {
+    "value": "Handed over",
+    "label": "Handed over",
+    "definition": "Used by a new operator such as a government, partner or country office (a deployment)."
+   },
+   {
+    "value": "Discontinued",
+    "label": "Discontinued",
+    "definition": "Sources say the use case ended or the organisation closed."
+   },
+   {
+    "value": "Unknown",
+    "label": "Unknown",
+    "definition": "Sources do not state what happened after the pilot."
+   }
+  ],
+  "evidence_level": [
+   {
+    "value": "L1",
+    "label": "Claim",
+    "definition": "Describes what the solution does and why it should work. No data on results."
+   },
+   {
+    "value": "L2",
+    "label": "Operational",
+    "definition": "Data on outputs, usage or operational performance, with no measure of user outcomes."
+   },
+   {
+    "value": "L3",
+    "label": "Outcome, no comparison",
+    "definition": "Outcome data from participants without a comparison group."
+   },
+   {
+    "value": "L4",
+    "label": "Outcome with comparison",
+    "definition": "Outcomes compared with a comparison group or non-blockchain alternative, without strong identification."
+   },
+   {
+    "value": "L5",
+    "label": "Counterfactual impact",
+    "definition": "Randomised or strong quasi-experimental impact estimate, ideally independent."
+   }
+  ],
+  "evidence_producer": [
+   {
+    "value": "Implementer",
+    "label": "Implementer",
+    "definition": ""
+   },
+   {
+    "value": "Partner or funder",
+    "label": "Partner or funder",
+    "definition": ""
+   },
+   {
+    "value": "Independent",
+    "label": "Independent",
+    "definition": ""
+   },
+   {
+    "value": "Peer-reviewed",
+    "label": "Peer-reviewed",
+    "definition": ""
+   }
+  ],
+  "funding_model": [
+   {
+    "value": "Grant",
+    "label": "Grant",
+    "definition": ""
+   },
+   {
+    "value": "Equity or venture investment",
+    "label": "Equity or venture investment",
+    "definition": ""
+   },
+   {
+    "value": "Recoverable grant or convertible instrument",
+    "label": "Recoverable grant or convertible instrument",
+    "definition": ""
+   },
+   {
+    "value": "Blended",
+    "label": "Blended",
+    "definition": ""
+   },
+   {
+    "value": "Yield- or staking-funded",
+    "label": "Yield- or staking-funded",
+    "definition": ""
+   },
+   {
+    "value": "not reported",
+    "label": "not reported",
+    "definition": ""
+   }
+  ],
+  "implementation_model": [
+   {
+    "value": "Start-up",
+    "label": "Start-up",
+    "definition": ""
+   },
+   {
+    "value": "NGO",
+    "label": "NGO",
+    "definition": ""
+   },
+   {
+    "value": "UN agency or country office",
+    "label": "UN agency or country office",
+    "definition": ""
+   },
+   {
+    "value": "Government",
+    "label": "Government",
+    "definition": ""
+   },
+   {
+    "value": "Consortium",
+    "label": "Consortium",
+    "definition": "Consortium = three or more organisations with named roles"
+   },
+   {
+    "value": "Other",
+    "label": "Other",
+    "definition": ""
+   }
+  ],
+  "objective_achievement": [
+   {
+    "value": "Achieved",
+    "label": "Achieved",
+    "definition": ""
+   },
+   {
+    "value": "Partly achieved",
+    "label": "Partly achieved",
+    "definition": ""
+   },
+   {
+    "value": "Not achieved",
+    "label": "Not achieved",
+    "definition": ""
+   },
+   {
+    "value": "Unclear",
+    "label": "Unclear",
+    "definition": ""
+   }
+  ],
+  "outcome_domain": [
+   {
+    "value": "A",
+    "label": "Delivery efficiency",
+    "definition": "Transaction cost, speed, administrative burden."
+   },
+   {
+    "value": "B",
+    "label": "Reach and access",
+    "definition": "Adoption, active use, inclusion of women, unbanked people and displaced people."
+   },
+   {
+    "value": "C",
+    "label": "Transparency, trust and accountability",
+    "definition": "Traceability, leakage, fraud, user trust."
+   },
+   {
+    "value": "D",
+    "label": "Financial resilience and wellbeing",
+    "definition": "Income, savings, coping, financial stress."
+   },
+   {
+    "value": "E",
+    "label": "Sector outcomes",
+    "definition": "Health, education, climate adaptation, human rights and justice, culture."
+   },
+   {
+    "value": "F",
+    "label": "Risks, harms and unintended effects",
+    "definition": "Privacy, volatility, cash-out failure, exclusion, security incidents."
+   }
+  ],
+  "population_group": [
+   {
+    "value": "Women",
+    "label": "Women",
+    "definition": ""
+   },
+   {
+    "value": "Youth",
+    "label": "Youth",
+    "definition": ""
+   },
+   {
+    "value": "Children",
+    "label": "Children",
+    "definition": ""
+   },
+   {
+    "value": "Refugees or displaced people",
+    "label": "Refugees or displaced people",
+    "definition": ""
+   },
+   {
+    "value": "Smallholder farmers",
+    "label": "Smallholder farmers",
+    "definition": ""
+   },
+   {
+    "value": "Micro-entrepreneurs or MSMEs",
+    "label": "Micro-entrepreneurs or MSMEs",
+    "definition": ""
+   },
+   {
+    "value": "Unbanked or underbanked",
+    "label": "Unbanked or underbanked",
+    "definition": ""
+   },
+   {
+    "value": "Low-income individuals",
+    "label": "Low-income individuals",
+    "definition": ""
+   },
+   {
+    "value": "Rural communities",
+    "label": "Rural communities",
+    "definition": ""
+   },
+   {
+    "value": "Other",
+    "label": "Other",
+    "definition": ""
+   }
+  ],
+  "primary_portfolio": [
+   {
+    "value": "MCV",
+    "label": "Mercy Corps Ventures",
+    "definition": ""
+   },
+   {
+    "value": "UNICEF",
+    "label": "UNICEF Venture Fund",
+    "definition": ""
+   },
+   {
+    "value": "FIL",
+    "label": "Filecoin Foundation",
+    "definition": ""
+   },
+   {
+    "value": "GSR",
+    "label": "GSR Blockchain for Good",
+    "definition": ""
+   }
+  ],
+  "use_case_domain": [
+   {
+    "value": "1",
+    "label": "Payments and cash transfers",
+    "definition": "Humanitarian cash, anticipatory cash, remittances, merchant payments, wages."
+   },
+   {
+    "value": "2",
+    "label": "Credit, savings and insurance",
+    "definition": "Micro-lending, savings tools, parametric insurance, guarantees."
+   },
+   {
+    "value": "3",
+    "label": "Identity, records and data integrity",
+    "definition": "Digital ID, credentials, provenance, archiving and storage."
+   },
+   {
+    "value": "4",
+    "label": "Supply chain and traceability",
+    "definition": "Vaccines, food, commodities, tokenised goods."
+   },
+   {
+    "value": "5",
+    "label": "Climate and natural assets",
+    "definition": "Carbon and environmental credits, regenerative finance, climate data."
+   },
+   {
+    "value": "6",
+    "label": "Governance, funding and coordination",
+    "definition": "DAOs, community treasuries, crowdfunding, grant and donor flows."
+   },
+   {
+    "value": "none",
+    "label": "None fits",
+    "definition": "No domain fits; explained in a note. Connectivity and information access are coded here (rule D5). Counts toward taxonomy fit (metric 3)."
+   }
+  ]
+ }
+}

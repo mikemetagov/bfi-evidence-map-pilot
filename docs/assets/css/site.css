@@ -83,3 +83,25 @@
 .egm-quote { margin: .3rem 0; padding: .25rem .6rem; border-left: 3px solid var(--egm-line); color: var(--md-default-fg-color--light); font-size: .68rem; }
 .md-typeset table.egm-grid { min-width: 760px; }
 .md-typeset table.egm-grid thead th { font-size: .64rem; }
+
+/* Ask the map (code-only) */
+.atm { margin: 1.2rem 0 1.6rem; }
+.atm-label { display: block; font-weight: 600; margin-bottom: .35rem; }
+.atm-row { display: flex; gap: .5rem; }
+.atm-input { flex: 1; min-width: 0; padding: .55rem .7rem; font: inherit; color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lighter); border-radius: .3rem; }
+.atm-input:focus { outline: 2px solid var(--md-accent-fg-color); outline-offset: 1px; }
+.atm-btn { margin: 0; white-space: nowrap; }
+.atm-btn:disabled { opacity: .6; cursor: progress; }
+.atm-chips { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: .7rem 0 .3rem; }
+.atm-chips-label { font-size: .75rem; color: var(--md-default-fg-color--light); }
+.atm-chip { font: inherit; font-size: .72rem; padding: .25rem .6rem; border-radius: 1rem; cursor: pointer;
+  color: var(--md-default-fg-color); background: var(--md-code-bg-color); border: 1px solid var(--md-default-fg-color--lightest); }
+.atm-chip:hover, .atm-chip:focus-visible { border-color: var(--md-accent-fg-color); }
+.atm-status { min-height: 1.2em; font-size: .75rem; color: var(--md-default-fg-color--light); margin: .4rem 0; }
+.atm-item { border: 1px solid var(--md-default-fg-color--lightest); border-radius: .4rem; padding: .3rem 1rem .6rem; margin: .8rem 0; }
+.atm-q { margin: .6rem 0 .2rem; }
+.atm-a { overflow-wrap: anywhere; }
+.atm-a ul { margin: .3rem 0 .6rem; }
+.atm-meta { font-size: .7rem; color: var(--md-default-fg-color--light); }
+@media (max-width: 30em) { .atm-row { flex-direction: column; } }
