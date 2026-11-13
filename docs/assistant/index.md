@@ -5,6 +5,8 @@ hide:
 
 # Ask the map
 
+<div class="atm-pilot-notice" markdown="0"><strong>Pilot version:</strong> Ask the Map currently answers questions from the pilot evidence only, in a limited way. A full-scale query tool will follow as the Evidence Map grows.</div>
+
 Ask about the 30 pilot cases: counts and lists, a case by ID or name, evidence gaps, what each step of the [evidence spectrum](../map/index.md#the-evidence-spectrum) means, or how the pilot was run. You can use the plain names, such as "operational data" or "proven impact", or the protocol codes L1 to L5. Answers are built by code from the [published map data](../map/index.md), codebook, protocol, Purpose and Use Memo and one-pager, and every answer cites its sources.
 
 !!! info "Code-only version (no AI model)"

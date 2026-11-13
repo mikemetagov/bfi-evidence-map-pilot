@@ -117,3 +117,49 @@
 .md-typeset .spectrum .count { display: block; margin-top: .35rem; font-weight: 600; color: var(--md-default-fg-color--light); }
 .md-typeset .spectrum-axis { display: flex; justify-content: space-between; font-size: .64rem; color: var(--md-default-fg-color--light); margin-bottom: 1rem; }
 @media (max-width: 52rem) { .md-typeset .spectrum { grid-template-columns: 1fr; } .md-typeset .spectrum-axis { display: none; } }
+
+/* Landing page (home): GSR Foundation and Metagov branding */
+.md-typeset .lp { --lp-ink: #1F2A44; --lp-orange: #FFA13D; --lp-brown: #9A4A0C; --lp-cream: #FFF4E6; --lp-line: #E3D3BD; max-width: 46rem; margin: 0 auto; color: var(--md-default-fg-color); }
+.md-typeset .lp-brand { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; margin: .4rem 0 1.6rem; }
+.md-typeset .lp-logo-gsr { height: 2.6rem; width: auto; background: #fff; border-radius: 4px; padding: .2rem .4rem; }
+.md-typeset .lp-brand-sep { width: 1px; height: 2.2rem; background: var(--lp-line); }
+.md-typeset .lp-logo-mg { display: inline-flex; align-items: center; gap: .5rem; font-weight: 600; font-size: 1.05rem; color: #00A37A; }
+.md-typeset .lp-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--lp-brown); margin: 0 0 .4rem; }
+.md-typeset .lp-hero { background: var(--lp-cream); border-radius: 12px; padding: 1.6rem 1.6rem 1.3rem; margin-bottom: 1.8rem; color: #1C1C1C; }
+.md-typeset .lp-hero h1 { font-size: 1.75rem; line-height: 1.2; font-weight: 700; color: var(--lp-ink); margin: 0 0 .7rem; }
+.md-typeset .lp-sub { font-size: .9rem; margin: 0 0 1.1rem; color: #333; }
+.md-typeset .lp-btn { display: inline-block; background: var(--lp-ink); color: #fff !important; font-weight: 700; font-size: .85rem; padding: .65rem 1.4rem; border-radius: 999px; text-decoration: none; }
+.md-typeset .lp-btn:hover { background: var(--lp-brown); }
+.md-typeset .lp-notice { margin: 1rem 0 0; font-size: .74rem; color: #4D4D4D; border-left: 3px solid var(--lp-orange); padding: .3rem 0 .3rem .7rem; background: rgba(255,255,255,.6); }
+.md-typeset .lp-section { margin: 0 0 1.7rem; }
+.md-typeset .lp-section h2 { font-size: 1.1rem; font-weight: 700; margin: 0 0 .6rem; color: var(--lp-ink); }
+[data-md-color-scheme="slate"] .md-typeset .lp-section h2 { color: #FFC37F; }
+.md-typeset .lp-section h2::before { content: ""; display: inline-block; width: 1.2rem; height: 3px; background: var(--lp-orange); vertical-align: middle; margin-right: .5rem; }
+.md-typeset .lp-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .8rem; }
+.md-typeset .lp-card { border: 1px solid var(--lp-line); border-radius: 10px; padding: .9rem 1rem; }
+.md-typeset .lp-card h3 { margin: .5rem 0 .2rem; font-size: .9rem; }
+.md-typeset .lp-card p { margin: 0; font-size: .8rem; }
+.md-typeset .lp-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .8rem; }
+.md-typeset .lp-steps li { margin: 0; display: flex; gap: .7rem; align-items: flex-start; border: 1px solid var(--lp-line); border-radius: 10px; padding: .8rem .9rem; }
+.md-typeset .lp-steps p { margin: 0; font-size: .8rem; }
+.md-typeset .lp-num { flex: none; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--lp-orange); color: #1C1C1C; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: .8rem; }
+.md-typeset .lp-facts { margin-left: 1rem; }
+.md-typeset .lp-facts li { margin-bottom: .3rem; }
+.md-typeset .lp-terms { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: .3rem 1.2rem; margin: 0; }
+.md-typeset .lp-terms dt { font-weight: 700; margin: .3rem 0 0; }
+.md-typeset .lp-terms dd { margin: 0 0 .3rem; font-size: .8rem; }
+.md-typeset .lp-people { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .8rem; }
+.md-typeset .lp-people div { display: flex; flex-direction: column; font-size: .8rem; border-left: 3px solid var(--lp-orange); padding-left: .7rem; }
+.md-typeset .lp-people strong { font-size: .9rem; }
+.md-typeset .lp-foot { border-top: 1px solid var(--lp-line); padding-top: .8rem; font-size: .75rem; color: var(--md-default-fg-color--light); }
+@media (max-width: 30rem) { .md-typeset .lp-hero h1 { font-size: 1.4rem; } .md-typeset .lp-hero { padding: 1.2rem; } }
+
+/* Ask the Map pilot notice */
+.md-typeset .atm-pilot-notice { background: #FFF4E6; color: #1C1C1C; border-left: 4px solid #FFA13D; border-radius: 6px; padding: .8rem 1rem; margin: 0 0 1.2rem; font-size: .8rem; }
+.md-typeset .atm-pilot-notice strong { color: #1F2A44; }
+.md-typeset .lp-card svg { width: 2.8rem; height: 2.8rem; }
+.md-typeset ol.lp-steps { margin-left: 0; }
+.md-typeset .lp img, .md-typeset .lp-hero h1 { max-width: 100%; overflow-wrap: break-word; }
+.md-typeset ol.lp-steps, .md-typeset ol.lp-steps li { margin-left: 0 !important; padding-left: 0; }
+.md-typeset ol.lp-steps li { padding: .8rem .9rem; }
+@media (max-width: 30rem) { .md-typeset .lp-brand-sep { display: none; } }

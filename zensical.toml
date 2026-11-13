@@ -6,6 +6,7 @@ extra_css = ["assets/css/site.css"]
 extra_javascript = ["assets/js/evidence-map.js", "assets/js/ask-the-map.js"]
 nav = [
   { "Home" = "index.md" },
+  { "Pilot details" = "pilot-details.md" },
   { "Protocol" = "protocol/index.md" },
   { "Outputs" = [
       { "All outputs (O1–O19)" = "outputs/index.md" },
