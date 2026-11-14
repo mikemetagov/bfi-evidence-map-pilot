@@ -163,3 +163,21 @@
 .md-typeset ol.lp-steps, .md-typeset ol.lp-steps li { margin-left: 0 !important; padding-left: 0; }
 .md-typeset ol.lp-steps li { padding: .8rem .9rem; }
 @media (max-width: 30rem) { .md-typeset .lp-brand-sep { display: none; } }
+/* Toolkit overview and introductory video */
+.md-typeset .lp-phases { margin: 0 0 1.2rem; display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+.md-typeset .lp-phases > div { border-top: 3px solid var(--lp-orange); padding-top: .4rem; font-size: .74rem; display: flex; flex-direction: column; }
+.md-typeset .lp-phases strong { text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; color: var(--lp-brown); }
+.md-typeset .lp-video video { width: 100%; height: auto; border-radius: 10px; background: #000; display: block; margin: .4rem 0 .6rem; }
+.md-typeset .lp-downloads { font-size: .78rem; }
+.md-typeset .lp-chips { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.md-typeset .lp-chips span { background: var(--lp-ink); color: #fff; border-radius: 999px; padding: .2rem .8rem; font-size: .75rem; }
+.md-typeset .lp-chips .lp-chip-arrow { background: none; color: var(--lp-orange); font-weight: 700; padding: 0; }
+.md-typeset .lp-chips .lp-chip-hi { background: var(--lp-orange); color: #1C1C1C; font-weight: 600; }
+.md-typeset .lp-tools .lp-tag { color: var(--lp-brown); font-size: .75rem; margin: 0 0 .4rem; }
+.md-typeset .lp-tools ul { margin: 0 0 0 1rem; font-size: .8rem; }
+.md-typeset .lp-tools li { margin-bottom: .25rem; }
+.md-typeset .lp-band { background: var(--lp-ink); color: #fff; border-radius: 8px; padding: .6rem .9rem; font-size: .8rem; margin-top: .8rem; }
+.md-typeset .lp-band strong { color: var(--lp-orange); }
+.md-typeset .lp-foundation { background: var(--lp-cream); color: #1C1C1C; }
+.md-typeset .lp-pilot { border-top: 1px solid var(--lp-line); padding-top: 1.4rem; }
+@media (max-width: 30rem) { .md-typeset .lp-phases { grid-template-columns: repeat(2, 1fr); } }
